@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="861px" height="403px" viewBox="0 0 861 403" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>test results</title>
+    <g id="Project-images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Test-results-project-desktop-3" transform="translate(-12.000000, -13.000000)">
+            <g id="test-results" transform="translate(13.000000, 14.000000)">
+                <rect id="Rectangle" fill="#2E2F30" x="0" y="142" width="859" height="1"></rect>
+                <rect id="Rectangle" fill="#2E2F30" transform="translate(294.500000, 168.500000) rotate(90.000000) translate(-294.500000, -168.500000) " x="126" y="168" width="337" height="1"></rect>
+                <rect id="Rectangle-Copy" fill="#2E2F30" transform="translate(484.500000, 168.500000) rotate(90.000000) translate(-484.500000, -168.500000) " x="316" y="168" width="337" height="1"></rect>
+                <rect id="Rectangle-Copy-2" fill="#2E2F30" transform="translate(667.500000, 168.500000) rotate(90.000000) translate(-667.500000, -168.500000) " x="499" y="168" width="337" height="1"></rect>
+                <rect id="Rectangle" stroke="#2E2F30" x="0" y="0" width="859" height="337" rx="15"></rect>
+                <text id="Half-the-users-did-t" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                    <tspan x="139.269531" y="194">Half the users did </tspan>
+                    <tspan x="133.373698" y="216">the search with the </tspan>
+                    <tspan x="166.003906" y="238">predefined </tspan>
+                    <tspan x="149.199219" y="260">categories. The </tspan>
+                    <tspan x="133.791667" y="282">other half used the </tspan>
+                    <tspan x="164.751302" y="304">search bar.</tspan>
+                </text>
+                <text id="Half-the-users-strug" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                    <tspan x="334.013021" y="178">Half the users </tspan>
+                    <tspan x="309.835938" y="200">struggled to click on </tspan>
+                    <tspan x="332.945312" y="222">the class tabs. </tspan>
+                    <tspan x="316.425781" y="244">The icons used for </tspan>
+                    <tspan x="318.626302" y="266">the </tspan>
+                    <tspan x="349.027344" y="266" font-family="OpenSans-LightItalic, Open Sans" font-style="italic">Next</tspan>
+                    <tspan x="381.678385" y="266"> and </tspan>
+                    <tspan x="420.761719" y="266" font-family="OpenSans-LightItalic, Open Sans" font-style="italic">More</tspan>
+                    <tspan x="458.373698" y="266"> </tspan>
+                    <tspan x="329.048177" y="288">options caused </tspan>
+                    <tspan x="347.998698" y="310">confusion.</tspan>
+                </text>
+                <text id="All-the-users-could" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                    <tspan x="507.272135" y="227">All the users could </tspan>
+                    <tspan x="514.178385" y="249">perform the task </tspan>
+                    <tspan x="530.967448" y="271">successfully.</tspan>
+                </text>
+                <text id="One-user-did-not-kno" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                    <tspan x="698.342448" y="227">One user did not </tspan>
+                    <tspan x="686.960938" y="249">know how to access </tspan>
+                    <tspan x="694.445312" y="271">the saved classes.</tspan>
+                </text>
+                <text id="Task-1-New-users-loo" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667">
+                    <tspan x="175.953125" y="35" fill="#0061C9">Task 1</tspan>
+                    <tspan x="230.046875" y="35" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#0061C9"></tspan>
+                    <tspan x="125.830729" y="57" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">New users looks for </tspan>
+                    <tspan x="152.791667" y="79" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">specific class</tspan>
+                </text>
+                <text id="Task-2-New-user-watc" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667">
+                    <tspan x="361.953125" y="35" fill="#0061C9">Task 2</tspan>
+                    <tspan x="318.276042" y="57" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">New user watches </tspan>
+                    <tspan x="340.023438" y="79" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">video from a </tspan>
+                    <tspan x="313.777344" y="101" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">category and check </tspan>
+                    <tspan x="323.016927" y="123" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">the class options</tspan>
+                </text>
+                <text id="Task-3-Review-rest-o" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667">
+                    <tspan x="553.953125" y="35" fill="#0061C9">Task 3</tspan>
+                    <tspan x="511.179688" y="57" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">Review rest of the </tspan>
+                    <tspan x="503.592448" y="79" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">features (messages, </tspan>
+                    <tspan x="518.949219" y="101" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">list of materials, </tspan>
+                    <tspan x="553.522135" y="123" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">profile)</tspan>
+                </text>
+                <text id="Task-4-Go-to-saved-c" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667">
+                    <tspan x="737.953125" y="35" fill="#0061C9">Task 4</tspan>
+                    <tspan x="688.385417" y="57" font-family="OpenSans-Light, Open Sans" font-weight="300" fill="#010813">Go to saved classes</tspan>
+                </text>
+                <path d="M668,142 L858,142 L858,322 C858,330.284271 851.284271,337 843,337 L668,337 L668,337 L668,142 Z" id="Rectangle" fill-opacity="0.05" fill="#C11717"></path>
+                <g id="noun_Arrow_2406462" transform="translate(420.000000, 357.500000) rotate(2.000000) translate(-420.000000, -357.500000) translate(387.000000, 325.000000)" fill="#0061C9" fill-rule="nonzero">
+                    <path d="M2.25086593,32.6421827 C3.5575466,33.0054493 5.48502826,30.6365361 7.54510204,26.5128191 C8.38862821,24.8242284 9.25367874,22.8289275 10.1081473,20.6189739 C10.3258752,21.324179 10.5619453,22.0512602 10.8287592,22.8111526 C12.1088284,26.4359344 13.9874095,30.6408674 16.5776548,35.0663785 C17.906628,37.2572336 19.3517515,39.5405139 21.064327,41.7685555 C21.8817001,42.9092166 22.8286604,43.9894442 23.7396182,45.1210346 C24.7238181,46.1958432 25.6645143,47.3360454 26.7456999,48.3799523 C30.9453998,52.6610384 35.5778258,56.178999 40.194045,58.6545079 C44.798367,61.1515716 49.2885772,62.7039422 53.1292408,63.4890352 C54.0830643,63.7076954 55.0172671,63.8107818 55.8844483,63.9482803 C56.7554475,64.0727884 57.5713256,64.1948795 58.3509593,64.2106927 C59.1260139,64.2485623 59.8454925,64.2712626 60.5063443,64.27942 C60.8356847,64.27942 61.1514418,64.27942 61.453262,64.27942 C61.7555833,64.2642426 62.0447853,64.2322914 62.3174073,64.205313 C64.5016219,63.9747559 65.6897913,63.572755 65.736969,63.0080955 C65.844714,61.7792088 61.3367927,60.6830755 54.837411,57.9400472 C51.5898531,56.5595781 47.8821432,54.668783 44.0523759,52.1523482 C40.2108911,49.6526837 36.312924,46.4215674 32.5768773,42.6173174 C28.8150415,38.8357631 25.6582029,34.7639059 22.9056755,30.9509946 C20.193739,27.1023093 17.9287444,23.4633107 16.0707778,20.3514592 C15.5576793,19.4891151 15.0770003,18.6733944 14.6217477,17.9002423 C17.0168341,19.3014455 19.2539481,20.475831 21.2176695,21.3593183 C25.3799986,23.2319814 28.3418994,23.8371958 29.1232192,22.7324022 C29.9044907,21.6276087 28.3578345,19.0210779 25.2229763,15.6954396 C23.6555259,14.0326447 21.6910351,12.1900614 19.4219093,10.2655812 C18.8495102,9.79093327 18.2631662,9.30479877 17.6644297,8.80836835 L17.4371218,8.6244798 L17.0365411,8.31804243 C16.7283173,8.08529826 16.4185053,7.8514155 16.1072848,7.61639183 C15.4774003,7.14493425 14.8415176,6.66901013 14.2000526,6.18884835 C11.6170746,4.26632862 8.87784828,2.270207 6.08740299,0.279420022 C6.05521031,0.395814646 6.02251663,0.51416858 5.98977918,0.632616146 C5.07123849,3.96098707 4.19551963,7.26333673 3.39508365,10.4096871 C3.19797257,11.193186 3.00258445,11.9698499 2.80906095,12.7392233 C2.7153403,13.1187135 2.62207457,13.4964282 2.52926262,13.8722737 L2.40543619,14.4505108 C2.25146137,15.2199282 2.10066527,15.9734398 1.95345446,16.709179 C1.39708261,19.6593798 1.02687826,22.3525491 0.853197625,24.6524621 C0.505737308,29.2522871 0.944187564,32.2789149 2.25086593,32.6421827 Z" id="Path"></path>
+                </g>
+                <text id="Main-point-of-improv" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667" fill="#010813">
+                    <tspan x="468" y="397">Main point of improvement</tspan>
+                </text>
+                <rect id="Rectangle" fill="#2E2F30" transform="translate(112.500000, 169.000000) scale(1, -1) rotate(-90.000000) translate(-112.500000, -169.000000) " x="-56" y="168.5" width="337" height="1"></rect>
+                <text id="Overall-results" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                    <tspan x="28.5221354" y="227">Overall </tspan>
+                    <tspan x="29.5026042" y="249">results</tspan>
+                </text>
+                <rect id="Rectangle" fill-opacity="0.1" fill="#C11717" x="295" y="142" width="190" height="195"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

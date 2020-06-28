@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Pals app</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,700' rel='stylesheet'/>
+    <link rel='stylesheet' href='styles/cssreset.css'/>
+    <link rel='stylesheet' href='font/stylesheet.css'/>
+    <link rel='stylesheet' href='styles/fonts.css'/>
+    <link rel='stylesheet' href='styles/general.css'/>
+    <link rel='stylesheet' href='styles/projects.css'/>
+    <link rel='stylesheet' href='styles/streampals.css'/>
+    <!--Linkedin meta tags-->
+    <meta property='og:title' content='Stream Pals'/>
+    <meta property='og:image' content='images/thumbnails/streampals_thumbnail.png'/>
+    <meta property='og:description' content='Streaming services recommentations app'/>
+    <meta property='og:url' content='www.mariaalejandraperez.com/streampals.html'/>
+     <!--  JS  -->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+ <!-- <script src='scripts/activesection.js'></script> -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165358295-1"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+   
+     gtag('config', 'UA-165358295-1');
+   </script>
+</head>
+<body>
+    <div class='container'>
+        <header class='header' id='myHeader'>     
+            <nav class='navigation'>
+                    <ul class='home-navigation'>
+                        <li><a href="index.html"><p class='logo'>María Alejandra Pérez</p>
+                            <p class='logo'><span class='logo-small'>UX|UI Designer</span></p></a></li>
+                        <li><a href='aboutme.html'>About me</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Top photos -->
+            <div class='project-main-images'>
+                <div class='main-image'>
+                    <img class='main-image-size main-image-background' src='images/streampals/top_photos/streampals_topphoto.png'; alt='Mobile mockups'/> 
+                </div>
+            </div>
+             <!--Project title-->
+             <div class='project-title'>
+                <h1>Stream Pals:</h1>
+                <h1><span class=subtitle>Streaming services recommendations</span></h1>
+           </div>
+           <!--Project description box-->
+           <div class='project-description-box'> 
+               <p><span class='bold-black'>Case study:</span> Design mobile app.</p>
+               <p><span class='bold-black'>Goal:</span> Help people get good and fitted recommendations for movies and shows.</p>
+               <p><span class='bold-black'>Scope:</span> Solo UX | UI Design project.</p>
+               <div class='project-tag-boxes'>
+                   <div class='project-category-tags'>UX Research</div>
+                   <div class='project-category-tags'>UI Design</div>
+                   <div class='project-category-tags'>IxD</div>
+               </div>
+               <div class='project-info tools-info'>
+                   <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
+                   <p class='tools-used'>Figma</p>
+               </div>
+               <div class='project-info'>
+                   <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
+                   <p class='tools-used'>5 Weeks</p>
+               </div>
+           </div>
+           <!--Progress bar-->
+           <div class='progress-bar-container sticky-bar'>
+               <div id='progress-status'>
+                   <div id='my-bar'></div>
+               </div>
+              <script src='scripts/onscroll.js'></script>
+            </div>
+           <!-- Project information -->
+           <div class='project-information-container'> <!--SEPARATES MENU AND PROJECT INFORMATION-->
+            <div class='sticky-menu-mobile'>
+             <div class='mobile-menu-container'>
+                 <button class="dropbtn" id='dropbtn'><i class="gg-menu-left" id='menu-left'></i></button>
+                     <ul class='dropdown-content' id="myDropdown">
+                         <li><a href="#problem-context">Problem context</a></li>
+                         <li><a href="#design-process">Design process</a></li>
+                             <ul>
+                                 <li class='light-items'><a href="#research">Research</a></li>
+                                 <li class='light-items'><a href="#user">User</a></li>
+                                 <li class='light-items'><a href="#pain-points">Pain points</a></li>
+                                 <li class='light-items'><a href="#ia">IA</a></li>
+                                 <li class='light-items'><a href="#wireframes">Wireframes</a></li>
+                                 <li class='light-items'><a href="#testing">Testing</a></li>
+                                 <li class='light-items'><a href="#ui-design">UI Design</a></li>
+                             </ul>
+                         <li><a href="#outcomes">Outcomes & lessons learnt</a></li>
+                         <li><a href="#gallery">Project gallery</a></li>
+                     </ul>
+             </div>
+            </div>
+             <div class='menu-box'>
+                 <div class='desktop-menu-container sticky-menu'>
+                     <ul class='menu-list'>
+                         <a href="#problem-context"><li>Problem context</li></a>
+                         <a href="#design-process"><li>Design process</li></a>
+                             <ul class='menu-sublist'>
+                                 <a href="#research"><li>Research</li></a>
+                                 <a href="#user"><li>User</li></a>
+                                 <a href="#pain-points"><li>Pain points</li></a>
+                                 <a href="#ia"><li>IA</li></a>
+                                 <a href="#wireframes"><li>Wireframes</li></a>
+                                 <a href="#testing"><li>Testing</li></a>
+                                 <a href="#ui-design"><li>UI Design</li></a>
+                             </ul>
+                         <a href="#outcomes"><li>Outcomes & lessons learnt</li></a>
+                         <a href="#gallery"><li>Project gallery</li></a>
+                     </ul>
+              <!--       <script src='scripts/activesection.js'></script>-->
+                 </div>
+             </div>
+             <div class='information-box'>
+             <div class='project-information-section'>
+             <!--Problem context section-->
+             <div class='problem-context'>
+                <section id="problem-context" class='page-section'><h1>Problem context</h1>
+                     <p>Currently there is a boom of movies and shows streaming services. <span class='bold-black'>The huge variety of services can be overwhelming for consumers who can get easily lost in so much content.</span></p>
+                     <p>In Spain we can find the following numbers:</p>
+                    </div>
+                    <div class='survey-insights'>
+                        <img class='survey-images' src='images/streampals/problem/problem1.png' alt='First problem insight'/>
+                        <img class='survey-images' src='images/streampals/problem/problem2.png' alt='Second problem insight'/>
+                        <img class='survey-images' src='images/streampals/problem/problem3.png' alt='Third problem insight'/>
+                    </div>
+                    <p class='survey-info margin-down'>* Comisión Nacional de los Mercados y la Competencia (CNMC) - last quarter 2019
+                    </p>
+                </section>
+             <!--empathize section-->
+                 <div class='fit-text'>
+                    <section id="design-process" class='page-section'>
+                    <h1>Design process</h1></section>
+                    <section id="research" class='page-section'>
+                     <h2>Research</h2>
+                     <p>For the research process, I conducted interviews and shared a survey with people over 30 years old.<span class='bold-black'>  I wanted to mainly focus on people subscribed to at least one SVOD service.</span></p>
+                     <p>My goal was to understand the struggles that people were facing with the streaming services that they had. Are they happy with the recommendations they receive?, What are they missing from these services?.</p>
+                     <p>I also ran a competitive analysis to understand the weaknesses and strong points of the recommendations apps that are on the market. (the main insights can be found in the project gallery)</p>
+                     <h3 class='space'>Survey insights</h3>
+                 </div> <!-- Closes empathize section-->
+                     <div class='survey-insights'>
+                         <img class='survey-images' src='images/streampals/survey/surveyinsights_first.png' alt='First survey insight'/>
+                         <img class='survey-images' src='images/streampals/survey/surveyinsights_second.png' alt='Second survey insight'/>
+                         <img class='survey-images' src='images/streampals/survey/surveyinsights_third.png' alt='Third survey insight'/>
+                     </div>
+                     <p class='survey-info'>Sample of 35 people</p>
+                     <div class='fit-text'>
+                     <h3 class='space'>Interview insights</h3>
+                     <ul class='project-lists'>
+                         <li>Like to receive recommendations from their friends and family.</li>
+                         <li>Feel the recommendations are repetitive.</li>
+                         <li>Don't know which service has all the seasons of their favorite shows.</li>
+                         <li>Really dislike when they forget to unsubscribe after a free trial.</li>
+                         <li>Will only use a free trial if they have different titles they would like to watch in that platform.</li>
+                     </ul>
+                     </div></section>
+                     <section id="user" class='page-section'><h2>User</h2>
+                     <h3>Persona</h3>
+                     <div class='persona-container'> <!-- User persona container-->
+                         <div class='persona-info'>
+                             <p>Meet Carla García!</p>
+                             <ul class='project-lists'>
+                                 <li>30 years old.</li>
+                                 <li>Lives in Barcelona</li>
+                                 <li>Accountant</li>
+                                 <li>Favorite apps: Netflix, Prime Video and Instagram</li>
+                             </ul>
+                         </div>
+                         <div class='persona-image-container'>
+                             <img class='persona-image' src='images/streampals/persona/userpersona_streampals.png' alt='User persona'/>
+                         </div>   
+                     </div> <!-- Closes user persona container--> 
+                     <div class='quote-container'>
+                        <img class='quote-image-mobile' src='images/streampals/persona/interviewee_mobile.svg'; alt='Quote from interviewee'/> 
+                        <img class='quote-image' src='images/streampals/persona/interviewee.svg'; alt='Quote from interviewee'/> 
+                      <!--  <p class='quote-box'><span class='highlight-color quote'>"I don't usually repair things myself due to ignorance, and the risk associated with doing it wrong"</span></p>--> 
+                     </div></section>
+                     <section id="pain-points" class='page-section'><h2>Pain Points</h2>
+                     <h3>Carla's Pain points targeted</h3>
+                     <ul class='project-lists fit-text'>
+                        <li>Not getting recommendations that are a good fit for her.</li>
+                        <li>Not having a clear idea of where her favorite shows and movies are.</li>
+                        <li>Forgetting to unsubscribe after free trials.</li>
+                        <li>Getting recommendations from her friends in a disorganized way.</li>
+                     </ul></section>
+                     <section id="ia" class='page-section'><h2>Information Architecture</h2>
+                     <p class='fit-text'>To build the site architecture I worked on the concept sketching, competitive analysis and card sorting to define how the movies and shows titles as well as the other main features should be distributed. From that analysis the following site map was defined:
+                         <span class='bold-black'>The main goal was to keep simple screens with not too much content that could make the users feel overwhelmed.</span>
+                     </p>
+                     <div class='sitemap-container'>  <!-- Site map container-->
+                        <img class='sitemap-image' src='images/streampals/sitemap/sitemap_streampals.png'; alt='Site map'/> 
+                    </div>
+                     </section>
+                     <section id="wireframes" class='page-section'><h2>Wireframes</h2>
+                     <p class='fit-text'>The app was design for mobile <span class='bold-black'> since it would have social features (recommend shows and movies to friends) and those features would be easier to use from a smaller viewport.</span></p>
+                     <h3 class='space'>Key features</h3>
+                     <div class='keyfeatures-container'> <!-- Key features container-->
+                         <div class='keyfeature-image-text'>
+                             <img class='keyfeature-image' src='images/streampals/icons/streampals_home.svg'; alt='Home icon'/> 
+                             <p><span class='highlight-color'>Organized home</span></p>
+                         </div>
+                         <div class='keyfeature-image-text'>
+                            <img class='keyfeature-image' src='images/streampals/icons/streampals_search.svg'; alt='Search icon'/> 
+                            <p><span class='highlight-color'>Easy search</span></p>
+                        </div>
+                         <div class='keyfeature-image-text'>
+                             <img class='keyfeature-image' src='images/streampals/icons/streampals_friends.svg'; alt='Friend recommendations icon'/> 
+                             <p><span class='highlight-color'>Friend recommendations</span></p>
+                         </div>
+                         <div class='keyfeature-image-text'>
+                             <img class='keyfeature-image' src='images/streampals/icons/streampals_watchlist.svg'; alt='Watchlist icon'/> 
+                             <p><span class='highlight-color'>Watchlist</span></p>
+                         </div>
+                         <div class='keyfeature-image-text'>
+                            <img class='keyfeature-image' src='images/streampals/icons/streampals_special.svg'; alt='Special recommendations icon'/> 
+                            <p><span class='highlight-color'>Special recommendations</span></p>
+                        </div>
+                     </div>
+                     <ul class='project-lists fit-text'>
+                         <li>Home page with recommendations from the services the user is subscribed to.</li>
+                         <li>Search option to look for a show or a movie.</li>
+                         <li>Social feature to add friends, create groups and send and receive recommendations from them.</li>
+                         <li>Watchlist to keep track of pending shows and movies.</li>
+                         <li>Special recommendations section according to the users mood.</li>
+                     </ul>
+                     <h3>User flows</h3>
+                     <p class='fit-text'>Below is the user flow when Carla wants to add friends and send them recommendations:</p>
+                     <ol class='project-ordered-lists fit-text'>
+                         <li>1.- Go to friends section</li>
+                         <li>2.- Click on add friends</li>
+                         <li>3.- Search for friend</li>
+                         <li>4.- Add friend</li>
+                         <li>5.- Go to home page</li>
+                         <li>6.- Select movie or show</li>
+                         <li>7.- Recommend</li>
+                     </ol>
+                     <p class='fit-text'>In the project gallery you can find more user flows for the app.</p>
+                     <div class='userflow-container'> <!-- User flow container-->
+                         <img id="userflow" class='userflow-image' src='images/streampals/userflows/userflow.png'; alt='User flow wireframes for adding friends and recommending a show'/>
+                         <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01" src='images/streampals/userflows/userflow.png'/>
+                          </div>
+                    <script src="scripts/popup3.js"></script>
+                     </div>
+                    </section>
+                     <section id="testing" class='page-section'><h2>Testing</h2>
+                        <p class='fit-text'>The first version of the Wireframes was tested on 5 users. The results help improve the design and the changes were applied to the mockups shown on the next section.</p>
+                        <div class='testing-mobile-container'>
+                            <img class='testing-mobile-image' src='images/streampals/testresults/testresults_mobile.png'; alt='Test results'/> 
+                        </div>
+                        <div class='testing-desktop-container'>
+                            <img id="testresults" class='testing-desktop-image' src='images/streampals/testresults/testresults_desktop.svg'; alt='Test results'/>
+                            <div id="mySecondModal" class="modal">
+                                <span class="close-testing">&times;</span>
+                                <img class="modal-content" id="img02" src='images/streampals/testresults/testresults_desktop.svg'/>
+                            </div>
+                           <script src="scripts/popup2.js"></script>
+                        </div></section>
+                    <section id="ui-design" class='page-section'><h2>UI Design</h2>
+                     <h3>Color palette</h3>
+                     <p class='fit-text'>I wanted the movie posters to be the focus point on the screens, for that reasons I went with two shades of black for background. To create contrast and highlight the links and buttons, I went with two bright colors. For the text color I used white so it will be easy to read.</p>
+                     <p class='fit-text'><span class='bold-black'>I´ve got the inspiration for these colors while I was working on my moodboard. I wanted to evoke the beam of light that comes out of movie projectors.</span></p>
+                     <div class='color-container'> <!-- Color palette-->
+                         <div class='color-font firstcolor-box'><p>#060400</p></div>
+                         <div class='color-font secondcolor-box'><p>#1D1D1D</p></div>
+                         <div class='color-font thirdcolor-box'><p>#FA3D56</p></div>
+                         <div class='color-font fourthcolor-box'><p>#FDB12F</p></div>
+                         <div class='color-font fifthcolor-box'><p>#FFFFFF</p></div>
+                     </div>
+                     <h3 class='space'>Fonts</h3>
+                     <p class='fit-text'>I wanted the app to have a modern look, so I went for a circular font called Opificio for the main headers (H1 and H2) and for the smaller headers and the rest of the text I want with Futura since it complemented nicely the circular font and it is easy to read.</p>
+                     <div class='fonts-container'> <!-- Fonts-->
+                         <div class='color-font fonts-box'><img class='font-image' src='images/streampals/fonts/opificio_bold.png'; alt='Opificio font bold'/></div>
+                         <div class='color-font fonts-box'><img class='font-image' src='images/streampals/fonts/futura_bold.png'; alt='Futura font bold'/></div>
+                         <div class='color-font fonts-box'><img class='font-image' src='images/streampals/fonts/futura_medium.png'; alt='Futura font medium'/></div>
+                     </div>
+                     <h3>Mockups</h3>
+                     <div class='slideshow-container'><!-- Mockups Mobile Slideshow-->
+                        <div class="mySlides fade">
+                            <div class='mockup-background'><img class='mockups-image' src='images/streampals/mockups/mockup_home.png'; alt='Mockup home'/></div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class='mockup-background'><img class='mockups-image' src='images/streampals/mockups/mockup_movie.png'; alt='Mockup movie information'/></div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class='mockup-background'><img class='mockups-image' src='images/streampals/mockups/mockups_friends.png'; alt='Mockup friends section'/></div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class='mockup-background'><img class='mockups-image' src='images/streampals/mockups/mockup_special.png'; alt='Mockup special recommendation section'/></div>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                        <!-- The dots/circles -->
+                    <div style="text-align:center" class='status-slideshow'>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+               <script src="scripts/slideshow.js"></script> 
+                     <div class='mockups-container'> <!-- Mockups container desktop-->
+                        <img class='mockups-image' src='images/streampals/mockups/mockup_home.png'; alt='Mockup home'/>            
+                        <img class='mockups-image' src='images/streampals/mockups/mockup_movie.png'; alt='Mockup movie information'/>                
+                        <img class='mockups-image' src='images/streampals/mockups/mockups_friends.png'; alt='Mockup friends section'/>
+                        <img class='mockups-image' src='images/streampals/mockups/mockup_special.png'; alt='Mockup special recommendation section'/>
+                     </div>
+                     <h3 class='margin-top'>Prototype</h3>
+                     <p class='fit-text'>The following gif shows the user interaction when he wants to watch a class.</p>
+                     <div class='prototype'>
+                        <img class='mockups-image-p' src='images/streampals/mockups/streampals.gif'; alt='Prototype'/> 
+                      <a href="https://www.figma.com/proto/YmlQpgplXyQ7rFE9mGQ1gM/Mockups?node-id=15%3A1834&viewport=207%2C-1291%2C0.17912325263023376&scaling=scale-down" target="_blank"><p class='link margin-top margin-down'>Check out full prototype</p></a>
+                    </div>
+                     </section>
+             </div> <!--closes project information section-->
+             <div class='outcome-container'> <!-- Outcomes section-->
+                 <div class='outcome-information'>
+                    <section id="outcomes" class='page-section'><h1>Outcomes & lessons learnt</h1>
+                     <ul class='project-lists-outcomes'>
+                         <li>Stream Pals offers an organized way for streaming services users to keep track of their favorite shows while they receive recommendations that adapt to their taste and mood.</li>
+                         <li>One of the main issues encountered during the project was deciding which icon to use for a non commom section as it is the 'Special recommendations'. Through A/B testing I could decide which was the most appropiate icon.</li>
+                         <li><span class='bold-black'>Next steps:</span></li>
+                         <ul class='nested-list'>
+                            <li>Develop desktop and TV version. The TV version would be more focused on the recommender and watchlist features since the social feature (friends section) could present usability issues due to the use of the remote control.</li>
+                            <li>Analyse through more research and testing if users would need filters for the recommendations.</li>
+                        </ul>
+                     </ul>
+                 </div>
+             </div></section><!-- Closes Outcomes section -->
+             <div class='gallery-container'>
+                <section id="gallery" class='page-section'><h1>Project gallery</h1><!-- Project gallery section -->
+                 <div class='gallery-container-photos'> 
+                     <a href='images/streampals/project_gallery/StreamingServices_userpersona.png' class='gallery-box'><img class='gallery-image' src='images/streampals/project_gallery/userpersona_thumbnail.png'; alt='User persona'/><p class='bold-black gallery-text'>User persona</p></a>
+                     <a href='images/streampals/project_gallery/competitiveanalysis.pdf' class='gallery-box gallery-box-right'><img class='gallery-image' src='images/streampals/project_gallery/competitiveanalysis_thumbnail.png'; alt='Competitive analysis'/><p class='bold-black gallery-text'>Competitive analysis</p></a>
+                     <a href='images/streampals/project_gallery/conceptsketching.pdf' class='gallery-box'><img class='gallery-image' src='images/streampals/project_gallery/conceptsketching_thumbnail.png'; alt='Concept sketching'/><p class='bold-black gallery-text'>Concept sketching</p></a>
+                     <a href='images/streampals/project_gallery/wireframes_signup.png' class='gallery-box gallery-box-right'><img class='gallery-image' src='images/streampals/project_gallery/wireframes_signup.png'; alt='Wireframes - Sign up flow'/><p class='bold-black gallery-text'>Sign up flow</p></a>
+                 </div> <!-- Closes Project gallery section-->
+             </div></section>
+             <div class='pictures-icons-container'> <!-- Pictures & icons acknowledgement section -->
+                 <h1 class="fit-text">Pictures & icons appreciation</h1>
+                 <h2>Icons</h2>
+                 <ul class='project-lists fit-text'>
+                     <li>Mockups icons: Iconify</li>
+                     <li>Friends (wireframes): by Dan Hetteix from the Noun Project</li>
+                     <li>Save (wireframes): by Mello from the Noun Project</li>
+                     <li>Medal (wireframes): by ibrandify from the Noun Project</li>
+                 </ul>
+                 <h2>Pictures</h2>
+                 <ul class='project-lists'>
+                     <li>User persona: Adobe Stock.</li>
+                 </ul>
+             </div> <!-- closes Pictures & icons acknowledgement section -->
+         </div><!-- CLOSES INFORMATION BOX -->
+         </div> <!-- CLOSES PROJECT INFORMATION CONTAINER -->
+         <div class='next-project'>
+            <a class='button-next' href='sciencefestival.html'><span>Go to next project</span></a>      
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img class='backtotop' src='images/icons/backtotop.svg'/></button>
+        <script src='scripts/onscroll.js'></script>
+        </main>
+        <!-- Footer -->
+        <footer class='footer'>
+            <div class='footer-info'>
+                <div class=contact-info>
+                    <p>Want to get in touch ?</p>
+                    <p>Send me an email</p>
+                    <p class='bold-blue margin-bottom'><a href="mailto:maria.pb20@outlook.com">maria.pb20@outlook.com</a></p>
+                </div>
+                <div class='social-media'>
+                    <a href='https://www.linkedin.com/in/mapb1989/'>
+                    <img class='social-media-images' src='images/icons/linkedin.svg'; alt='LinkedIn logo'/> 
+                    </a>
+                    <a href='https://medium.com/@Mariaalejandrapb'>
+                    <img class='social-media-images' src='images/icons/medium.svg'; alt='Medium logo'/> 
+                    </a>
+                    <a href='https://dribbble.com/mariapb20'>
+                    <img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg'; alt='Dribbble logo'/> 
+                    </a>
+                </div>
+            </div><!--footer info-->
+            <p class='copyright-notice'>Copyright 2020 María Alejandra Pérez Bullones</p>
+        </footer>
+    </div><!--container-->
+</body>
+</html>

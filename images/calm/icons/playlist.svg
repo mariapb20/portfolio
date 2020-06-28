@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="87px" viewBox="0 0 95 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>carbon-playlist</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="carbon-playlist" fill="#000000" fill-rule="nonzero">
+            <g id="Icon">
+                <polygon id="Icon-Path" points="0.625 0.4375 70.9375 0.4375 70.9375 8.25 0.625 8.25"></polygon>
+                <polygon id="Icon-Path" points="0.625 23.875 70.9375 23.875 70.9375 31.6875 0.625 31.6875"></polygon>
+                <polygon id="Icon-Path" points="0.625 47.3125 47.5 47.3125 47.5 55.125 0.625 55.125"></polygon>
+                <polygon id="Icon-Path" points="67.03125 47.3125 94.375 66.84375 67.03125 86.375"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

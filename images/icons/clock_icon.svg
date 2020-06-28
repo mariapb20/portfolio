@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ion-time</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile---home-duotono" transform="translate(-36.000000, -967.000000)" fill-rule="nonzero">
+            <g id="Project-1" transform="translate(27.000000, 825.000000)">
+                <g id="Group" transform="translate(8.000000, 139.000000)">
+                    <g id="ion-time" transform="translate(0.000000, 2.000000)">
+                        <g id="Icon" transform="translate(1.781250, 1.781250)" fill="#2E2E30">
+                            <path d="M7.71875,0 C3.45599609,0 0,3.45599609 0,7.71875 C0,11.9815039 3.45599609,15.4375 7.71875,15.4375 C11.9815039,15.4375 15.4375,11.9815039 15.4375,7.71875 C15.4375,3.45599609 11.9815039,0 7.71875,0 Z M11.28125,8.90625 L7.71875,8.90625 C7.39083093,8.90625 7.125,8.64041907 7.125,8.3125 L7.125,2.96875 C7.125,2.64083093 7.39083093,2.375 7.71875,2.375 C8.04666907,2.375 8.3125,2.64083093 8.3125,2.96875 L8.3125,7.71875 L11.28125,7.71875 C11.6091691,7.71875 11.875,7.98458093 11.875,8.3125 C11.875,8.64041907 11.6091691,8.90625 11.28125,8.90625 Z" id="Icon-Shape"></path>
+                        </g>
+                        <rect id="ViewBox" x="0" y="0" width="19" height="19"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

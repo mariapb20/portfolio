@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="704px" height="489px" viewBox="0 0 704 489" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Site map</title>
+    <g id="Project-images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Site-map-project-3-desktop" transform="translate(-19.000000, -24.000000)">
+            <g id="Site-map" transform="translate(20.000000, 25.000000)">
+                <g id="Categories" transform="translate(0.000000, 147.000000)">
+                    <rect id="Rectangle" stroke="#0061C9" x="0" y="0" width="96" height="340" rx="15"></rect>
+                    <text font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                        <tspan x="12.918457" y="31">Categories</tspan>
+                    </text>
+                    <text id="Other-repairs" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                        <tspan x="6.28466797" y="316">Other repairs</tspan>
+                    </text>
+                    <text id="Plumbing" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                        <tspan x="18.9755859" y="69">Plumbing</tspan>
+                    </text>
+                    <text id="Carpentry" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                        <tspan x="16.8007812" y="107">Carpentry</tspan>
+                    </text>
+                    <text id="Electricity" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                        <tspan x="18.7705078" y="145">Electricity</tspan>
+                    </text>
+                    <text id="Painting" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                        <tspan x="22.7685547" y="183">Painting</tspan>
+                    </text>
+                    <text id="Cleaning" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                        <tspan x="21.5185547" y="221">Cleaning</tspan>
+                    </text>
+                    <text id="Home-appliances" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                        <tspan x="29.8422852" y="259">Home </tspan>
+                        <tspan x="15.527832" y="278">appliances</tspan>
+                    </text>
+                </g>
+                <g id="Classes" transform="translate(123.000000, 147.000000)">
+                    <rect id="Rectangle" stroke="#0061C9" x="0" y="0" width="96" height="227" rx="15"></rect>
+                    <text font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                        <tspan x="23" y="31">Classes</tspan>
+                    </text>
+                    <text id="Current-classes" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="24.2597656" y="68">Current </tspan>
+                        <tspan x="26.2592773" y="93">classes</tspan>
+                        <tspan x="48.5" y="118"></tspan>
+                    </text>
+                    <text id="New-classes" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="9.48876953" y="205">New classes</tspan>
+                    </text>
+                    <text id="Recommend-classes" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="8.07470703" y="134">Recommend </tspan>
+                        <tspan x="25.7592773" y="159">classes</tspan>
+                    </text>
+                </g>
+                <g id="Liked-classes" transform="translate(487.000000, 148.000000)">
+                    <rect id="Rectangle" stroke="#0061C9" x="0" y="0" width="96" height="132" rx="15"></rect>
+                    <text font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                        <tspan x="29.4029297" y="30">Liked </tspan>
+                        <tspan x="23.8624023" y="49">classes</tspan>
+                    </text>
+                    <text id="List-of-liked-classe" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="13.6222656" y="81">List of liked </tspan>
+                        <tspan x="26.5592773" y="106">classes</tspan>
+                    </text>
+                </g>
+                <g id="profile" transform="translate(606.000000, 148.000000)">
+                    <rect id="Rectangle" stroke="#0061C9" x="0" y="0" width="96" height="172" rx="15"></rect>
+                    <text id="Profile" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                        <tspan x="23" y="30">Profile</tspan>
+                    </text>
+                    <text id="Account-information" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="22.4438477" y="67">Account </tspan>
+                        <tspan x="11.3183594" y="92">information</tspan>
+                    </text>
+                    <text id="Privacy-settings" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="26.3386719" y="126">Privacy </tspan>
+                        <tspan x="23.7751953" y="151">settings</tspan>
+                    </text>
+                </g>
+                <g id="list-of-materials" transform="translate(246.000000, 147.000000)">
+                    <rect id="Rectangle" stroke="#0061C9" x="0" y="0" width="96" height="260" rx="15"></rect>
+                    <text id="Pending-tools-and-ma" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                        <tspan x="20.1470703" y="31">Pending </tspan>
+                        <tspan x="16.0010742" y="50">tools and </tspan>
+                        <tspan x="14.9654297" y="69">materials</tspan>
+                    </text>
+                    <text id="Pending-tools" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="22.8959961" y="105">Pending </tspan>
+                        <tspan x="33.1088867" y="130">tools</tspan>
+                    </text>
+                    <text id="Class-filter" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="16.347168" y="238">Class filter</tspan>
+                    </text>
+                    <text id="Pending-materials" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="22.3959961" y="171">Pending </tspan>
+                        <tspan x="19.0668945" y="196">materials</tspan>
+                    </text>
+                </g>
+                <g id="Home" transform="translate(292.000000, 0.000000)">
+                    <rect id="Rectangle" stroke="#0061C9" x="0" y="0" width="120" height="95.1325234" rx="15"></rect>
+                    <text font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" letter-spacing="0.583333333" fill="#010813">
+                        <tspan x="37" y="37">Home</tspan>
+                    </text>
+                    <text id="Search-bar" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" letter-spacing="0.583333333" fill="#010813">
+                        <tspan x="23" y="71">Search bar</tspan>
+                    </text>
+                </g>
+                <g id="Messages" transform="translate(366.000000, 147.000000)">
+                    <rect id="Rectangle" stroke="#0061C9" x="0" y="0" width="96" height="139" rx="15"></rect>
+                    <text id="Class-fitler" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="16.347168" y="72">Class fitler</tspan>
+                    </text>
+                    <text font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                        <tspan x="16.1073242" y="32">Messages</tspan>
+                    </text>
+                    <text font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" line-spacing="25" fill="#2E2F30">
+                        <tspan x="17.1254883" y="112">Messages</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle" fill="#0061C9" x="41" y="121" width="622" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

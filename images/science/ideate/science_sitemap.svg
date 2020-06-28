@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="630px" height="363px" viewBox="0 0 630 363" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Site map</title>
+    <g id="Project-images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Site-map-project-6" transform="translate(-82.000000, -90.000000)">
+            <g id="Site-map" transform="translate(83.000000, 91.000000)">
+                <g>
+                    <g id="Categories" transform="translate(0.000000, 191.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="170" rx="15"></rect>
+                        <text id="Festival" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                            <tspan x="38.5219727" y="31">Festival</tspan>
+                        </text>
+                        <text id="Participants" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                            <tspan x="28.3799154" y="63">Participants</tspan>
+                        </text>
+                        <text id="Talks-&amp;-Experiments" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                            <tspan x="42.9370443" y="95">Talks &amp; </tspan>
+                            <tspan x="25.9326497" y="114">Experiments</tspan>
+                        </text>
+                        <text id="News" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                            <tspan x="48.3391927" y="146">News</tspan>
+                        </text>
+                    </g>
+                    <g id="Classes" transform="translate(166.000000, 191.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="48" rx="15"></rect>
+                        <text id="Location" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                            <tspan x="33" y="29">Location</tspan>
+                        </text>
+                    </g>
+                    <g id="list-of-materials" transform="translate(332.000000, 191.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="68" rx="15"></rect>
+                        <text id="Science-at-home" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                            <tspan x="38.6846549" y="28">Science </tspan>
+                            <tspan x="35.7178581" y="47">at home</tspan>
+                        </text>
+                    </g>
+                    <g id="Home" transform="translate(266.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="133" height="140" rx="15"></rect>
+                        <text font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" letter-spacing="0.583333333" fill="#010813">
+                            <tspan x="41" y="32">Home</tspan>
+                        </text>
+                        <text id="Festival-date-and-lo" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" letter-spacing="0.583333333" fill="#010813">
+                            <tspan x="24.7810872" y="98">Festival date </tspan>
+                            <tspan x="25.3017578" y="117">and location</tspan>
+                        </text>
+                        <text id="Tickets" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" letter-spacing="0.583333333" fill="#010813">
+                            <tspan x="43.0481771" y="65">Tickets</tspan>
+                        </text>
+                    </g>
+                    <g id="Messages" transform="translate(498.000000, 191.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="48" rx="15"></rect>
+                        <text id="About" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                            <tspan x="43.7675781" y="30">About</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle" fill="#0080FF" x="0" y="165" width="628" height="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

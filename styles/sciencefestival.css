@@ -1,0 +1,1662 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Top images */
+
+.project-main-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    margin: 0px 10px 10px 10px;
+}
+
+.main-image-size {
+    width:300px;
+    height: auto;
+}
+
+.main-image-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: solid 1px #F5F8FF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+    height: 260px;
+    width: 340px;
+}
+
+/********* Project Context *******/
+
+.problem-context {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+  /*  padding:15px;*/
+    justify-content: wrap;
+    align-content: center;
+    text-align:left;
+    width: 100%; /*MOST CHANGE FOR DESKOP VERSION*/
+}
+
+/********* Design process *******/
+
+/*Suvey insights*/
+
+/*Suvey insights*/
+
+.competitors-insights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.competitors-images {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+ul.project-lists  {
+    list-style: none; 
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: left;
+    margin-bottom: 70px;
+   }
+
+ul.project-lists li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #414141;; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1.5em; /* Also needed for space (tweak if needed) */
+}
+
+ul.project-lists-nm  {
+    list-style: none; 
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: left;
+    margin-bottom: 30px;
+   }
+
+ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #414141;; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1.5em; /* Also needed for space (tweak if needed) */
+}
+
+/*User persona*/
+
+.persona-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+}
+
+.persona-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.persona-image {
+    height: 235px;
+    width: 235px;
+    margin-bottom: 30px;
+}
+
+.audience-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 250px;
+    margin: 0 auto 50px auto;
+}
+
+.quote-image-mobile {
+    width: 280px;
+    height: 250px;
+}
+
+.quote-image{
+    display:none
+}
+
+/*User journey*/
+
+.user-journey-image-mobile {
+    width: 300px;
+}
+
+.user-journey-mobile-container { /*Set display as none for desktop version*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.user-journey-desktop-container { /*Set display as flex for desktop version*/
+    display:none;
+}
+
+
+.sitemap-container { /*Set display as none for desktop version*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+/*Information architecture - site map*/
+
+.sitemap-image {
+    width: 300px;
+}
+
+#wireframes{
+    margin-top: 60px;
+}
+
+/*Key features*/
+
+.keyfeatures-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.keyfeature-image {
+    height: 30x;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.keyfeature-image-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+ul.nested-list {
+    margin-left: 50px;
+}   
+
+ul.nested-list li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #000000; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1.5em; /* Also needed for space (tweak if needed) */
+}
+
+/*User flows*/
+
+ol.project-ordered-lists  {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+
+/*Color palette*/
+
+.color-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.color-font {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+    height: 100px;
+    width: 130px;
+}
+
+.color-font p{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.firstcolor-box{
+    background: #010F1D;
+    color: #FFFFFF;
+}
+
+.secondcolor-box {
+    background: #46EFFE;
+}
+
+.thirdcolor-box{
+    background: #FAFAFA;
+    margin-bottom: 0;
+}
+
+/*fonts*/
+
+.fonts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fonts-box {
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+}
+
+.font-image{
+    width: 100px;
+    height: auto;
+}
+
+/*Mockups*/
+/* Slideshow container */
+
+.mockup-background{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 310px;
+    height: 501px;
+}
+
+/***********************/
+
+.mockups-container {
+    display: none;
+}
+
+.mockups-image {
+    width: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mockups-image-desktop{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Prototype*/
+
+.prototype {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.prototype-box {
+    margin-bottom: 70px;
+}
+
+/*Testing*/
+
+.testing-mobile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.testing-mobile-image {
+    width: 310px;
+}
+
+.testing-desktop-container {
+    display: none;
+}
+
+.testing-desktop-image {
+    width: 310px;
+}
+
+/*Outcome*/
+
+.outcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding: 30px 15px 30px 15px;
+    background: rgba(0, 97, 201, 0.2);
+    height:auto;
+    margin-bottom: 80px;
+}
+
+.outcome-information {
+ /*   margin-top: 70px;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.outcome-information h1 {
+    margin-bottom: 30px;
+    line-height: 1em;
+}
+
+ul.project-lists-outcomes {
+    margin-bottom: 0px;
+    list-style: none; 
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #414141;; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1.5em; /* Also needed for space (tweak if needed) */
+}
+
+/*Project gallery*/
+
+.project-gallery-container {
+    margin: 50px 15px 70px 15px;
+}
+
+.pictures-icons-container {
+    margin: 50px 15px 70px 15px;
+}
+
+.gallery-container {
+    margin: 50px 15px 70px 15px;
+}
+
+.gallery-container-photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0 30px 0;
+    border-radius: 10px;
+    border: solid 1px #6B6C6E;
+    background: #FFFFFF;
+    height: 200px;
+    width: 250px;
+}
+
+.gallery-image {
+    width: 190px;
+}
+
+
+/******************************************** TABLET ********************************************/
+@media screen and (min-width: 767px) and (max-width: 990px) {
+
+        /********* Top images *******/
+    
+    .project-main-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: auto;
+        margin: 0px 35px 10px 35px;
+    }
+        
+    .main-image-size {
+        width:500px;
+        height: auto;
+    }
+        
+    .main-image-background {
+        padding: 30px;
+        height: auto;
+        width: 680px;
+    }
+/********* Design process *******/
+
+/*Competitors insights*/
+.competitors-images {
+    width: 550px;
+    margin-bottom: 20px;
+}
+
+/*User persona*/
+
+.persona-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.persona-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0;
+}
+.persona-image {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+.quote-box{
+    margin-bottom: 50px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto 50px auto;
+}
+
+.quote-image {
+    display: block;
+    width: 600px;
+    height: 300px;
+}
+
+.quote-image-mobile{
+    display: none;
+}
+/*User journey*/
+
+.user-journey-image-mobile {
+    width: 450px;
+}
+
+.user-journey-mobile-container { /*Set display as none for desktop version*/
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.sitemap-container { /*Set display as none for desktop version*/
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/*Information architecture - site map*/
+
+.sitemap-image {
+    width: 600px;
+}
+
+/*Key features*/
+
+.keyfeatures-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.keyfeature-image {
+    height: 100px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.keyfeature-image-text {
+    margin-bottom: 50px;
+}
+
+.keyfeature-image-text p {
+    font-size: 20px;
+}
+
+/*Color palette*/
+
+.color-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.color-font {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+    height: 100px;
+    width: 130px;
+}
+
+.color-font p{
+    font-size: 20px;
+}
+
+.thirdcolor-box{
+    margin-bottom: 30px;
+}
+
+/*fonts*/
+
+.fonts-container {
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slideshow-container {
+    width: 450px;
+    margin: 50px auto 50px auto;
+}
+
+.mockups-image {
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mockup-background{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 450px;
+    height: 751px;
+}
+
+.mockups-image-desktop{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Prototype*/
+
+.prototype {
+    font-size: 30px;
+}
+.prototype-box {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+/*Testing*/
+
+.testing-mobile-container {
+    display: none
+}
+
+.testing-desktop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testing-desktop-image {
+    width: 700px;
+}
+
+.outcome-container {
+    padding: 50px 35px 50px 35px;
+    height:auto;
+    margin-bottom: 80px;
+}
+
+ul.project-lists-outcomes {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+ul.project-lists-outcomes li {
+    margin-bottom: 15px;
+}
+
+.project-gallery-container {
+    margin: 50px 35px 70px 35px;
+}
+
+.pictures-icons-container {
+    margin: 50px 35px 70px 35px;
+}
+
+/*Project gallery*/
+
+.gallery-container {
+    margin: 50px 35px 70px 35px;
+}
+
+.gallery-container-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+/*    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;*/
+    margin: 0 auto;
+    width: 600px;
+}
+
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px #6B6C6E;
+    margin: 0 50px 50px 0;
+    height: 200px;
+    width: 250px;
+    background: #FFFFFF;
+}
+
+.gallery-image {
+    width: 190px;
+}
+
+.gallery-box-right {
+    margin: 0 0 50px 0;
+    border: solid 1px #6B6C6E;
+}
+}
+
+
+/******************************* MEDIUM DEVICES - larger than 991 px *****************************/
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+
+ /********* Top images *******/
+
+.project-main-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+    margin: 0px 50px 50px 50px;
+}
+
+.main-image-size {
+    width:350px;
+    height: auto;
+}
+
+.main-image-background {
+    padding: 20px 25px 20px 25px;
+    height: 350px;
+    width: 400px;
+}    
+/********* Project Context *******/
+
+.problem-context {
+    width: 85%; /*MOST CHANGE FOR DESKOP VERSION*/
+}
+
+.fit-text {
+    width: 85%;
+}
+
+/*Competitors insights*/
+.competitors-images {
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+
+/*User persona*/
+
+.persona-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.persona-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0;
+}
+.persona-image {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto 50px auto;
+}
+
+.quote-image {
+    display: block;
+    width: 600px;
+    height: 300px;
+}
+.quote-image-mobile{
+    display: none;
+}
+/*User journey*/
+
+.user-journey-mobile-container { /*Set display as none for desktop version*/
+    display:none;
+}
+
+.user-journey-desktop-container { /*Set display as flex for desktop version*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.user-journey-image-desktop{
+    width: 100%;
+}
+
+/*Information architecture - site map*/
+
+.sitemap-container { /*Set display as flex for desktop version*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.sitemap-image {
+    width: 100%;
+}
+
+/*Key features*/
+
+.keyfeatures-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.keyfeature-image {
+    height: 80px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.keyfeature-image-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.keyfeature-image-text p {
+    font-size: 16px;
+}
+
+/*Color palette*/
+
+.color-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.color-font {
+    height: 100px;
+    width: 150px;
+}
+
+.color-font p{
+    font-size: 18px;
+}
+
+.thirdcolor-box{
+    margin-bottom: 30px;
+}
+
+/*fonts*/
+
+.fonts-container {
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Mockups*/
+
+.slideshow-container {
+    display: none;
+}
+
+.status-slideshow {
+    display: none;
+}
+
+.mockups-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mockups-image {
+    width: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.mockups-image-desktop{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/*Prototype*/
+
+.prototype {
+    font-size: 30px;
+}
+.prototype-box {
+    margin-bottom: 70px;
+}
+
+/*Testing*/
+
+.testing-mobile-container {
+    display: none;
+}
+
+.testing-desktop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testing-desktop-image {
+    width: 100%;
+}
+
+/*Outcome*/
+
+.outcome-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px 50px 50px 50px;
+    width: 100%; 
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.outcome-information h1 {
+    margin-bottom: 50px;
+}
+
+ul.project-lists-outcomes {
+    font-weight: 300;
+    line-height: 2em;
+}
+
+ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
+    width: 1.5em; /* Also needed for space (tweak if needed) */
+}
+
+/*Project gallery*/
+
+.project-gallery-container {
+    margin: 50px 0 70px 0;
+}
+
+.pictures-icons-container {
+    margin: 50px 0 70px 0;
+}
+
+
+.gallery-container {
+    margin: 50px 0 0 0;
+}
+
+.gallery-container-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 50px 0;
+    border-radius: 10px;
+    border: solid 1px #6B6C6E;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    background: #FFFFFF;
+
+}
+
+.gallery-image {
+    width: 190px;
+    height: 100px;
+}
+
+}
+
+/********************************* LARGE DEVICES - larger than 1200px  **********************************/
+
+@media screen and (min-width: 1200px) and (max-width: 1499px){
+
+ /********* Top images *******/
+    
+.project-main-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:380px;
+    margin: 0px 50px 50px 50px;
+}
+
+.main-image-size {
+    width:450px;
+    height: auto;
+}
+
+.main-image-background {
+    padding: 20px 25px 20px 25px;
+    height: 400px;
+    width: 600px;
+}     
+/********* Project Context *******/
+
+.problem-context {
+    width: 80%; /*MOST CHANGE FOR DESKOP VERSION*/
+}
+
+.fit-text {
+    width: 80%;
+}
+
+/*Competitors insights*/
+.competitors-images {
+    width: 650px;
+    margin-bottom: 50px;
+}
+
+/*User persona*/
+
+.persona-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.persona-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 0;
+}
+.persona-image {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 0px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto 60px auto;
+}
+
+.quote-image {
+    display: block;
+    height: 230px;
+}
+.quote-image-mobile{
+    display: none;
+}
+
+/*User journey*/
+.user-journey-mobile-container { /*Set display as none for desktop version*/
+    display:none;
+}
+
+.user-journey-desktop-container { /*Set display as flex for desktop version*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.user-journey-image-desktop{
+    width: 100%;
+}
+
+/*Information architecture - site map*/
+
+.sitemap-container { /*Set display as flex for desktop version*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.sitemap-image {
+    width: 70%;
+}
+
+/*Key features*/
+
+.keyfeatures-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 50px auto;
+    width: 70%;
+}
+
+.keyfeature-image {
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.keyfeature-image-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.keyfeature-image-text p {
+    font-size: 16px;
+}
+
+/*Color palette*/
+
+.color-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin: 50px auto 50px auto;
+    width: 70%;
+}
+
+.color-font {
+    height: 100px;
+    width: 150px;
+}
+
+.color-font p{
+    font-size: 16px;
+}
+
+.thirdcolor-box{
+    margin-bottom: 30px;
+}
+
+/*fonts*/
+
+.fonts-container {
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin: 50px auto 50px auto;
+    width: 70%;
+
+}
+
+/*Mockups*/
+
+.slideshow-container {
+    display: none;
+}
+
+.status-slideshow {
+    display: none;
+}
+
+.mockups-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mockups-image {
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.mockups-image-desktop{
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/*Prototype*/
+
+.prototype {
+    font-size: 30px;
+}
+.prototype-box {
+    margin-bottom: 70px;
+}
+
+/*Testing*/
+
+.testing-mobile-container {
+    display: none;
+}
+
+.testing-desktop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testing-desktop-image {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*Outcome*/
+
+.outcome-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px 50px 50px 50px;
+    width: 100%; 
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.outcome-information h1 {
+    margin-bottom: 50px;
+}
+
+ul.project-lists-outcomes {
+    font-weight: 300;
+    line-height: 2em;
+}
+
+ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
+    width: 1.5em; /* Also needed for space (tweak if needed) */
+}
+
+/*Project gallery*/
+
+.project-gallery-container {
+    margin: 50px 0 70px 0;
+}
+
+.pictures-icons-container {
+    margin: 50px 0 0px 0;
+}
+
+
+.gallery-container {
+    margin: 50px 0 0 0;
+}
+
+.gallery-container-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 50px 0;
+    border-radius: 10px;
+    border: solid 1px #6B6C6E;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    background: #FFFFFF;
+
+}
+
+.gallery-image {
+    width: 170px;
+    height: 80px;
+}
+
+}
+
+/********************************* EXTRA LARGE DEVICES - larger than 1400px  **********************************/
+
+@media screen and (min-width: 1500px) {
+
+ /********* Top images *******/
+
+.project-main-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    margin: 90px 50px 90px 50px;
+}
+
+.main-image-size {
+    width:550px;
+    height: auto;
+}
+
+.main-image-background {
+    padding: 20px 25px 20px 25px;
+    height: 450px;
+    width: 800px;
+}         
+/********* Project Context *******/
+
+.problem-context {
+    width: 70%; /*MOST CHANGE FOR DESKOP VERSION*/
+}
+
+.fit-text {
+    width: 70%;
+}
+
+/*Competitors insights*/
+.competitors-images {
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+/*User persona*/
+
+.persona-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 50px auto;
+}
+
+.persona-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0;
+}
+.persona-image {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto 60px auto;
+}
+
+.quote-image {
+    display: block;
+    height: 230px;
+}
+
+.quote-image-mobile{
+    display: none;
+}
+
+/*User journey*/
+
+
+.user-journey-mobile-container { /*Set display as none for desktop version*/
+    display:none;
+}
+
+.user-journey-desktop-container { /*Set display as flex for desktop version*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.user-journey-image-desktop{
+    width: 100%;
+}
+
+/*Information architecture - site map*/
+
+.sitemap-container { /*Set display as flex for desktop version*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.sitemap-image {
+    width: 70%;
+}
+
+/*Key features*/
+
+.keyfeatures-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 50px auto;
+}
+
+.keyfeature-image {
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.keyfeature-image-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.keyfeature-image-text p {
+    font-size: 16px;
+}
+
+/*Color palette*/
+
+.color-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 70%;
+    margin: 50px auto auto auto;
+}
+
+.color-font {
+    height: 120px;
+    width: 150px;
+}
+
+.color-font p{
+    font-size: 16px;
+}
+
+.thirdcolor-box{
+    margin-bottom: 30px;
+}
+
+/*fonts*/
+
+.fonts-container {
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 70%;
+    margin: 50px auto 50px auto;
+}
+
+/*Mockups*/
+
+.slideshow-container {
+    display: none;
+}
+
+.status-slideshow {
+    display: none;
+}
+
+.mockups-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.mockups-image {
+    width: 230px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.mockups-image-desktop{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+/*Prototype*/
+
+.prototype {
+    font-size: 30px;
+}
+.prototype-box {
+    margin-bottom: 70px;
+}
+
+/*Testing*/
+
+.testing-mobile-container {
+    display: none;
+}
+
+.testing-desktop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testing-desktop-image {
+    width: 70%;
+}
+
+/*Outcome*/
+
+.outcome-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px 50px 50px 50px;
+    width: 100%; 
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.outcome-information h1 {
+    margin-bottom: 50px;
+}
+
+ul.project-lists-outcomes {
+    font-weight: 300;
+    line-height: 2em;
+}
+
+ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
+    width: 1.5em; /* Also needed for space (tweak if needed) */
+}
+
+/*Project gallery*/
+
+.project-gallery-container {
+    width: 60%;
+    margin: 50px auto 70px auto;
+}
+
+.pictures-icons-container {
+    margin: 50px 0 0px 0;
+}
+
+
+.gallery-container {
+    width: 100%;
+    margin: 50px auto 0 auto;
+}
+
+.gallery-container-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 50px 0;
+    border-radius: 10px;
+    border: solid 1px #6B6C6E;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    background: #FFFFFF;
+
+}
+
+.gallery-image {
+    width: 170px;
+    height: 120px;
+}
+
+}

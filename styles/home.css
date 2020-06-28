@@ -1,0 +1,668 @@
+
+/**** Description ****/
+
+body{
+    background-color: #f6f6f6;
+}
+
+.my-description{
+    display: flex;
+    flex-direction: column;
+ /*   flex-wrap: wrap;*/
+    font-size: 25px;
+    width: 85%;
+    padding: 10px;
+    margin: 30px 0px 40px 0px;
+    line-height: 1.3em;
+}
+
+.pattern{
+    width: 40%;
+}
+
+/*
+.my-description p{
+font-family: 'Akkurat','sans-serif';
+}
+
+.small-description{
+    font-size: 25px;
+}
+/*
+
+p.my-work{
+    margin-top: 15px;
+    font-family: 'Akkurat','sans-serif';
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/**** Projects ****/
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+
+}
+.project-box-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 15px 50px 15px;
+    width: 100%;
+    height: 490px;
+    color:#2E2E30;
+    font-family: 'Akkurat', sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+    border: #FFFFFF solid 1px;
+    background-color: #f6f6f6;
+}
+
+.project-description-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 220px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.tag-boxes{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.category-tags{
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px;
+    margin: 0 5px 0 0;
+    border: 1px solid #ABABAB;
+}
+
+
+.project-description-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project-image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}    
+
+.project-home-image {
+    height: 250px;
+    width: auto;
+}
+
+.project-image-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}   
+
+.project-home-image-2 {
+   height: 200px;
+}
+
+p.tool-clock {
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.project-box {
+    display: none;
+}
+
+.home-titles{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom:3px;
+    line-height: 1em;
+}
+
+.home-titles-subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom:10px;
+    line-height: 1em;
+}
+
+
+.project-info { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Akkurat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+  /*  margin-bottom: 5px;*/
+    
+}
+
+.getintouch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+
+}
+
+p .getintouch{
+    margin-bottom: 0px;
+    line-height: 0em;
+
+}
+
+.social-right{
+    margin-right: 20px;
+}
+
+
+/******************************************** TABLET ********************************************/
+@media screen and (min-width: 767px) and (max-width: 990px) {
+/**** Description ****/
+
+.my-description{
+    font-size: 30px;
+    width: 75%;
+    margin: 70px 25px 70px 25px;
+    padding: 0px;
+}
+
+p.my-work{
+    font-family: 'Akkurat', sans-serif;
+    font-size: 25px;
+}  
+
+/**** Projects ****/
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.project-box {
+    display: none;
+}
+
+.project-box-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 15px 50px 15px;
+    width: 100%;
+    height: 600px;
+    color:#2E2E30;
+    font-family: 'Akkurat', sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+    border: #FFFFFF solid 1px;
+}
+
+.project-description-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.tag-boxes{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.category-tags{
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px;
+    margin: 0 10px 0 0;
+    border: 1px solid #ABABAB;
+}
+
+.project-image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}    
+
+.project-home-image {
+    height: 300px;
+    width: auto;
+}
+
+.project-image-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}   
+
+.project-home-image-2 {
+   height: 250px;
+}
+
+p.tool-clock {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.home-titles{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom:10px;
+    line-height: 1em;
+}
+
+.home-titles-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:10px;
+    line-height: 1em;
+}
+
+.project-info { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Akkurat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.getintouch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    line-height: 0em;
+
+}
+
+p .getintouch{
+    margin-bottom: 0px;
+    line-height: 0em;
+
+}
+    }
+
+
+/******************************************** MEDIUM DEVICES - larger than 991 px ********************************************/
+
+@media screen and (min-width: 991px) {
+/**** Description ****/
+
+.my-description{
+    font-size: 30px;
+    width: 70%;
+    margin: 70px 40px 100px 40px;
+    padding: 0px;
+}
+
+p.my-work{
+    font-family: 'Akkurat', sans-serif;
+    font-size: 30px;
+}  
+
+/**** Projects ****/
+
+.projects {
+    margin: 10px 40px 10px 40px;
+}
+
+.project-box-mobile {
+    display: none;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 15px 50px 15px;
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+    height: 450px;
+    background: #FFFFFF;
+    border: solid 1px #F5F8FF;
+    border-radius: 10px;
+    color:#2E2E30;
+    font-family: 'Akkurat', sans-serif;
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+}
+
+
+.project-description-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.project-image-section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.tag-boxes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category-tags{
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 15px 0 0;
+}
+
+.project-home-image-d {
+    height: 350px;
+}
+
+.project-home-image-d-2 {
+   width: 400px;
+}
+
+p.tool-clock {
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.home-titles{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:3px;
+    line-height: 1em;
+}
+
+.home-titles-subtitle{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom:10px;
+    line-height: 1em;
+}
+
+.getintouch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    line-height: 0em;
+
+}
+
+p .getintouch{
+    margin-bottom: 0px;
+    line-height: 0em;
+
+}
+
+
+
+}
+
+ /********************************* LARGE DEVICES - larger than 1200px  **********************************/
+
+ @media screen and (min-width: 1200px) and (max-width: 1499px)
+ 
+ {
+
+   /**** Description ****/
+
+.my-description{
+    font-size: 30px;
+    width: 65%;
+    margin: 70px 70px 120px 70px;
+    padding: 0px;
+}
+
+p.my-work{
+  /*  font-family: 'Montserrat', sans-serif;*/
+    font-size: 30px;
+}  
+
+.my-work{
+    text-decoration: underline;
+}
+
+/**** Projects ****/
+
+.projects {
+    margin: 30px 70px 30px 70px;
+}
+
+.project-box-mobile {
+    display: none;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-arounf;
+    align-items: center;
+    margin: 15px 15px 50px 15px;
+    padding: 20px 45px 20px 50px;
+    width: 100%;
+    height: 500px;
+    background: #FFFFFF;
+    border: solid 1px #F5F8FF;
+    border-radius: 10px;
+    color:#2E2E30;
+ /*   font-family: 'Montserrat', sans-serif;*/
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+}
+
+
+.project-description-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.project-image-section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.tag-boxes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category-tags{
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 15px 0 0;
+}
+
+.project-home-image-d {
+    height: 400px;
+}
+
+.project-home-image-d-2 {
+   width: 450px;
+}
+
+p.tool-clock {
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.home-titles{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom:5px;
+    line-height: 1em;
+}
+
+.home-titles-subtitle{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom:20px;
+    line-height: 1em;
+}
+
+.getintouch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    line-height: 0em;
+
+}
+
+p .getintouch{
+    margin-bottom: 0px;
+    line-height: 0em;
+
+}
+
+
+}   
+
+/********************************* EXTRA LARGE DEVICES - larger than 1400px  **********************************/
+
+@media screen and (min-width: 1500px) {
+   /**** Description ****/
+
+.my-description{
+    font-size: 40px;
+    width: 75%;
+    margin: 120px 50px 180px 50px;
+    padding: 0px;
+}
+
+.projects {
+    margin: 30px 50px 30px 50px;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 15px 80px 15px;
+    padding: 50px;
+    width: 100%;
+    height: 550px;
+    background: #FFFFFF;
+    border: solid 1px #F5F8FF;
+    border-radius: 10px;
+    color:#2E2E30;
+    font-family: 'Akkurat', sans-serif;
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+}
+
+.project-home-image-d {
+    height: 420px;
+}
+
+.project-home-image-d-2 {
+   width: 500px;
+}
+
+.category-tags{
+    font-size: 22px;
+    padding: 10px;
+    margin: 0 15px 0 0;
+}
+
+p.tool-clock {
+    margin-bottom: 10px;
+    font-size: 22px;
+
+}
+
+.home-titles{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom:5px;
+    line-height: 1em;
+}
+
+.home-titles-subtitle{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom:20px;
+    line-height: 1em;
+}
+
+.getintouch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    line-height: 0em;
+
+}
+
+p .getintouch{
+    margin-bottom: 0px;
+    line-height: 0em;
+
+}
+
+}
+    
+  

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science festival web</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,700' rel='stylesheet'/>
+    <link rel='stylesheet' href='styles/cssreset.css'/>
+    <link rel='stylesheet' href='font/stylesheet.css'/>
+    <link rel='stylesheet' href='styles/fonts.css'/>
+    <link rel='stylesheet' href='styles/general.css'/>
+    <link rel='stylesheet' href='styles/projects.css'/>
+    <link rel='stylesheet' href='styles/sciencefestival.css'/>
+    <!--Linkedin meta tags-->
+    <meta property='og:title' content='Science Society Festival'/>
+    <meta property='og:image' content='images/thumbnails/science_thumbnail.png'/>
+    <meta property='og:description' content='Responsive event microsite'/>
+    <meta property='og:url' content='www.mariaalejandraperez.com/sciencefestival.html'/>
+     <!--  JS  -->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165358295-1"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+   
+     gtag('config', 'UA-165358295-1');
+   </script>
+</head>
+<body>
+    <div class='container'>
+        <header class='header' id='myHeader'>     
+            <nav class='navigation'>
+                    <ul class='home-navigation'>
+                        <li><a href="index.html"><p class='logo'>María Alejandra Pérez</p>
+                            <p class='logo'><span class='logo-small'>UX|UI Designer</span></p></a></li>
+                        <li><a href='aboutme.html'>About me</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Top photos -->
+            <div class='project-main-images'>
+                <div class='main-image-background'>
+                    <img class='main-image-size' src='images/home_page/sciencefestival_home.png'; alt='Project mockups'/> 
+                </div>
+            </div>
+             <!--Project title-->
+             <div class='project-title'>
+                <h1>Science Society Festival:</h1>
+                <h1><span class=subtitle>responsive event microsite</span></h1>
+           </div>
+           <!--Project description box-->
+           <div class='project-description-box'> 
+               <p><span class='bold-black'>Case study:</span> Design responsive event microsite.</p>
+               <p><span class='bold-black'>Goal:</span> Allow users to easily access the festival information (participants, talks and location) as well as a simple path to purchase tickets. </p>
+               <p><span class='bold-black'>Scope:</span> Solo UX | UI Design project.</p>
+               <div class='project-tag-boxes'>
+                   <div class='project-category-tags'>Market Research</div>
+                   <div class='project-category-tags'>IA</div>
+                   <div class='project-category-tags'>UI Design</div>
+               </div>
+               <div class='project-info tools-info'>
+                   <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
+                   <p class='tools-used'>Sketch | Invision</p>
+               </div>
+               <div class='project-info'>
+                   <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
+                   <p class='tools-used'>1 Week</p>
+               </div>
+           </div>
+           <!--Progress bar-->
+           <div class='progress-bar-container sticky-bar'>
+               <div id='progress-status'>
+                   <div id='my-bar'></div>
+               </div>
+               <script src='scripts/onscroll.js'></script>
+            </div>
+           <!-- Project information -->
+           <div class='project-information-container'> <!--SEPARATES MENU AND PROJECT INFORMATION-->
+            <div class='sticky-menu-mobile'>
+             <div class='mobile-menu-container'>
+                 <button class="dropbtn" id='dropbtn'><i class="gg-menu-left" id='menu-left'></i></button>
+                     <ul class='dropdown-content' id="myDropdown">
+                         <li><a href="#problem-context">Problem context</a></li>
+                         <li><a href="#design-process">Design process</a></li>
+                             <ul>
+                                 <li class='light-items'><a href="#research">Research</a></li>
+                                 <li class='light-items'><a href="#user">User</a></li>
+                                 <li class='light-items'><a href="#ia">IA</a></li>
+                                 <li class='light-items'><a href="#wireframes">Wireframes</a></li>
+                                 <li class='light-items'><a href="#testing">Testing</a></li>
+                                 <li class='light-items'><a href="#ui-design">UI Design</a></li>
+                             </ul>
+                         <li><a href="#outcomes">Outcomes & lessons learnt</a></li>
+                         <li><a href="#gallery">Project gallery</a></li>
+                     </ul>
+             </div>
+            </div>
+             <div class='menu-box'>
+                 <div class='desktop-menu-container sticky-menu'>
+                     <ul class='menu-list'>
+                         <a href="#problem-context"><li>Problem context</li></a>
+                         <a href="#design-process"><li>Design process</li></a>
+                             <ul class='menu-sublist'>
+                                 <a href="#research"><li>Research</li></a>
+                                 <a href="#user"><li>User</li></a>
+                                 <a href="#ia"><li>IA</li></a>
+                                 <a href="#wireframes"><li>Wireframes</li></a>
+                                 <a href="#testing"><li>Testing</li></a>
+                                 <a href="#ui-design"><li>UI Design</li></a>
+                             </ul>
+                         <a href="#outcomes"><li>Outcomes & lessons learnt</li></a>
+                         <a href="#gallery"><li>Project gallery</li></a>
+                     </ul>
+                <!--     <script src='scripts/activesection.js'></script>-->
+                 </div>
+             </div>
+             <div class='information-box'>
+             <div class='project-information-section'>
+             <!--Problem context section-->
+             <section id="problem-context" class='page-section'><div class='problem-context'>
+                     <h1>Problem context</h1>
+                     <p>Going to a festival is a great experience, specially a science festival where attendees go to get insightful talks and grow their knowledge on different topics (medicine, chemistry, mathematics and physics).  <span class='bold-black'>A great way to increase the attendance is to provide a useful, informative and easy to navigate site.</span> A disorganized and hard to navigate page can easily discourage people to go to the festival.</p>
+             </div></section>
+             <!--empathize section-->
+                 <div class='fit-text'>
+                    <section id="design-process" class='page-section'><h1>Design process</h1></section>
+                     <section id="research" class='page-section'><h2>Research</h2></section>
+                     <p>There are many science festivals that are celebrated in different cities around the world. For the research stage <span class='bold-black'>I ran a competitive analysis based on the following popular science festivals that have a target audience of academics.</span></p>
+                     <h3 class='space'>Competitors analysis insights</h3>
+                 </div> <!-- Closes empathize section-->
+                     <div class='competitors-insights'>
+                         <img class='competitors-images' src='images/science/research/competitorsanalysis_desktop.png' alt='Competitors analysis'/>
+                     </div>
+                     <section id="user" class='page-section'><h2>User</h2>
+                     <h3>Target audience</h3>
+                     <div class='persona-container'> <!-- User container-->
+                         <div class='audience-info'>
+                             <p>From the research process and the topic of the festival, the following target audience was defined:</p>
+                             <ul class='project-lists'>
+                                 <li>University students, graduates, professors.</li>
+                                 <li>Live in the same city of the event or in near by cities.</li>
+                                 <li>Go more than once a year to a scientific festival.</li>
+                             </ul>
+                         </div>
+                         <div class='persona-image-container'>
+                             <img class='persona-image' src='images/science/user/targetuser.png' alt='Target user'/>
+                         </div>   
+                     </div> <!-- Closes user persona container--> 
+                     <h3>Users challenges</h3>
+                     <ul class='project-lists fit-text'>
+                         <li>Find easily all the information they need to assist to the festival.</li>
+                         <li>Be able to filter the information according to their needs (they might want to go to the talks of an specific science area e.g: chemistry).</li>
+                         <li>Purchase the ticket in an easy and fast way.</li>
+                     </ul>
+                     </section>
+                     <section id="ia" class='page-section'><h2>Information Architecture</h2>
+                     <p class='fit-text'>To build the site architecture I followed the insights of the competitive analysis and established the following structure:
+                     </p>
+                     <div class='sitemap-container'>  <!-- Site map container-->
+                        <img class='sitemap-image' src='images/science/ideate/science_sitemap.svg'; alt='Site map'/> 
+                    </div>
+                     <p>The 'Science at home' section is a way to introduce more interaction with the users through an educational process that is linked to the theme of the festival.
+                         I set on the footer the rest of sections that are not that frequently consulted by the users.
+                        <span class='bold-black'>The main focus of the architecture, was to provide an easy access to the ticket purchasing process and to the main information of the event.</span>
+                    </p>
+                     </section>
+                     <section id='wireframes' class='page-section'><h2>Wireframes</h2>
+                     <h3>Key features</h3>
+                     <p class='fit-text'>The design of the site was focused on the following points:</p>
+                     <div class='keyfeatures-container'> <!-- Key features container-->
+                         <div class='keyfeature-image-text'>
+                             <img class='keyfeature-image' src='images/science/icons/filter.svg'; alt='filter icon'/> 
+                             <p><span class='highlight-color'>Filter talsk and participants</span></p>
+                         </div>
+                         <div class='keyfeature-image-text'>
+                             <img class='keyfeature-image' src='images/science/icons/bathroom.svg'; alt='Restrooms icon'/> 
+                             <p><span class='highlight-color'>Facilities information</span></p>
+                         </div>
+                         <div class='keyfeature-image-text'>
+                             <img class='keyfeature-image' src='images/science/icons/tickets.svg'; alt='tickets icon'/> 
+                             <p><span class='highlight-color'>Purchase of tickets</span></p>
+                         </div>
+                         <div class='keyfeature-image-text'>
+                            <img class='keyfeature-image' src='images/science/icons/testtubes.svg'; alt='Test tube icon'/> 
+                            <p><span class='highlight-color'>Science at home section</span></p>
+                        </div>
+                     </div>
+                     <ul class='project-lists fit-text'>
+                         <li>Option to filter the talks and speakers according to their science field.</li>
+                         <li>Provide information on the facilities available at the venue and the transport methods to get there.</li>
+                         <li>Facilitate the purchase of tickets to the event.</li>
+                         <li>For the interactive science at home section, I focused on the following elements:</li>
+                            <ul class='nested-list'>
+                                <li >Videos of other talks.</li>
+                                <li>Videos of physics and chemistry experiments.</li>
+                                <li>Experiment interaction where the users could see step by step a chemical reaction.</li>
+                            </ul>
+                     </ul>
+                     <h3>User flows</h3>
+                     <p class='fit-text'>Below are the user flows of the web (desktop version) when our users want to purchase festival tickets after reviewing the talks that will be presented.</p>
+                     <ol class='project-ordered-lists fit-text'>
+                         <li>1.- Go to the festival section.</li>
+                         <li>2.- Select the talks</li>
+                         <li>3.- Check talk and speaker information.</li>
+                         <li>4.- Purchase festival ticket.</li>
+                     </ol>
+                     <p class='fit-text'>In the project gallery you can find more user flows for the app.</p>
+                     <div class='userflow-container'> <!-- User flow container-->
+                        <img id="userflow" class='userflow-image' src='images/science/userflows/science_userflow.svg'; alt='User flow for reviewing the talks and buying tickets'/>
+                        <div id="myModal" class="modal">
+                           <span class="close">&times;</span>
+                           <img class="modal-content" id="img01" src='images/science/userflows/science_userflow.svg'/>
+                        </div>
+                        <script src="scripts/popup.js"></script>
+                    </div> 
+                    </section>
+                     <section id='testing' class='page-section'><h2>Testing</h2>
+                        <h3>Testing results</h3>
+                        <p class='fit-text'>The testing process was done with 8 users (4 used the Desktop version and 4 the mobile version). <span class='bold-black'>Main insights:</span></p>
+                        <ul class='project-lists fit-text'>
+                           <li>The hover interactions used on the desktop design should not be mandatory interactions that would affect the usability in touch based devices. This was the case for the filters and for how the information of the talks is displayed.</li>
+                           <li>Some elements on the layer were not exactly on the same place. This was noticeable on the transitions.</li>
+                           <li>The IA was well understood by the users.</li>
+                       </ul>
+                       <h3>Redesign</h3>
+                       <ul class='project-lists fit-text'>
+                           <li>From the issues encountered on the testing phase the hover interaction was replaced for an interaction that didn't compromise the usability on touch based devices.</li>
+                           <li><span class='bold-black'> The results helped improve the design and the changes were applied to the mockups presented in the following section.</span></li>
+                       </ul></section>
+                    
+                    <section id='ui-design' class='page-section'><h2>UI Design</h2>
+                    <p class='fit-text margin-down'>The goal was to present a design that gave a scientific feeling.<span class="bold-black"> The treatment of the images was a very important point to keep a clean style that didn't make the site feel overwhelming.</span></p>
+                     <h3>Color palette</h3>
+                     <p class='fit-text'>To give a different look to the site I wanted to introduce color. I went with blues since is a color that coveys wisdom and technology, which go hand to hand with science.</p>
+                     <div class='color-container'> <!-- Color palette-->
+                         <div class='color-font firstcolor-box'><p>#010F1D</p></div>
+                         <div class='color-font secondcolor-box'><p>#46EFFE</p></div>
+                         <div class='color-font thirdcolor-box'><p>#FAFAFA</p></div>
+                     </div>
+                     <h3>Fonts</h3>
+                     <p class='fit-text'>For the fonts, I used Share Tech for the headers and Roboto for the text bodies. I chose Share tech since it reminisce scientific articles and Roboto for its readability.</p>
+                     <div class='fonts-container'> <!-- Fonts-->
+                         <div class='color-font fonts-box'><img class='font-image' src='images/science/fonts/sharetech_regular.png'; alt='Share Tech regular'/></div>
+                         <div class='color-font fonts-box'><img class='font-image' src='images/science/fonts/roboto_bold.png'; alt='Roboto bold'/></div>
+                         <div class='color-font fonts-box'><img class='font-image' src='images/science/fonts/roboto_regular.png'; alt='Roboto regular'/></div>
+                     </div>
+                     
+                     <h3>Mockups</h3>
+                     <div class='slideshow-container'><!-- Mockups Mobile Slideshow-->
+                         <div class="mySlides fade">
+                             <div class='mockup-background'><img class='mockups-image' src='images/science/mockups/science_search.png'; alt='Mockup search'/></div>
+                         </div>
+                         <div class="mySlides fade">
+                             <div class='mockup-background'><img class='mockups-image' src='images/science/mockups/science_talks.png'; alt='Mockup talks'/></div>
+                         </div>
+                         <div class="mySlides fade">
+                             <div class='mockup-background'><img class='mockups-image' src='images/science/mockups/science_talkinfo.png'; alt='Mockup talk information'/></div>
+                         </div>
+                         <!-- Next and previous buttons -->
+                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                     </div>
+                         <!-- The dots/circles -->
+                     <div style="text-align:center" class='status-slideshow'>
+                         <span class="dot" onclick="currentSlide(1)"></span>
+                         <span class="dot" onclick="currentSlide(2)"></span>
+                         <span class="dot" onclick="currentSlide(3)"></span>
+                     </div>
+                     <script src="scripts/slideshow.js"></script> 
+
+                     <div class='mockups-container'> <!-- Mockups container desktop - mobile version-->
+                        <img class='mockups-image' src='images/science/mockups/science_search.png'; alt='Mobile mockup search'/> 
+                        <img class='mockups-image' src='images/science/mockups/science_talks.png'; alt='Mobile mockup talks'/> 
+                        <img class='mockups-image' src='images/science/mockups/science_talkinfo.png'; alt='Mobile mockup talk information'/> 
+                     </div>
+
+                     <h3 class='margin-top'>Prototype</h3>
+                     <div class='prototype'>
+                         <h4 class='fit-text'>Festival talks and Science at home section (Mobile version)</h4>
+                        <img class='mockups-image' src='images/science/mockups/sah.gif'; alt='Prototype Festival talks and Science at home section'/> 
+                        <a href="https://invis.io/CBXONOZW3V4" target="_blank"><p class='link margin-top margin-down'>Check out full mobile prototype</p></a>
+                        <h4>Location section - Transportation methods and amenities (Desktop version)</h4>
+                        <img class='mockups-image-desktop' src='images/science/mockups/science_desktop.gif'; alt='Prototype Talks section (desktop version)'/> 
+                        <a href="https://invis.io/D9XOV6SHB4S" target="_blank"><p class='link'>Check out the full desktop version prototype</p></a>
+                    </div>
+                     </section>
+                </div> <!--closes project information section-->
+             <div class='outcome-container'> <!-- Outcomes section-->
+                 <div class='outcome-information'>
+                    <section id='outcomes' class='page-section'><h1>Outcomes & lessons learnt</h1>
+                     <ul class='project-lists-outcomes'>
+                         <li>A well structured IA is key for sites that include information on different categories. Properly organizing that information and allowing to it to be easily filtered is mandatory to offer a seamless user experience.</li>
+                         <li>The use of hover must be left for non relevant interactions that don’t affect the usability of the site on touch based devices. For a responsive design to be successful, the interactions should be selected in other to work for touch based and non touch based devices at the same time.</li>
+                     </ul>
+                 </div>
+             </div></section><!-- Closes Outcomes section -->
+             <div class='gallery-container'>
+                <section id='gallery' class='page-section'><h1>Project gallery</h1><!-- Project gallery section -->
+                 <div class='gallery-container-photos'> 
+                     <a href='images/science/project_gallery/wireframe_science_location.png' class='gallery-box'><img class='gallery-image' src='images/science/project_gallery/location_thumbnail.png'; alt='Wireframe Location section'/><p class='bold-black gallery-text'>Wireframe Location</p></a>
+                     <a href='images/science/project_gallery/wireframe_science_participants.png' class='gallery-box gallery-box-right'><img class='gallery-image' src='images/science/project_gallery/participants_thumbnail.png'; alt='Wireframe Participants section'/><p class='bold-black gallery-text'>Wireframe Participants</p></a>
+                     <a href='images/science/project_gallery/moodboard.png' class='gallery-box'><img class='gallery-image' src='images/science/project_gallery/moodboard_thumbnail.png'; alt='Moodboard'/><p class='bold-black gallery-text'>Moodboard</p></a>
+                     <a href='images/science/project_gallery/style_tile.png' class='gallery-box gallery-box-right'><img class='gallery-image' src='images/science/project_gallery/styletile_thumbnail.png'; alt='Style tile'/><p class='bold-black gallery-text'>Style tile</p></a>
+                 </div> <!-- Closes Project gallery section-->
+             </div></section>
+             <div class='pictures-icons-container'> <!-- Pictures & icons acknowledgement section -->
+                 <h1 class="fit-text">Pictures & icons appreciation</h1>
+                 <h2>Icons</h2>
+                 <ul class='project-lists fit-text'>
+                    <li>Chemistry: by priyanka from the Noun Project</li>
+                    <li>Bathroom: Bathroom by Creative Mania from the Noun Project</li>
+                    <li>Filter: by Kirby Wu from the Noun Project</li>
+                    <li>Math (edited): by Template from the Noun Project</li>
+                    <li>Medicine : by Vectorstall from the Noun Project</li>
+                    <li>Physics: by Made from the Noun Project</li>
+                    <li>Ticket: by Setyo Ari Wibowo from the Noun Project</li>
+                    <li>Experiment: by An Chi from the Noun Project</li>
+                 </ul>
+                 <h2>Pictures</h2>
+                 <ul class='project-lists'>
+                     <li>Talks photos: Adobe Stock.</li>
+                     <li>User persona: Adobe Stock</li>
+                     <li>Participants:</li>
+                     <ul class='nested-list'>
+                         <li>Steve Duran: Photo by Michał Parzuchowski on Unsplash</li>
+                         <li>Carol Diaz: Photo by Juan Rojas on Unsplash</li>
+                         <li>Arthur Johnson: Photo by Bahram Bayat on Unsplash</li>
+                         <li>Anne Medina: Photo by 6v1a_pctego on Unsplash</li>
+                         <li>Marcos Rodriguez: Photo by christian buehner on Unsplash</li>
+                         <li>Laura Yoon: Photo by Annika Palmari on Unsplash</li>
+                     </ul>
+                 </ul>
+             </div> <!-- closes Pictures & icons acknowledgement section -->
+         </div><!-- CLOSES INFORMATION BOX -->
+         </div> <!-- CLOSES PROJECT INFORMATION CONTAINER -->
+         <div class='next-project'>
+            <a class='button-next' href='elearning.html'><span>Go to next project</span></a>      
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><img class='backtotop' src='images/icons/backtotop.svg'/></button>
+            <script src='scripts/onscroll.js'></script>
+         </div>
+        </main>
+        <!-- Footer -->
+        <footer class='footer'>
+            <div class='footer-info'>
+                <div class=contact-info>
+                    <p>Want to get in touch ?</p>
+                    <p>Send me an email</p>
+                    <p class='bold-blue margin-bottom'><a href="mailto:maria.pb20@outlook.com">maria.pb20@outlook.com</a></p>
+                </div>
+                <div class='social-media'>
+                    <a href='https://www.linkedin.com/in/mapb1989/'>
+                    <img class='social-media-images' src='images/icons/linkedin.svg'; alt='LinkedIn logo'/> 
+                    </a>
+                    <a href='https://medium.com/@Mariaalejandrapb'>
+                    <img class='social-media-images' src='images/icons/medium.svg'; alt='Medium logo'/> 
+                    </a>
+                    <a href='https://dribbble.com/mariapb20'>
+                    <img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg'; alt='Dribbble logo'/> 
+                    </a>
+                </div>
+            </div><!--footer info-->
+            <p class='copyright-notice'>Copyright 2020 María Alejandra Pérez Bullones</p>
+        </footer>
+    </div><!--container-->
+</body>
+</html>

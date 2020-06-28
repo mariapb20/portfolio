@@ -1,0 +1,397 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Akkurat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body {
+   color:#2E2E30;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #6B6C6E;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 0.5em ; 
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+
+.logo{
+    font-size: 15px;
+ /*   font-family: 'Akkurat','sans-serif';*/
+    margin-bottom: 0em;
+/*    margin: 10px 0px 10px 20px;*/
+}
+
+p.logo {
+    color:#0061c9;
+    line-height: 1em;
+    margin-bottom: 0em;
+}
+
+.logo-small{
+    font-size: 14px;
+/*    font-family: 'Akkurat','sans-serif';*/
+    color:#0061c9;
+    font-style: bold;
+    margin-bottom: 0em;
+}
+
+.bold-black{
+    font-weight: bolder;
+    text-decoration: none;
+    margin-bottom: 0em;
+   }
+
+p.logo-small{
+    margin-bottom: 0em;
+    line-height: 1em;
+}
+
+.bold-white{
+    font-weight: bold;
+}   
+
+.light-text{
+    font-weight: 300;
+}
+
+.highlight-color{
+    color: #0061c9;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.selected-text {
+    font-size: 16px;
+    color: #0061c9;
+    font-weight: bold;
+}
+
+.contact-info  p {
+    line-height: 0em;
+    margin-bottom: 1.5em ; 
+}
+
+.quote {
+    font-style: italic;
+}
+
+.font-gradient {
+        color:#008A63;
+        font-weight: 700;
+}
+
+a.font-gradient {
+    color:#008A63;
+    font-weight: 700;
+}
+
+.bold-blue{
+    color:#0061c9; 
+    font-weight: 700;
+}
+
+p.link {
+    color:#0061c9; 
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.gallery-text{
+    font-size: 14px;
+}
+
+.introduction{
+    font-size: 33px;
+    font-weight: bold;
+    color:#010936;
+
+}
+
+.contact{
+    font-size: 15px;
+    margin-bottom: 0px;
+    line-height: 0em;
+    margin-right: 20px;
+}
+
+p .contact{
+    margin-bottom: 0px;
+}
+
+
+/******************************************** TABLET ********************************************/
+@media screen and (min-width: 767px) and (max-width: 990px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    h4 {
+        font-size: 22px;
+    }
+    /*
+    .logo{
+        margin: 25px;
+    }
+
+    p.logo {
+        font-size: 16px;
+        color:#043064;
+    }
+    */
+
+    .introduction{
+        font-size: 40px;
+        font-weight: 700;
+        color:#010936;
+    }
+
+    .contact{
+        font-size: 20px;
+        margin-bottom: 0px;
+        line-height: 0em;
+        margin-right: 20px;
+    }
+    
+    p .contact{
+        margin-bottom: 0px;
+    }
+    
+
+}
+
+/******************************************** MEDIUM DEVICES - larger than 991 px ********************************************/
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+    h1 {
+        font-size: 45px;
+        margin-bottom: 80px;
+    }
+    
+    h2 {
+        font-size: 35px;
+        margin-bottom: 70px;
+    }
+    
+    h3 {
+        font-size: 30px;
+        margin-bottom: 60px;
+
+    }
+    
+    h4 {
+        font-size: 22px;
+        margin-bottom: 50px;
+
+    }
+    .logo{
+        font-size: 18px;
+        margin-bottom: 0em;
+    /*    margin: 10px 0px 10px 20px;*/
+    }
+    
+    p.logo {
+        color:#0061c9;
+        line-height: 1em;
+        margin-bottom: 0em;
+    }
+    
+    .logo-small{
+        font-size: 16px;
+        color:#0061c9;
+        font-style: bold;
+        margin-bottom: 0em;
+    }
+    
+    .bold-black{
+        font-weight: 700;
+        text-decoration: none;
+        margin-bottom: 0em;
+       }
+    
+    p.logo-small{
+        margin-bottom: 0em;
+        line-height: 1em;
+    }
+
+    .introduction{
+        font-size: 45px;
+        font-weight: 700;
+        color:#010936;
+    }
+
+    .contact{
+        font-size: 22px;
+        margin-bottom: 0px;
+        line-height: 0em;
+        margin-right: 20px;
+    }
+    
+    p .contact{
+        margin-bottom: 0px;
+    }
+}
+
+/********************************* LARGE DEVICES - larger than 1200px  **********************************/
+
+@media screen and (min-width: 1200px) and (max-width: 1499px){
+    h1 {
+        font-size: 45px;
+        margin-bottom: 80px;
+    }
+    
+    h2 {
+        font-size: 35px;
+        margin-bottom: 70px;
+    }
+    
+    h3 {
+        font-size: 30px;
+        margin-bottom: 60px;
+
+    }
+    
+    h4 {
+        font-size: 22px;
+        margin-bottom: 50px;
+
+    }
+
+    .introduction{
+        font-size: 55px;
+        font-weight: 700;
+        color:#010936;
+    }
+
+    .contact{
+        font-size: 25px;
+        margin-bottom: 0px;
+        line-height: 0em;
+        margin-right: 20px;
+    }
+
+    p .contact{
+        margin-bottom: 0px;
+    }
+
+}
+
+/********************************* EXTRA LARGE DEVICES - larger than 1500px  **********************************/
+
+@media screen and (min-width: 1500px){
+
+    h1 {
+        font-size: 45px;
+        margin-bottom: 80px;
+    }
+    
+    h2 {
+        font-size: 35px;
+        margin-bottom: 70px;
+    }
+    
+    h3 {
+        font-size: 30px;
+        margin-bottom: 60px;
+
+    }
+    
+    h4 {
+        font-size: 22px;
+        margin-bottom: 50px;
+
+    }
+
+    .logo{
+        font-size: 22px;
+        margin-bottom: 0em;
+    /*    margin: 10px 0px 10px 20px;*/
+    }
+    
+    p.logo {
+        color:#0061c9;
+        line-height: 1em;
+        margin-bottom: 0em;
+    }
+    
+    .logo-small{
+        font-size: 18px;
+        color:#0061c9;
+        font-style: bold;
+        margin-bottom: 0em;
+    }
+    
+    .bold-black{
+        font-weight: 700;
+        text-decoration: none;
+        margin-bottom: 0em;
+       }
+    
+    p.logo-small{
+        margin-bottom: 0em;
+        line-height: 1em;
+    }
+    .introduction{
+        font-size: 70px;
+        font-weight: 700;
+        color:#010936;
+    }
+
+    .contact{
+        font-size: 26px;
+        margin-bottom: 0px;
+        line-height: 0em;
+        margin-right: 20px;
+    }
+    
+    p .contact{
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="861px" height="610px" viewBox="0 0 861 610" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Project-images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="competitive-analysis-6" transform="translate(-12.000000, -12.000000)">
+            <g id="Group" transform="translate(12.000000, 12.000000)">
+                <g id="test-results">
+                    <rect id="Rectangle" fill="#2E2F30" x="1" y="144" width="859" height="1"></rect>
+                    <rect id="Rectangle" fill="#2E2F30" x="0" y="203" width="859" height="1"></rect>
+                    <rect id="Rectangle" fill="#2E2F30" x="0" y="306" width="859" height="1"></rect>
+                    <rect id="Rectangle" fill="#2E2F30" x="2" y="409" width="859" height="1"></rect>
+                    <rect id="Rectangle" fill="#2E2F30" transform="translate(295.000000, 257.000000) rotate(90.000000) translate(-295.000000, -257.000000) " x="39.5" y="256.5" width="511" height="1"></rect>
+                    <rect id="Rectangle-Copy" fill="#2E2F30" transform="translate(486.500000, 257.500000) scale(1, -1) rotate(-90.000000) translate(-486.500000, -257.500000) " x="231" y="257" width="511" height="1"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#2E2F30" transform="translate(670.000000, 256.000000) rotate(90.000000) translate(-670.000000, -256.000000) " x="414.5" y="255.5" width="511" height="1"></rect>
+                    <rect id="Rectangle" stroke="#2E2F30" x="1" y="2" width="859" height="511" rx="15"></rect>
+                    <text id="Classic" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="178.088542" y="180">Classic</tspan>
+                    </text>
+                    <text id="Colourful" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="354.089844" y="180">Colourful</tspan>
+                    </text>
+                    <text id="Classic-and-simple" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="504.988281" y="180">Classic and simple</tspan>
+                    </text>
+                    <text id="Modern" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="733.425781" y="180">Modern</tspan>
+                    </text>
+                    <text id="World-Science-festiv" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667" fill="#2E2E30">
+                        <tspan x="143.979167" y="65">World Science </tspan>
+                        <tspan x="171.794271" y="87">festival</tspan>
+                    </text>
+                    <text id="The-International-Sc" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667" fill="#2E2E30">
+                        <tspan x="313.911458" y="59">The International </tspan>
+                        <tspan x="321.471354" y="81">Science Festival </tspan>
+                        <tspan x="338.233073" y="103">Gothenburg</tspan>
+                    </text>
+                    <text id="Pint-of-science-UK" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667" fill="#2E2E30">
+                        <tspan x="500.304688" y="76">Pint of science UK</tspan>
+                    </text>
+                    <text id="Barcelona-Science-fe" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667" fill="#2E2E30">
+                        <tspan x="685.30599" y="65">Barcelona Science </tspan>
+                        <tspan x="730.794271" y="87">festival</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#2E2F30" transform="translate(113.500000, 258.000000) scale(1, -1) rotate(-90.000000) translate(-113.500000, -258.000000) " x="-142" y="257.5" width="511" height="1"></rect>
+                    <text id="Web-style" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="19.3554687" y="180">Web style</tspan>
+                    </text>
+                    <text id="Map-with-location-of" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="21.3606771" y="239">Map with </tspan>
+                        <tspan x="15.7395833" y="261">location of </tspan>
+                        <tspan x="20.28125" y="283">the event</tspan>
+                    </text>
+                    <text id="Participants-backgro" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="10.7460938" y="353">Participants </tspan>
+                        <tspan x="10.8111979" y="375">background</tspan>
+                    </text>
+                    <text id="Related-news" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="27.6432292" y="456">Related</tspan>
+                        <tspan x="37.0455729" y="478">news</tspan>
+                    </text>
+                    <text id="No" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="192.876302" y="261">No</tspan>
+                    </text>
+                    <text id="No" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="379.876302" y="261">No</tspan>
+                    </text>
+                    <text id="Yes" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="561.660156" y="261">Yes</tspan>
+                    </text>
+                    <text id="Yes" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="749.660156" y="261">Yes</tspan>
+                    </text>
+                    <text id="Yes" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="192.660156" y="364">Yes</tspan>
+                    </text>
+                    <text id="No" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="381.876302" y="364">No</tspan>
+                    </text>
+                    <text id="Yes" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="563.660156" y="364">Yes</tspan>
+                    </text>
+                    <text id="No" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="753.876302" y="364">No</tspan>
+                    </text>
+                    <text id="Yes" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="192.660156" y="462">Yes</tspan>
+                    </text>
+                    <text id="Yes" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="379.660156" y="462">Yes</tspan>
+                    </text>
+                    <text id="Yes" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="563.660156" y="462">Yes</tspan>
+                    </text>
+                    <text id="Yes" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" letter-spacing="0.666666667" fill="#010813">
+                        <tspan x="751.660156" y="462">Yes</tspan>
+                    </text>
+                </g>
+                <g id="noun_Arrow_2406462" transform="translate(83.000000, 565.500000) rotate(2.000000) translate(-83.000000, -565.500000) translate(50.000000, 533.000000)" fill="#0080FF" fill-rule="nonzero">
+                    <path d="M2.25086593,32.6421827 C3.5575466,33.0054493 5.48502826,30.6365361 7.54510204,26.5128191 C8.38862821,24.8242284 9.25367874,22.8289275 10.1081473,20.6189739 C10.3258752,21.324179 10.5619453,22.0512602 10.8287592,22.8111526 C12.1088284,26.4359344 13.9874095,30.6408674 16.5776548,35.0663785 C17.906628,37.2572336 19.3517515,39.5405139 21.064327,41.7685555 C21.8817001,42.9092166 22.8286604,43.9894442 23.7396182,45.1210346 C24.7238181,46.1958432 25.6645143,47.3360454 26.7456999,48.3799523 C30.9453998,52.6610384 35.5778258,56.178999 40.194045,58.6545079 C44.798367,61.1515716 49.2885772,62.7039422 53.1292408,63.4890352 C54.0830643,63.7076954 55.0172671,63.8107818 55.8844483,63.9482803 C56.7554475,64.0727884 57.5713256,64.1948795 58.3509593,64.2106927 C59.1260139,64.2485623 59.8454925,64.2712626 60.5063443,64.27942 C60.8356847,64.27942 61.1514418,64.27942 61.453262,64.27942 C61.7555833,64.2642426 62.0447853,64.2322914 62.3174073,64.205313 C64.5016219,63.9747559 65.6897913,63.572755 65.736969,63.0080955 C65.844714,61.7792088 61.3367927,60.6830755 54.837411,57.9400472 C51.5898531,56.5595781 47.8821432,54.668783 44.0523759,52.1523482 C40.2108911,49.6526837 36.312924,46.4215674 32.5768773,42.6173174 C28.8150415,38.8357631 25.6582029,34.7639059 22.9056755,30.9509946 C20.193739,27.1023093 17.9287444,23.4633107 16.0707778,20.3514592 C15.5576793,19.4891151 15.0770003,18.6733944 14.6217477,17.9002423 C17.0168341,19.3014455 19.2539481,20.475831 21.2176695,21.3593183 C25.3799986,23.2319814 28.3418994,23.8371958 29.1232192,22.7324022 C29.9044907,21.6276087 28.3578345,19.0210779 25.2229763,15.6954396 C23.6555259,14.0326447 21.6910351,12.1900614 19.4219093,10.2655812 C18.8495102,9.79093327 18.2631662,9.30479877 17.6644297,8.80836835 L17.4371218,8.6244798 L17.0365411,8.31804243 C16.7283173,8.08529826 16.4185053,7.8514155 16.1072848,7.61639183 C15.4774003,7.14493425 14.8415176,6.66901013 14.2000526,6.18884835 C11.6170746,4.26632862 8.87784828,2.270207 6.08740299,0.279420022 C6.05521031,0.395814646 6.02251663,0.51416858 5.98977918,0.632616146 C5.07123849,3.96098707 4.19551963,7.26333673 3.39508365,10.4096871 C3.19797257,11.193186 3.00258445,11.9698499 2.80906095,12.7392233 C2.7153403,13.1187135 2.62207457,13.4964282 2.52926262,13.8722737 L2.40543619,14.4505108 C2.25146137,15.2199282 2.10066527,15.9734398 1.95345446,16.709179 C1.39708261,19.6593798 1.02687826,22.3525491 0.853197625,24.6524621 C0.505737308,29.2522871 0.944187564,32.2789149 2.25086593,32.6421827 Z" id="Path"></path>
+                </g>
+                <text id="Opportunities-to-fil" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.666666667" fill="#010813">
+                    <tspan x="133" y="605">Opportunities to fill a market gap</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
