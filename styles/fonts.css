@@ -144,7 +144,7 @@ p.link {
     font-size: 33px;
     font-weight: bold;
     color:#010936;
-
+    line-height: 50px;
 }
 
 .contact{
@@ -191,6 +191,7 @@ p .contact{
         font-size: 40px;
         font-weight: 700;
         color:#010936;
+        line-height: 60px;
     }
 
     .contact{
@@ -265,6 +266,7 @@ p .contact{
         font-size: 45px;
         font-weight: 700;
         color:#010936;
+        line-height: 80px;
     }
 
     .contact{
@@ -308,6 +310,7 @@ p .contact{
         font-size: 55px;
         font-weight: 700;
         color:#010936;
+        line-height: 100px;
     }
 
     .contact{
@@ -382,6 +385,7 @@ p .contact{
         font-size: 70px;
         font-weight: 700;
         color:#010936;
+        line-height: 150px;
     }
 
     .contact{
