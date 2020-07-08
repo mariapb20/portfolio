@@ -737,9 +737,10 @@ ul.project-lists-outcomes li {
     margin: 0;
 }
 .persona-image {
-    height: 280px;
-    width: 280px;
+    height: 220px;
+    width: 220px;
     margin-bottom: 0px;
+    margin-right: 100px;
 }
 
 .quote-container {
@@ -747,14 +748,14 @@ ul.project-lists-outcomes li {
     justify-content: center;
     align-items: center;
     width: 600px;
-    height: 200px;
+    height: 100px;
     margin: 0 auto 50px auto;
 }
 
 .quote-image {
     display: block;
-    width: 500px;
-    height: 300px;
+    width: 700px;
+    height: 100px;
 }
 .quote-image-mobile{
     display: none;
@@ -792,7 +793,7 @@ ul.project-lists-outcomes li {
 }
 
 .sitemap-image-desktop {
-    width: 90%;
+    width: 80%;
 }
 
 /*Key features*/
@@ -807,7 +808,7 @@ ul.project-lists-outcomes li {
 }
 
 .keyfeature-image {
-    height: 180px;
+    height: 80px;
     margin-bottom: 20px;
 }
 
@@ -905,7 +906,7 @@ ul.project-lists-outcomes li {
 }
 
 .testing-desktop-image {
-    width: 100%;
+    width: 80%;
 }
 
 /*Outcome*/
@@ -1050,6 +1051,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     height: 250px;
     width: 250px;
     margin-bottom: 0px;
+    margin-right: 150px;
 }
 
 .quote-container {
@@ -1057,13 +1059,13 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content: center;
     align-items: center;
     width: 500px;
-    height: 200px;
+    height: 120px;
     margin: 0 auto 60px auto;
 }
 
 .quote-image {
     display: block;
-    height: 170px;
+    height: 120px;
 }
 .quote-image-mobile{
     display: none;
@@ -1112,11 +1114,11 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content: space-around;
     align-items: center;
     margin: 0 auto 50px auto;
-    width: 70%;
+    width: 90%;
 }
 
 .keyfeature-image {
-    height: 200px;
+    height: 100px;
     margin-bottom: 20px;
 }
 
@@ -1283,20 +1285,20 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     border-radius: 10px;
     border: solid 1px #6B6C6E;
     height: 150px;
-    width: 200px;
+    width: 220px;
     text-align: center;
     background: #FFFFFF;
 
 }
 
 .gallery-image {
-    width: 170px;
-    height: 80px;
+    width: 190px;
+    height: 100px;
 }
 
 }
 
-/********************************* EXTRA LARGE DEVICES - larger than 1400px  **********************************/
+/********************************* EXTRA LARGE DEVICES - larger than 1500px  **********************************/
 
 @media screen and (min-width: 1500px) {
 
@@ -1356,9 +1358,10 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     margin: 0;
 }
 .persona-image {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin-bottom: 0px;
+    margin-right: 180px;
 }
 
 .quote-container {
@@ -1423,12 +1426,12 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 70%;
+    width: 90%;
     margin: 0 auto 50px auto;
 }
 
 .keyfeature-image {
-    height: 220px;
+    height: 200px;
     margin-bottom: 20px;
 }
 
@@ -1594,14 +1597,15 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     border-radius: 10px;
     border: solid 1px #6B6C6E;
     height: 160px;
-    width: 200px;
+    width: 230px;
     text-align: center;
     background: #FFFFFF;
 
 }
 
 .gallery-image {
-    width: 150px;
+    width: 180px;
+    height: 130px;
 }
 
 }

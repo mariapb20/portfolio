@@ -750,7 +750,7 @@ ul.project-lists-outcomes li {
     justify-content: space-between;
     align-items: center;
     width: auto;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .persona-image-container {
@@ -764,6 +764,7 @@ ul.project-lists-outcomes li {
     height: 220px;
     width: 220px;
     margin-bottom: 0px;
+    margin-right: 100px;
 }
 
 .quote-container {
@@ -778,7 +779,7 @@ ul.project-lists-outcomes li {
 .quote-image {
     display: block;
     width: 650px;
-    height: 300px;
+    height: 100px;
 }
 .quote-image-mobile{
     display: none;
@@ -812,7 +813,7 @@ ul.project-lists-outcomes li {
 }
 
 .sitemap-image {
-    width: 90%;
+    width: 70%;
 }
 
 /*Key features*/
@@ -1061,7 +1062,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content: space-between;
     align-items: center;
     width: auto;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .persona-image-container {
@@ -1075,20 +1076,21 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     height: 250px;
     width: 250px;
     margin-bottom: 0px;
+    margin-right: 250px;
 }
 
 .quote-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 850px;
-    height: 200px;
-    margin: 0 auto 60px auto;
+    width: 800px;
+    height: 150px;
+    margin: 0 200px 60px auto;
 }
 
 .quote-image {
     display: block;
-    width: 850px;
+    width: 800px;
 }
 .quote-image-mobile{
     display: none;
@@ -1122,7 +1124,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .sitemap-image {
-    width: 70%;
+    width: 60%;
 }
 
 /*Key features*/
@@ -1133,7 +1135,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content: space-between;
     align-items: flex-start;
     margin: 0 auto 50px auto;
-    width: 70%;
+    width: 100%;
 }
 
 .keyfeature-image {
@@ -1148,7 +1150,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 .keyfeature-image-text p {
@@ -1312,14 +1314,14 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     border-radius: 10px;
     border: solid 1px #6B6C6E;
     height: 150px;
-    width: 200px;
+    width: 220px;
     text-align: center;
     background: #FFFFFF;
 
 }
 
 .gallery-image {
-    width: 170px;
+    width: 190px;
     height: 80px;
 }
 

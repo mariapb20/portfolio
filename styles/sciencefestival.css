@@ -41,7 +41,7 @@ html {
     justify-content: wrap;
     align-content: center;
     text-align:left;
-    width: 100%; /*MOST CHANGE FOR DESKOP VERSION*/
+    width: 100%; 
 }
 
 /********* Design process *******/
@@ -768,6 +768,7 @@ ul.project-lists-outcomes li {
 
 /*User persona*/
 
+
 .persona-container {
     display: flex;
     flex-direction: row;
@@ -785,8 +786,8 @@ ul.project-lists-outcomes li {
     margin: 0;
 }
 .persona-image {
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
     margin-bottom: 0px;
 }
 
@@ -836,7 +837,7 @@ ul.project-lists-outcomes li {
 }
 
 .sitemap-image {
-    width: 100%;
+    width: 80%;
 }
 
 /*Key features*/
@@ -1076,6 +1077,13 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 /*User persona*/
+.audience-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+}
 
 .persona-container {
     display: flex;
@@ -1097,6 +1105,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     height: 250px;
     width: 250px;
     margin-bottom: 0px;
+    margin-right: 180px;
 }
 
 .quote-container {
@@ -1144,7 +1153,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .sitemap-image {
-    width: 70%;
+    width: 55%;
 }
 
 /*Key features*/
@@ -1174,6 +1183,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
 .keyfeature-image-text p {
     font-size: 16px;
+    margin-right: 20px;
 }
 
 /*Color palette*/
@@ -1333,20 +1343,20 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     border-radius: 10px;
     border: solid 1px #6B6C6E;
     height: 150px;
-    width: 200px;
+    width: 220px;
     text-align: center;
     background: #FFFFFF;
 
 }
 
 .gallery-image {
-    width: 170px;
+    width: 190px;
     height: 80px;
 }
 
 }
 
-/********************************* EXTRA LARGE DEVICES - larger than 1400px  **********************************/
+/********************************* EXTRA LARGE DEVICES - larger than 1500px  **********************************/
 
 @media screen and (min-width: 1500px) {
 
@@ -1648,14 +1658,14 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     border-radius: 10px;
     border: solid 1px #6B6C6E;
     height: 150px;
-    width: 200px;
+    width: 230px;
     text-align: center;
     background: #FFFFFF;
 
 }
 
 .gallery-image {
-    width: 170px;
+    width: 200px;
     height: 120px;
 }
 
