@@ -18,11 +18,11 @@ html {
 }
 
 .main-image-background {
-    background: #FFFFFF;
+  /* background: #FFFFFF;
     border: solid 1px #F5F8FF;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);
+    box-shadow: 2px 2px 10px 0px rgba(235,235,235,1);*/
     height: 260px;
     width: 340px;
 }
@@ -422,7 +422,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     }
         
     .main-image-background {
-        padding: 30px;
+        padding: 10px;
         height: auto;
         width: 680px;
     }
@@ -693,8 +693,8 @@ ul.project-lists-outcomes li {
     
         .main-image-background {
             padding: 20px 25px 20px 25px;
-            height: 330px;
-            width: 400px;
+            height: 400px;
+            width: 500px;
         }
     /********* Project Context *******/
 
@@ -1003,8 +1003,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
         .main-image-background {
             padding: 20px 25px 20px 25px;
-            height: 400px;
-            width: 550px;
+            height: 470px;
+            width: 620px;
         }
         
     /********* Project Context *******/
@@ -1314,8 +1314,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
     .main-image-background {
     padding: 20px 25px 20px 25px;
-    height: 400px;
-    width: 550px;
+    height: 500px;
+    width: 750px;
     }
         /********* Project Context *******/
 
