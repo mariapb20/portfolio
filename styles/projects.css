@@ -447,6 +447,74 @@ p.selected-text {
     cursor: pointer;
   }
 
+  .close-first {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: #007cff;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close-first:hover,
+  .close-first:focus {
+    color: #007cff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close-second {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: #007cff;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close-second:hover,
+  .close-second:focus {
+    color: #007cff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close-third {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: #007cff;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close-third:hover,
+  .close-third:focus {
+    color: #007cff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close-fourth {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: #007cff;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close-fourth:hover,
+  .close-fourth:focus {
+    color: #007cff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
   .userflow-container {
     display: flex;
     flex-direction: column;
@@ -476,6 +544,8 @@ p.selected-text {
  #img02{
      margin-top: 100px;
  }
+
+
 
 
 

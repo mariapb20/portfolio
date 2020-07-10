@@ -434,7 +434,12 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .gallery-image {
-    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 140px;
+    width: auto;
 }
 
 
@@ -709,7 +714,12 @@ ul.project-lists-outcomes li {
 }
 
 .gallery-image {
-    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 140px;
+    width: auto;
 }
 
 .gallery-box-right {
@@ -1016,16 +1026,20 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     margin: 0 0 50px 0;
     border-radius: 10px;
     border: solid 1px #6B6C6E;
-    height: 150px;
-    width: 200px;
+    height: 170px;
+    width: 230px;
     text-align: center;
     background: #FFFFFF;
 
 }
 
 .gallery-image {
-    width: 190px;
-    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 130px;
+    width: auto;
 }
 
 }
@@ -1345,8 +1359,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .gallery-image {
-    width: 190px;
-    height: 80px;
+    width: auto;
+    height: 100px;
 }
 
 }
@@ -1660,8 +1674,12 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .gallery-image {
-    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     height: 120px;
+    width: auto;
 }
 
 }

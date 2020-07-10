@@ -447,7 +447,12 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .gallery-image {
-    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: auto;
+    height: 150px;
 }
 
 h2.reduce-margin {
@@ -731,7 +736,12 @@ ul.project-lists-outcomes li {
 }
 
 .gallery-image {
-    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: auto;
+    height: 150px;
 }
 
 .gallery-box-right {
@@ -1042,15 +1052,16 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     margin: 0 0 50px 0;
     border-radius: 10px;
     border: solid 1px #6B6C6E;
-    height: 150px;
-    width: 200px;
+    height: 180px;
+    width: 240px;
     text-align: center;
     background: #FFFFFF;
 
 }
 
 .gallery-image {
-    width: 130px;
+    height: 150px;
+    width: auto;
 }
 
 }
@@ -1369,7 +1380,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .gallery-image {
-    width: 220px;
+    width: auto;
     height: 150px;
 }
 
@@ -1685,14 +1696,15 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     border-radius: 10px;
     border: solid 1px #6B6C6E;
     height: 200px;
-    width: 250px;
+    width: 320px;
     text-align: center;
     background: #FFFFFF;
 
 }
 
 .gallery-image {
-    width: 190px;
+    width: auto;
+    height: 160px;
 }
 
 }
