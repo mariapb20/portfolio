@@ -1,360 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veganmile web</title>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,700' rel='stylesheet'/>
-    <link rel='stylesheet' href='styles/cssreset.css'/>
-    <link rel='stylesheet' href='font/stylesheet.css'/>
-    <link rel='stylesheet' href='styles/fonts.css'/>
-    <link rel='stylesheet' href='styles/general.css'/>
-    <link rel='stylesheet' href='styles/projects.css'/>
-    <link rel='stylesheet' href='styles/veganmile.css'/>
-    <!--Linkedin meta tags-->
-    <meta property='og:title' content='Veganmile'/>
-    <meta property='og:image' content='images/thumbnails/veganmile_thumbnail.png'/>
-    <meta property='og:description' content='Editotial responsive design'/>
-    <meta property='og:url' content='www.mariaalejandraperez.com/veganmile.html'/>
-     <!--  JS  -->
-   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165358295-1"></script>
-   <script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veganmile web</title>
+<link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,700' rel='stylesheet'/>
+<link rel='stylesheet' href='styles/cssreset.css'/>
+<link rel='stylesheet' href='font/stylesheet.css'/>
+<link rel='stylesheet' href='styles/fonts.css'/>
+<link rel='stylesheet' href='styles/general.css'/>
+<link rel='stylesheet' href='styles/projects.css'/>
+<link rel='stylesheet' href='styles/veganmile.css'/>
+<!--Linkedin meta tags-->
+<meta property='og:title' content='Veganmile'/>
+<meta property='og:image' content='images/thumbnails/veganmile_thumbnail.png'/>
+<meta property='og:description' content='Editotial responsive design'/>
+<meta property='og:url' content='www.mariaalejandraperez.com/veganmile.html'/>
+<!--  JS  -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165358295-1"></script>
+<script>
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}
      gtag('js', new Date());
-   
      gtag('config', 'UA-165358295-1');
    </script>
 </head>
 <body>
-    <div class='container'>
-        <header class='header' id='myHeader'>     
-            <nav class='navigation'>
-                    <ul class='home-navigation'>
-                        <li><a href="index.html"><p class='logo'>María Alejandra Pérez</p>
-                            <p class='logo'><span class='logo-small'>UX|UI Designer</span></p></a></li>
-                        <li><a href='aboutme.html'>About me</a></li>
-                    </ul>
-            </nav>
-        </header>
-        <main>
-            <!-- Top photos -->
-            <div class='project-main-images'>
-                <div class='main-image-background'>
-                    <img class='main-image-size' src='images/veganmile/topphotos/veganmile.png'; alt='Project mockups'/> 
-                </div>
-            </div>
-             <!--Project title-->
-             <div class='project-title'>
-                <h1>Veganmile:</h1>
-                <h1><span class=subtitle>editorial responsive design</span></h1>
-           </div>
-           <!--Project description box-->
-           <div class='project-description-box'> 
-               <p><span class='bold-black'>Case study:</span> Design editorial responsive site.</p>
-               <p><span class='bold-black'>Goal:</span> Offer concise and simple information to people that want to have a smooth transition into a vegan diet.</p>
-               <p><span class='bold-black'>Scope:</span> Solo UX | UI Design project.</p>
-               <div class='project-tag-boxes'>
-                   <div class='project-category-tags'>Market Research</div>
-                   <div class='project-category-tags'>UI Design</div>
-                   <div class='project-category-tags'>IxD</div>
-               </div>
-               <div class='project-info tools-info'>
-                   <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                   <p class='tools-used'>Sketch | Invision</p>
-               </div>
-               <div class='project-info'>
-                   <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                   <p class='tools-used'>3 Weeks</p>
-               </div>
-           </div>
-           <!--Progress bar-->
-           <div class='progress-bar-container sticky-bar'>
-               <div id='progress-status'>
-                   <div id='my-bar'></div>
-               </div>
-               <script src='scripts/onscroll.js'></script>
-            </div>
-           <!-- Project information -->
-           <div class='project-information-container'> <!--SEPARATES MENU AND PROJECT INFORMATION-->
-            <div class='sticky-menu-mobile'>
-             <div class='mobile-menu-container'>
-                 <button class="dropbtn" id='dropbtn'><i class="gg-menu-left" id='menu-left'></i></button>
-                     <ul class='dropdown-content' id="myDropdown">
-                         <li><a href="#problem-context">Problem context</a></li>
-                         <li><a href="#design-process">Design process</a></li>
-                             <ul>
-                                 <li class='light-items'><a href="#research">Research</a></li>
-                                 <li class='light-items'><a href="#user">User</a></li>
-                                 <li class='light-items'><a href="#wireframes">Wireframes</a></li>
-                                 <li class='light-items'><a href="#testing">Testing</a></li>
-                                 <li class='light-items'><a href="#ui-design">UI Design</a></li>
-                             </ul>
-                         <li><a href="#outcomes">Outcomes & lessons learnt</a></li>
-                         <li><a href="#gallery">Project gallery</a></li>
-                     </ul>
-             </div>
-            </div>
-             <div class='menu-box'>
-                 <div class='desktop-menu-container sticky-menu'>
-                     <ul class='menu-list'>
-                         <a href="#problem-context"><li>Problem context</li></a>
-                         <a href="#design-process"><li>Design process</li></a>
-                             <ul class='menu-sublist'>
-                                 <a href="#research"><li>Research</li></a>
-                                 <a href="#user"><li>User</li></a>
-                                 <a href="#wireframes"><li>Wireframes</li></a>
-                                 <a href="#testing"><li>Testing</li></a>
-                                 <a href="#ui-design"><li>UI Design</li></a>
-                             </ul>
-                         <a href="#outcomes"><li>Outcomes & lessons learnt</li></a>
-                         <a href="#gallery"><li>Project gallery</li></a>
-                     </ul>
-                 <!--     <script src='scripts/activesection.js'></script>-->
-                 </div>
-             </div>
-             <div class='information-box'>
-             <div class='project-information-section'>
-             <!--Problem context section-->
-             <section id="problem-context" class='page-section'><div class='problem-context'>
-                     <h1>Problem context</h1>
-                     <p>Vegan diets have gained popularity in the last years. They have plenty of health benefits besides from being suistainable for our planet. There are many websites that provide information on how to transition into a vegan diet, but they tend to have too much information and can be overwhelming.<span class='bold-black'> The goal of the site was to provide a place where users could easily learn about veganism through simple interactions.</span></p>
-             </div></section>
-             <!--empathize section-->
-                 <div class='fit-text'>
-                    <section id="design-process" class='page-section'><h1>Design process</h1></section>
-                     <section id="research" class='page-section'><h2>Research</h2></section>
-                     <p>There are many websites about veganism.<span class='bold-black'> I ran a visual competitive analysis based on the following popular online vegan magazines.</span></p>
-                     <h3 class='space'>Visual competitive analysis insights</h3>
-                 </div> <!-- Closes empathize section-->
-
-                     <div class='competitors-insights'>
-                         <img class='competitors-images' src='images/veganmile/research/visualcompetitiveanalysis.png' alt='Visual Competitive analysis'/>
-                     </div>
-                     <section id="user" class='page-section'><h2 class='space'>User</h2>
-                     <h3>Target audience</h3>
-                     <div class='persona-container'> <!-- User container-->
-                         <div class='audience-info'>
-                             <p>From the research process and the topic of the site, the following target audience was defined:</p>
-                             <ul class='project-lists'>
-                                 <li>People that want or are transitioning into a vegan diet.</li>
-                                 <li>People that want to make changes in their diet to improve their health (they are not necessarily looking to transition completely into a vegan diet). </li>
-                                 <li>People that want to start a more sustainable lifestyle.</li>
-                             </ul>
-                         </div>
-                         <div class='persona-image-container'>
-                             <img class='persona-image' src='images/veganmile/persona/targetuser_veganmile.png' alt='Target user'/>
-                         </div>   
-                     </div> <!-- Closes user persona container--> 
-                     <h3 class='space'>User challenges</h3>
-                     <ul class='project-lists fit-text'>
-                         <li>Find a website that summarizes the steps to start the transition into a vegan diet.</li>
-                         <li>Have a clear knowledge of vegan substitutes for common foods.</li>
-                     </ul>
-                     </section>
-                     <section id='wireframes' class='page-section'><h2>Wireframes</h2>
-                     <h3>Key features</h3>
-                     <p class='fit-text'>Veganmile is an educational interactive site, the design was focused on the following points:</p>
-                     <div class='keyfeatures-container'> <!-- Key features container-->
-                         <div class='keyfeature-image-text'>
-                             <img class='keyfeature-image' src='images/veganmile/icons/tap_icon.svg'; alt='Tap icon'/> 
-                             <p><span class='bold-black'>Tap to discover vegan foods</span></p>
-                         </div>
-                         <div class='keyfeature-image-text'>
-                             <img class='keyfeature-image' src='images/veganmile/icons/tip_icon.svg'; alt='Tips icon'/> 
-                             <p><span class='bold-black'>Tips to transition</span></p>
-                         </div>
-                         <div class='keyfeature-image-text'>
-                             <img class='keyfeature-image' src='images/veganmile/icons/quiz_icon.svg'; alt='Quiz icon'/> 
-                             <p><span class='bold-black'>Quiz to find out vegan substitutes</span></p>
-                         </div>
-                     </div>
-                     <h3>User flows</h3>
-                     <p class='fit-text'>Veganmile directs users through a main flow where they must interact with each section in order to learn more about how to have a smooth transition into a vegan diet. Below is the user flow when users click un start vegan journey:</p>
-                     <ol class='project-ordered-lists fit-text'>
-                         <li>1.- Click on start vegan journey.</li>
-                         <li>2.- Tap the elements to discover if they are vegan or not.</li>
-                         <li>3.- Check the tips to have a smooth transition.</li>
-                         <li>4.- Answer quiz question to discover vegan substitutes for your favorite foods.</li>
-                     </ol>
-                     <div class='userflow-container'> <!-- User flow container-->
-                        <img id="userflow" class='userflow-image-big' src='images/veganmile/userflow/userflow_mobile.png'; alt='User flow mobile version'/>
-                        <div id="myModal" class="modal">
-                           <span class="close">&times;</span>
-                           <img class="modal-content" id="img01" src='images/veganmile/userflow/userflow_mobile.png'/>
-                        </div>
-                        <script src="scripts/popup.js"></script>
-                    </div> 
-                    </section>
-                     <section id='testing' class='page-section'><h2>Testing</h2>
-                        <h3>Testing results</h3>
-                        <p class='fit-text'>The testing process was done with 6 users (3 used the Desktop version and 3 the mobile version). <span class='bold-black'>Main insights:</span></p>
-                        <ul class='project-lists fit-text'>
-                           <li>The tips section was well undestood but users complained it lack interaction. Due to this reason the tips were hidden under the picture, they will be shown once the user taps on the image (this can be seen in the mockups section).</li>
-                           <li>The content was well received and users thought it was really educational.</li>
-                           <li>The interactions were well understood by the users.</li>
-                       </ul>
-                       <h3>Redesign</h3>
-                       <ul class='project-lists fit-text'>
-                           <li>From the feedback received on the testing phase, the layout of the tips section was modified to allow more interaction with the users.</li>
-                           <li><span class='bold-black'> The results helped improve the design and the changes were applied to the mockups presented in the following section.</span></li>
-                       </ul></section>
-                    
-                    <section id='ui-design' class='page-section'><h2>UI Design</h2>
-                    <p class='fit-text margin-down'>The goal was to present a design that gave a calm and fresh look.</p>
-                     <h3>Color palette</h3>
-                     <p class='fit-text'>A pastel color was used in some sections of the background to give rhythm to the site. For the CTA we use a bright red to invite the user to interact with the site. The color inspiration came from fruits such as strawberries and pomegranates.</p>
-                     <div class='color-container'> <!-- Color palette-->
-                         <div class='color-font firstcolor-box'><p>#EF3334</p></div>
-                         <div class='color-font secondcolor-box'><p>#FEE5DC</p></div>
-                         <div class='color-font thirdcolor-box'><p>#FAFAFA</p></div>
-                     </div>
-                     <h3 class='space'>Fonts</h3>
-                     <p class='fit-text'>For the fonts, I used Foco and Foco light for the headers (h1 and h2) and Avenir Next for the h3 and text bodies. I chose Foco  since is a playful font that has high legibility. Avenir next seemed like a good complement to Foco since its simple and is easy to read.</p>
-                     <div class='fonts-container'> <!-- Fonts-->
-                         <div class='color-font fonts-box'><img class='font-image-1' src='images/veganmile/fonts/foco_bold.png'; alt='Foco bold'/></div>
-                         <div class='color-font fonts-box'><img class='font-image' src='images/veganmile/fonts/focolight_regular.png'; alt='Foco light regular'/></div>
-                         <div class='color-font fonts-box'><img class='font-image' src='images/veganmile/fonts/avenir_bold.png'; alt='Avenir next bold'/></div>
-                         <div class='color-font fonts-box'><img class='font-image' src='images/veganmile/fonts/avenir_regular.png'; alt='Avenir next regular'/></div>
-                     </div>
-                     
-                     <h3 class='space'>Mockups</h3>
-                     <div class='slideshow-container'><!-- Mockups Mobile Slideshow-->
-                         <div class="mySlides fade">
-                             <div class='mockup-background'><img class='mockups-image' src='images/veganmile/mockups/veganmile_start.png'; alt='Mobile mockup Start'/></div>
-                         </div>
-                         <div class="mySlides fade">
-                             <div class='mockup-background'><img class='mockups-image' src='images/veganmile/mockups/veganmile_home.png'; alt='Mobile mockup Home'/></div>
-                         </div>
-                         <div class="mySlides fade">
-                             <div class='mockup-background'><img class='mockups-image' src='images/veganmile/mockups/veganmile_tips.png'; alt='Mobile mockup tips'/></div>
-                         </div>
-                         <div class="mySlides fade">
-                            <div class='mockup-background'><img class='mockups-image' src='images/veganmile/mockups/veganmile_quiz.png'; alt='Mobile mockup quiz'/></div>
-                        </div>
-                        <div class="mySlides fade">
-                            <div class='mockup-background'><img class='mockups-image' src='images/veganmile/mockups/veganmile_quizanswer.png'; alt='Mobile mockup quiz answer'/></div>
-                        </div>
-                         <!-- Next and previous buttons -->
-                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                     </div>
-                         <!-- The dots/circles -->
-                     <div style="text-align:center" class='status-slideshow'>
-                         <span class="dot" onclick="currentSlide(1)"></span>
-                         <span class="dot" onclick="currentSlide(2)"></span>
-                         <span class="dot" onclick="currentSlide(3)"></span>
-                         <span class="dot" onclick="currentSlide(4)"></span>
-                         <span class="dot" onclick="currentSlide(5)"></span>
-                     </div>
-                     <script src="scripts/slideshow.js"></script> 
-
-                     <div class='mockups-container'> <!-- Mockups container desktop - mobile version-->
-                        <img class='mockups-image' src='images/veganmile/mockups/veganmile_start.png'; alt='Mobile mockup Start'/> 
-                        <img class='mockups-image' src='images/veganmile/mockups/veganmile_home.png'; alt='Mobile mockup Home'/> 
-                        <img class='mockups-image' src='images/veganmile/mockups/veganmile_tips.png'; alt='Mobile mockup tips'/> 
-                        <img class='mockups-image' src='images/veganmile/mockups/veganmile_quiz.png'; alt='Mobile mockup quiz'/> 
-                        <img class='mockups-image' src='images/veganmile/mockups/veganmile_quizanswer.png'; alt='Mobile mockup quiz answer'/> 
-                    </div>
-
-                     <h3 class='margin-top'>Prototype</h3>
-                     <div class='prototype'>
-                         <h4 class='fit-text'>Mobile version flow</h4>
-                        <img class='mockups-image-p' src='images/veganmile/mockups/veganmile_prototype.gif'; alt='Prototype mobile flow'/> 
-                        <a href='https://maraalejandraprez437358.invisionapp.com/public/share/NC17J6Z2XH' target="_blank"><p class='link margin-top margin-down'>Check out full mobile prototype</p></a>
-                        <h4>Desktop version flow</h4>
-                        <img class='mockups-image-desktop' src='images/veganmile/mockups/veganmile_desktop_prototype.gif'; alt='Prototype desktop flow'/> 
-                        <a href="https://maraalejandraprez437358.invisionapp.com/public/share/5317J6YZ2P" target="_blank"><p class='link'>Check out the full desktop version prototype</p></a>
-                    </div>
-                     </section>
-                </div> <!--closes project information section-->
-             <div class='outcome-container'> <!-- Outcomes section-->
-                 <div class='outcome-information'>
-                    <section id='outcomes' class='page-section'><h1>Outcomes & lessons learnt</h1>
-                     <ul class='project-lists-outcomes'>
-                         <li>Implementing the design in 3 screens made it simple for the users to understand the contents and activities of the site. The educational flow was really easy for users and did not overwhelmeded them with tons of information.</li>
-                         <li>As a next step we could further improve the tips version so its more interactive for users.</li>
-                     </ul>
-                 </div>
-             </div></section><!-- Closes Outcomes section -->
-             <div class='gallery-container'>
-                <section id='gallery' class='page-section'><h1>Project gallery</h1><!-- Project gallery section -->
-                 <div class='gallery-container-photos'> 
-                    <div class='gallery-box'>
-                        <div><img id="first" class='gallery-image' src='images/veganmile/project_gallery/Wireframes_desktop.png'; alt='Wireframes desktop thumbnail'/><p class='bold-black gallery-text'>Wireframes desktop</p></div>
-                        <div id="myThirdModal" class="modal">
-                            <span class="close-first">&times;</span>
-                            <img class="modal-content" id="img03" src='images/veganmile/project_gallery/Wireframes_desktop.png';  alt='User persona'/>
-                        </div>
-                       <script src="scripts/popup3.js"></script>
-                    </div>
-
-                    <div class='gallery-box'>
-                        <div><img id="second" class='gallery-image' src='images/veganmile/project_gallery/moodboard.png'; alt='Moodboard thumbnail'/><p class='bold-black gallery-text'>Moodboard</p></div>
-                        <div id="myFourthModal" class="modal">
-                            <span class="close-second">&times;</span>
-                            <img class="modal-content" id="img04" src='images/veganmile/project_gallery/moodboard.png';  alt='Competitive analysis'/>
-                        </div>
-                       <script src="scripts/popup4.js"></script>
-                    </div>
-
-                    <div class='gallery-box  gallery-box-right'>
-                        <div><img id="fourth" class='gallery-image' src='images/veganmile/project_gallery/Styleguide.png'; alt='Style guide'/><p class='bold-black gallery-text'>Style guide</p></div>
-                        <div id="mySixthModal" class="modal">
-                            <span class="close-fourth">&times;</span>
-                            <img class="modal-content" id="img06" src='images/veganmile/project_gallery/Styleguide.png';  alt='Wireframes - Sign up flow'/>
-                        </div>
-                       <script src="scripts/popup6.js"></script>
-                    </div>
-
-                 </div> <!-- Closes Project gallery section-->
-             </div></section>
-             <div class='pictures-icons-container'> <!-- Pictures & icons acknowledgement section -->
-                 <h1 class="fit-text">Pictures & icons appreciation</h1>
-                 <h2>Icons</h2>
-                 <ul class='project-lists fit-text'>
-                    <li>Instagram: Iconofy</li>
-                    <li>Youtube: Iconofy</li>
-                    <li>Grapefruit: by Brand Mania from the Noun Project</li>
-                 </ul>
-                 <h2>Pictures</h2>
-                 <ul class='project-lists'>
-                     <li>Food photos: Adobe Stock.</li>
-                     <li>User persona: Adobe Stock</li>
-                 </ul>
-             </div> <!-- closes Pictures & icons acknowledgement section -->
-         </div><!-- CLOSES INFORMATION BOX -->
-         </div> <!-- CLOSES PROJECT INFORMATION CONTAINER -->
-         <div class='next-project'>
-            <a class='button-next' href='sciencefestival.html'><span>Go to next project</span></a>      
-            <button onclick="topFunction()" id="myBtn" title="Go to top"><img class='backtotop' src='images/icons/backtotop.svg'/></button>
-            <script src='scripts/onscroll.js'></script>
-         </div>
-        </main>
-        <!-- Footer -->
-        <footer class='footer'>
-            <div class='footer-info'>
-                <div class=contact-info>
-                    <p>Want to get in touch ?</p>
-                    <p>Send me an email</p>
-                    <p class='bold-blue margin-bottom'><a href="mailto:maria.pb20@outlook.com">maria.pb20@outlook.com</a></p>
-                </div>
-                <div class='social-media'>
-                    <a href='https://www.linkedin.com/in/mapb1989/'>
-                    <img class='social-media-images' src='images/icons/linkedin.svg'; alt='LinkedIn logo'/> 
-                    </a>
-                    <a href='https://medium.com/@Mariaalejandrapb'>
-                    <img class='social-media-images' src='images/icons/medium.svg'; alt='Medium logo'/> 
-                    </a>
-                    <a href='https://dribbble.com/mariapb20'>
-                    <img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg'; alt='Dribbble logo'/> 
-                    </a>
-                </div>
-            </div><!--footer info-->
-            <p class='copyright-notice'>Copyright 2020 María Alejandra Pérez Bullones</p>
-        </footer>
-    </div><!--container-->
+<div class='container'>
+	<header class='header' id='myHeader'>
+	<nav class='navigation'>
+	<ul class='home-navigation'>
+		<li><a href="index.html">
+		<p class='logo'>
+			María Alejandra Pérez
+		</p>
+		<p class='logo'>
+			<span class='logo-small'>UX|UI Designer</span>
+		</p>
+		</a></li>
+		<li><a href='aboutme.html'>About me</a></li>
+	</ul>
+	</nav>
+	</header>
+	<main>
+	<!-- Top photos -->
+	<div class='project-main-images'>
+		<div class='main-image-background'>
+			<img class='main-image-size' src='images/veganmile/topphotos/veganmile.png' ; alt='Project mockups'/>
+		</div>
+	</div>
+	<!--Project title-->
+	<div class='project-title'>
+		<h1>Veganmile:</h1>
+		<h1><span class=subtitle>editorial responsive design</span></h1>
+	</div>
+	<!--Project description box-->
+	<div class='project-description-box'>
+		<p>
+			<span class='bold-black'>Case study:</span> Design editorial responsive site.
+		</p>
+		<p>
+			<span class='bold-black'>Goal:</span> Offer concise and simple information to people that want to have a smooth transition into a vegan diet.
+		</p>
+		<p>
+			<span class='bold-black'>Scope:</span> Solo UX | UI Design project.
+		</p>
+		<div class='project-tag-boxes'>
+			<div class='project-category-tags'>
+				Market Research
+			</div>
+			<div class='project-category-tags'>
+				UI Design
+			</div>
+			<div class='project-category-tags'>
+				IxD
+			</div>
+		</div>
+		<div class='project-info tools-info'>
+			<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+			<p class='tools-used'>
+				Sketch | Invision
+			</p>
+		</div>
+		<div class='project-info'>
+			<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+			<p class='tools-used'>
+				3 Weeks
+			</p>
+		</div>
+	</div>
+	<!--Progress bar-->
+	<div class='progress-bar-container sticky-bar'>
+		<div id='progress-status'>
+			<div id='my-bar'>
+			</div>
+		</div>
+		<script src='scripts/onscroll.js'></script>
+	</div>
+	<!-- Project information -->
+	<div class='project-information-container'>
+		<!--SEPARATES MENU AND PROJECT INFORMATION-->
+		<div class='sticky-menu-mobile'>
+			<div class='mobile-menu-container'>
+				<button class="dropbtn" id='dropbtn'><i class="gg-menu-left" id='menu-left'></i></button>
+				<ul class='dropdown-content' id="myDropdown">
+					<li><a href="#problem-context">Problem context</a></li>
+					<li><a href="#design-process">Design process</a></li>
+					<ul>
+						<li class='light-items'><a href="#research">Research</a></li>
+						<li class='light-items'><a href="#user">User</a></li>
+						<li class='light-items'><a href="#wireframes">Wireframes</a></li>
+						<li class='light-items'><a href="#testing">Testing</a></li>
+						<li class='light-items'><a href="#ui-design">UI Design</a></li>
+					</ul>
+					<li><a href="#outcomes">Outcomes & lessons learnt</a></li>
+					<li><a href="#gallery">Project gallery</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class='menu-box'>
+			<div class='desktop-menu-container sticky-menu'>
+				<ul class='menu-list'>
+					<a href="#problem-context">
+					<li>Problem context</li>
+					</a>
+					<a href="#design-process">
+					<li>Design process</li>
+					</a>
+					<ul class='menu-sublist'>
+						<a href="#research">
+						<li>Research</li>
+						</a>
+						<a href="#user">
+						<li>User</li>
+						</a>
+						<a href="#wireframes">
+						<li>Wireframes</li>
+						</a>
+						<a href="#testing">
+						<li>Testing</li>
+						</a>
+						<a href="#ui-design">
+						<li>UI Design</li>
+						</a>
+					</ul>
+					<a href="#outcomes">
+					<li>Outcomes & lessons learnt</li>
+					</a>
+					<a href="#gallery">
+					<li>Project gallery</li>
+					</a>
+				</ul>
+				<!--     <script src='scripts/activesection.js'></script>-->
+			</div>
+		</div>
+		<div class='information-box'>
+			<div class='project-information-section'>
+				<!--Problem context section-->
+				<section id="problem-context" class='page-section'>
+				<div class='problem-context'>
+					<h1>Problem context</h1>
+					<p>
+						Vegan diets have gained popularity in the last years. They have plenty of health benefits besides from being suistainable for our planet. There are many websites that provide information on how to transition into a vegan diet, but they tend to have too much information and can be overwhelming.<span class='bold-black'> The goal of the site was to provide a place where users could easily learn about veganism through simple interactions.</span>
+					</p>
+				</div>
+				</section>
+				<!--empathize section-->
+				<div class='fit-text'>
+					<section id="design-process" class='page-section'>
+					<h1>Design process</h1>
+					</section>
+					<section id="research" class='page-section'>
+					<h2>Research</h2>
+					</section>
+					<p>
+						There are many websites about veganism.<span class='bold-black'> I ran a visual competitive analysis based on the following popular online vegan magazines.</span>
+					</p>
+					<h3 class='space'>Visual competitive analysis insights</h3>
+				</div>
+				<!-- Closes empathize section-->
+				<div class='competitors-insights'>
+					<img class='competitors-images' src='images/veganmile/research/visualcompetitiveanalysis.png' alt='Visual Competitive analysis'/>
+				</div>
+				<section id="user" class='page-section'>
+				<h2 class='space'>User</h2>
+				<h3>Target audience</h3>
+				<div class='persona-container'>
+					<!-- User container-->
+					<div class='audience-info'>
+						<p>
+							From the research process and the topic of the site, the following target audience was defined:
+						</p>
+						<ul class='project-lists'>
+							<li>People that want or are transitioning into a vegan diet.</li>
+							<li>People that want to make changes in their diet to improve their health (they are not necessarily looking to transition completely into a vegan diet). </li>
+							<li>People that want to start a more sustainable lifestyle.</li>
+						</ul>
+					</div>
+					<div class='persona-image-container'>
+						<img class='persona-image' src='images/veganmile/persona/targetuser_veganmile.png' alt='Target user'/>
+					</div>
+				</div>
+				<!-- Closes user persona container-->
+				<h3 class='space'>User challenges</h3>
+				<ul class='project-lists fit-text'>
+					<li>Find a website that summarizes the steps to start the transition into a vegan diet.</li>
+					<li>Have a clear knowledge of vegan substitutes for common foods.</li>
+				</ul>
+				</section>
+				<section id='wireframes' class='page-section'>
+				<h2>Wireframes</h2>
+				<h3>Key features</h3>
+				<p class='fit-text'>
+					Veganmile is an educational interactive site, the design was focused on the following points:
+				</p>
+				<div class='keyfeatures-container'>
+					<!-- Key features container-->
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/veganmile/icons/tap_icon.svg' ; alt='Tap icon'/>
+						<p>
+							<span class='bold-black'>Tap to discover vegan foods</span>
+						</p>
+					</div>
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/veganmile/icons/tip_icon.svg' ; alt='Tips icon'/>
+						<p>
+							<span class='bold-black'>Tips to transition</span>
+						</p>
+					</div>
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/veganmile/icons/quiz_icon.svg' ; alt='Quiz icon'/>
+						<p>
+							<span class='bold-black'>Quiz to find out vegan substitutes</span>
+						</p>
+					</div>
+				</div>
+				<h3>User flows</h3>
+				<p class='fit-text'>
+					Veganmile directs users through a main flow where they must interact with each section in order to learn more about how to have a smooth transition into a vegan diet. Below is the user flow when users click un start vegan journey:
+				</p>
+				<ol class='project-ordered-lists fit-text'>
+					<li>1.- Click on start vegan journey.</li>
+					<li>2.- Tap the elements to discover if they are vegan or not.</li>
+					<li>3.- Check the tips to have a smooth transition.</li>
+					<li>4.- Answer quiz question to discover vegan substitutes for your favorite foods.</li>
+				</ol>
+				<div class='userflow-container'>
+					<!-- User flow container-->
+					<img id="userflow" class='userflow-image-big' src='images/veganmile/userflow/userflow_mobile.png' ; alt='User flow mobile version'/>
+					<div id="myModal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img01" src='images/veganmile/userflow/userflow_mobile.png'/>
+					</div>
+					<script src="scripts/popup.js"></script>
+				</div>
+				</section>
+				<section id='testing' class='page-section'>
+				<h2>Testing</h2>
+				<h3>Testing results</h3>
+				<p class='fit-text'>
+					The testing process was done with 6 users (3 used the Desktop version and 3 the mobile version). <span class='bold-black'>Main insights:</span>
+				</p>
+				<ul class='project-lists fit-text'>
+					<li>The tips section was well undestood but users complained it lack interaction. Due to this reason the tips were hidden under the picture, they will be shown once the user taps on the image (this can be seen in the mockups section).</li>
+					<li>The content was well received and users thought it was really educational.</li>
+					<li>The interactions were well understood by the users.</li>
+				</ul>
+				<h3>Redesign</h3>
+				<ul class='project-lists fit-text'>
+					<li>From the feedback received on the testing phase, the layout of the tips section was modified to allow more interaction with the users.</li>
+					<li><span class='bold-black'> The results helped improve the design and the changes were applied to the mockups presented in the following section.</span></li>
+				</ul>
+				</section>
+				<section id='ui-design' class='page-section'>
+				<h2>UI Design</h2>
+				<p class='fit-text margin-down'>
+					The goal was to present a design that gave a calm and fresh look.
+				</p>
+				<h3>Color palette</h3>
+				<p class='fit-text'>
+					A pastel color was used in some sections of the background to give rhythm to the site. For the CTA we use a bright red to invite the user to interact with the site. The color inspiration came from fruits such as strawberries and pomegranates.
+				</p>
+				<div class='color-container'>
+					<!-- Color palette-->
+					<div class='color-font firstcolor-box'>
+						<p>
+							#EF3334
+						</p>
+					</div>
+					<div class='color-font secondcolor-box'>
+						<p>
+							#FEE5DC
+						</p>
+					</div>
+					<div class='color-font thirdcolor-box'>
+						<p>
+							#FAFAFA
+						</p>
+					</div>
+				</div>
+				<h3 class='space'>Fonts</h3>
+				<p class='fit-text'>
+					For the fonts, I used Foco and Foco light for the headers (h1 and h2) and Avenir Next for the h3 and text bodies. I chose Foco since is a playful font that has high legibility. Avenir next seemed like a good complement to Foco since its simple and is easy to read.
+				</p>
+				<div class='fonts-container'>
+					<!-- Fonts-->
+					<div class='color-font fonts-box'>
+						<img class='font-image-1' src='images/veganmile/fonts/foco_bold.png' ; alt='Foco bold'/>
+					</div>
+					<div class='color-font fonts-box'>
+						<img class='font-image' src='images/veganmile/fonts/focolight_regular.png' ; alt='Foco light regular'/>
+					</div>
+					<div class='color-font fonts-box'>
+						<img class='font-image' src='images/veganmile/fonts/avenir_bold.png' ; alt='Avenir next bold'/>
+					</div>
+					<div class='color-font fonts-box'>
+						<img class='font-image' src='images/veganmile/fonts/avenir_regular.png' ; alt='Avenir next regular'/>
+					</div>
+				</div>
+				<h3 class='space'>Mockups</h3>
+				<div class='slideshow-container'>
+					<!-- Mockups Mobile Slideshow-->
+					<div class="mySlides fade">
+						<div class='mockup-background'>
+							<img class='mockups-image' src='images/veganmile/mockups/veganmile_start.png' ; alt='Mobile mockup Start'/>
+						</div>
+					</div>
+					<div class="mySlides fade">
+						<div class='mockup-background'>
+							<img class='mockups-image' src='images/veganmile/mockups/veganmile_home.png' ; alt='Mobile mockup Home'/>
+						</div>
+					</div>
+					<div class="mySlides fade">
+						<div class='mockup-background'>
+							<img class='mockups-image' src='images/veganmile/mockups/veganmile_tips.png' ; alt='Mobile mockup tips'/>
+						</div>
+					</div>
+					<div class="mySlides fade">
+						<div class='mockup-background'>
+							<img class='mockups-image' src='images/veganmile/mockups/veganmile_quiz.png' ; alt='Mobile mockup quiz'/>
+						</div>
+					</div>
+					<div class="mySlides fade">
+						<div class='mockup-background'>
+							<img class='mockups-image' src='images/veganmile/mockups/veganmile_quizanswer.png' ; alt='Mobile mockup quiz answer'/>
+						</div>
+					</div>
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<!-- The dots/circles -->
+				<div style="text-align:center" class='status-slideshow'>
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>
+				</div>
+				<script src="scripts/slideshow.js"></script>
+				<div class='mockups-container'>
+					<!-- Mockups container desktop - mobile version-->
+					<img class='mockups-image' src='images/veganmile/mockups/veganmile_start.png' ; alt='Mobile mockup Start'/>
+					<img class='mockups-image' src='images/veganmile/mockups/veganmile_home.png' ; alt='Mobile mockup Home'/>
+					<img class='mockups-image' src='images/veganmile/mockups/veganmile_tips.png' ; alt='Mobile mockup tips'/>
+					<img class='mockups-image' src='images/veganmile/mockups/veganmile_quiz.png' ; alt='Mobile mockup quiz'/>
+					<img class='mockups-image' src='images/veganmile/mockups/veganmile_quizanswer.png' ; alt='Mobile mockup quiz answer'/>
+				</div>
+				<h3 class='margin-top'>Prototype</h3>
+				<div class='prototype'>
+					<h4 class='fit-text'>Mobile version flow</h4>
+					<img class='mockups-image-p' src='images/veganmile/mockups/veganmile_prototype.gif' ; alt='Prototype mobile flow'/>
+					<a href='https://maraalejandraprez437358.invisionapp.com/public/share/NC17J6Z2XH' target="_blank">
+					<p class='link margin-top margin-down'>
+						Check out full mobile prototype
+					</p>
+					</a>
+					<h4>Desktop version flow</h4>
+					<img class='mockups-image-desktop' src='images/veganmile/mockups/veganmile_desktop_prototype.gif' ; alt='Prototype desktop flow'/>
+					<a href="https://maraalejandraprez437358.invisionapp.com/public/share/5317J6YZ2P" target="_blank">
+					<p class='link'>
+						Check out the full desktop version prototype
+					</p>
+					</a>
+				</div>
+				</section>
+			</div>
+			<!--closes project information section-->
+			<div class='outcome-container'>
+				<!-- Outcomes section-->
+				<div class='outcome-information'>
+					<section id='outcomes' class='page-section'>
+					<h1>Outcomes & lessons learnt</h1>
+					<ul class='project-lists-outcomes'>
+						<li>Implementing the design in 3 screens made it simple for the users to understand the contents and activities of the site. The educational flow was really easy for users and did not overwhelmeded them with tons of information.</li>
+						<li>As a next step we could further improve the tips version so its more interactive for users.</li>
+					</ul>
+				</div>
+			</div>
+			</section>
+			<!-- Closes Outcomes section -->
+			<div class='gallery-container'>
+				<section id='gallery' class='page-section'>
+				<h1>Project gallery</h1>
+				<!-- Project gallery section -->
+				<div class='gallery-container-photos'>
+					<div class='gallery-box'>
+						<div>
+							<img id="first" class='gallery-image' src='images/veganmile/project_gallery/Wireframes_desktop.png' ; alt='Wireframes desktop thumbnail'/>
+							<p class='bold-black gallery-text'>
+								Wireframes desktop
+							</p>
+						</div>
+						<div id="myThirdModal" class="modal">
+							<span class="close-first">&times;</span>
+							<img class="modal-content" id="img03" src='images/veganmile/project_gallery/Wireframes_desktop.png' ; alt='User persona'/>
+						</div>
+						<script src="scripts/popup3.js"></script>
+					</div>
+					<div class='gallery-box'>
+						<div>
+							<img id="second" class='gallery-image' src='images/veganmile/project_gallery/moodboard.png' ; alt='Moodboard thumbnail'/>
+							<p class='bold-black gallery-text'>
+								Moodboard
+							</p>
+						</div>
+						<div id="myFourthModal" class="modal">
+							<span class="close-second">&times;</span>
+							<img class="modal-content" id="img04" src='images/veganmile/project_gallery/moodboard.png' ; alt='Competitive analysis'/>
+						</div>
+						<script src="scripts/popup4.js"></script>
+					</div>
+					<div class='gallery-box gallery-box-right'>
+						<div>
+							<img id="fourth" class='gallery-image' src='images/veganmile/project_gallery/Styleguide.png' ; alt='Style guide'/>
+							<p class='bold-black gallery-text'>
+								Style guide
+							</p>
+						</div>
+						<div id="mySixthModal" class="modal">
+							<span class="close-fourth">&times;</span>
+							<img class="modal-content" id="img06" src='images/veganmile/project_gallery/Styleguide.png' ; alt='Wireframes - Sign up flow'/>
+						</div>
+						<script src="scripts/popup6.js"></script>
+					</div>
+				</div>
+				<!-- Closes Project gallery section-->
+			</div>
+			</section>
+			<div class='pictures-icons-container'>
+				<!-- Pictures & icons acknowledgement section -->
+				<h1 class="fit-text">Pictures & icons appreciation</h1>
+				<h2>Icons</h2>
+				<ul class='project-lists fit-text'>
+					<li>Instagram: Iconofy</li>
+					<li>Youtube: Iconofy</li>
+					<li>Grapefruit: by Brand Mania from the Noun Project</li>
+				</ul>
+				<h2>Pictures</h2>
+				<ul class='project-lists'>
+					<li>Food photos: Adobe Stock.</li>
+					<li>User persona: Adobe Stock</li>
+				</ul>
+			</div>
+			<!-- closes Pictures & icons acknowledgement section -->
+		</div>
+		<!-- CLOSES INFORMATION BOX -->
+	</div>
+	<!-- CLOSES PROJECT INFORMATION CONTAINER -->
+	<div class='next-project'>
+		<a class='button-next' href='sciencefestival.html'><span>Go to next project</span></a>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img class='backtotop' src='images/icons/backtotop.svg'/></button>
+		<script src='scripts/onscroll.js'></script>
+	</div>
+	</main>
+	<!-- Footer -->
+	<footer class='footer'>
+	<div class='footer-info'>
+		<div class=contact-info>
+			<p>
+				Want to get in touch ?
+			</p>
+			<p>
+				Send me an email
+			</p>
+			<p class='bold-blue margin-bottom'>
+				<a href="mailto:maria.pb20@outlook.com">maria.pb20@outlook.com</a>
+			</p>
+		</div>
+		<div class='social-media'>
+			<a href='https://www.linkedin.com/in/mapb1989/'>
+			<img class='social-media-images' src='images/icons/linkedin.svg' ; alt='LinkedIn logo'/>
+			</a>
+			<a href='https://medium.com/@Mariaalejandrapb'>
+			<img class='social-media-images' src='images/icons/medium.svg' ; alt='Medium logo'/>
+			</a>
+			<a href='https://dribbble.com/mariapb20'>
+			<img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg' ; alt='Dribbble logo'/>
+			</a>
+		</div>
+	</div>
+	<!--footer info-->
+	<p class='copyright-notice'>
+		Copyright 2020 María Alejandra Pérez Bullones
+	</p>
+	</footer>
+</div>
+<!--container-->
 </body>
 </html>
