@@ -1,287 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>María Alejandra Pérez</title>
- <!--    <link href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700' rel='stylesheet'/>-->
-
- <!--    <link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,700' rel='stylesheet'/>-->
-    <link rel='stylesheet' href='styles/cssreset.css'/>
-    <link rel='stylesheet' href='font/stylesheet.css'/>
-    <link rel='stylesheet' href='styles/fonts.css'/>
-    <link rel='stylesheet' href='styles/general.css'/>
-    <link rel='stylesheet' href='styles/home.css'/>
-    <!--Linkedin meta tags-->
-    <meta property='og:title' content='My Portfolio'/>
-    <meta property='og:image' content='images/thumbnails/streampals_thumbnail.png'/>
-    <meta property='og:description' content='María Alejandra Pérez Portfolio'/>
-    <meta property='og:url' content='www.mariaalejandraperez.com/index.html'/>
-         <!--  JS  -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>María Alejandra Pérez</title>
+<link rel='stylesheet' href='styles/cssreset.css'/>
+<link rel='stylesheet' href='font/stylesheet.css'/>
+<link rel='stylesheet' href='styles/fonts.css'/>
+<link rel='stylesheet' href='styles/general.css'/>
+<link rel='stylesheet' href='styles/home.css'/>
+<!--Linkedin meta tags-->
+<meta property='og:title' content='My Portfolio'/>
+<meta property='og:image' content='images/thumbnails/streampals_thumbnail.png'/>
+<meta property='og:description' content='María Alejandra Pérez Portfolio'/>
+<meta property='og:url' content='www.mariaalejandraperez.com/index.html'/>
+<!--  JS  -->
+<!--   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165358295-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-165358295-1');
 </script>
 </head>
 <body>
-    <div class='container'>
-           <header class='header' id='myHeader'>     
-            <nav class='navigation'>
-                    <ul class='home-navigation'>
-                        <li><a href="index.html"><p class='logo'>María Alejandra Pérez</p>
-                            <p class='logo'><span class='logo-small'>UX|UI Designer</span></p></a></li>
-                        <li><a href='aboutme.html'>About me</a></li>
-                    </ul>
-            </nav>
-        </header>
-        <main>
-            <!--Description-->
-            <div class='description-container'>
-                <div class='my-description'>
-                    <div>
-                        <p><span class='introduction'>¡Hola! I'm María</span></br>I focus on understanding users' struggles and motivations in order to offer useful and usable designs that provide an engaging experience.
-                        </p>
-                    </div>
-                    <div class='getintouch'>
-                        <span class='contact'>Let's get in touch</span>
-                        <div>
-                        <a href="mailto:maria.pb20@outlook.com"><img class='social-right' src='images/icons/email.svg'; alt='Email icon'/></a>
-                        <a href='https://www.linkedin.com/in/mapb1989/'>
-                        <img class='social-right' src='images/icons/linkedin.svg'; alt='LinkedIn logo'/> 
-                        </a>
-                        <a href='https://dribbble.com/mariapb20'>
-                        <img src='images/icons/dribbble.svg'; alt='Dribbble logo'/> 
-                        </a></div>
-                    </div>
-                    <div>
-                        <a class='button-project' href='#projects'><span>Check projects below</span></a>
-                    </div>
-                </div>  
-            </div>
-            <div class='projects' id='projects'>
-                <!-- Project 1 -->
-                <a href='streampals.html' class='project-box-mobile' id='firstproject'>
-                    <div class=project-image-section>
-                        <img class='project-home-image' src='images/home_page/streampals_home.png'; alt='Stream Pals app'/> 
-                    </div>
-                    <div class='project-description-section'>
-                        <p class='home-titles'>Stream Pals:</p>
-                        <p class='home-titles-subtitle'>streaming services recommendations</p>
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Figma</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>5 Weeks</p>
-                        </div>
-                        <button class='button' href='streampals.html'><p class='margin-bottom'><span>Go to case study</span></p></button>
-                    </div>
-                </a>
-                <!-- Project 2 -->
-                <a href='veganmile.html' class='project-box-mobile'  id='fourthproject'>
-                    <div class=project-image-section-2>
-                        <img class='project-home-image-2' src='images/home_page/veganmile_home.png'; alt='Veganmile site'/> 
-                    </div>
-                    <div class='project-description-section'>
-                        <p class='home-titles'>Veganmile:</p>
-                        <p class='home-titles-subtitle'>editorial responsive design</p>                         
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Sketch | Invision</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>3 Weeks</p>
-                        </div>
-                        <button class='button' href='#'><p class='margin-bottom'>Go to case study</p></button>
-                    </div>
-                </a>
-                <!-- Project 3 -->
-                <a href='sciencefestival.html' class='project-box-mobile' id='secondproject'>
-                    <div class=project-image-section-2>
-                        <img class='project-home-image-2' src='images/home_page/sciencefestival_home.png'; alt='Science festival site'/> 
-                    </div>
-                    <div class='project-description-section'>
-                        <p class='home-titles'>Science Festival:</p>
-                        <p class='home-titles-subtitle'>responsive event microsite</p>                         
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Sketch | Invision</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>1 Week</p>
-                        </div>
-                        <button class='button' href='sciencefestival.html'><p class='margin-bottom'>Go to case study</p></button>
-                    </div>
-                </a>
-                   <!-- Project 4-->
-                   <a href='calm.html' class='project-box-mobile'  id='fifthproject'>
-                    <div class=project-image-section>
-                        <img class='project-home-image' src='images/home_page/calm_home.png'; alt='Calm app'/> 
-                    </div>
-                    <div class='project-description-section'>
-                        <p class='home-titles'>Calm: </p>
-                        <p class='home-titles-subtitle'>adding new features</p>                         
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Sketch | Invision</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>2 Weeks</p>
-                        </div>
-                        <button class='button' href='#'><p class='margin-bottom'>Go to case study</p></button>
-                    </div>
-                </a> 
-                <!-- Project 5 -->
-                <a href='elearning.html' class='project-box-mobile' id='thirdproject'>
-                    <div class=project-image-section>
-                        <img class='project-home-image' src='images/home_page/elearning_home.png'; alt='E-learning app'/> 
-                    </div>
-                    
-                    <div class='project-description-section'>
-                        <p class='home-titles'>FixVid:</p>
-                        <p class='home-titles-subtitle'>e-learning app for home repairs</p>                         
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Sketch | Marvel</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>3 Weeks</p>
-                        </div>
-                        <button class='button' href='elearning.html'><p class='margin-bottom'>Go to case study</p></button>
-                    </div>
-                </a>
-                <!-- Desktop-->
-                <!-- Project 1 -->
-                <a href='streampals.html' class='project-box'>
-                    <div class='project-description-section'>
-                        <p class='home-titles'>Stream Pals:</p>
-                        <p class='home-titles-subtitle'>streaming services recommendations</p>
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Figma</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>5 Weeks</p>
-                        </div>
-                        <button class='button' href='streampals.html'><p class='margin-bottom'><span>Go to case study</span></p></button>
-                    </div>
-                    <div class=project-image-section>
-                        <img class='project-home-image-d' src='images/home_page/streampals_home.png'; alt='Stream Pals app'/> 
-                    </div>
-                </a>
-                <!-- Project 2 -->
-                <a href='veganmile.html' class='project-box'>
-                    <div class='project-description-section'>
-                        <p class='home-titles'>Veganmile:</p>
-                        <p class='home-titles-subtitle'>editorial responsive design</p>
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Sketch | Invision</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>3 Weeks</p>
-                        </div>
-                        <button class='button' href='#'><p class='margin-bottom'><span>Go to case study</span></p></button>
-                    </div>
-                    <div class=project-image-section>
-                        <img class='project-home-image-d-2' src='images/home_page/veganmile_home.png'; alt='E-learning app'/> 
-                    </div>
-                </a>
-                <!-- Project 3 -->
-                <a href='sciencefestival.html' class='project-box'>
-                    <div class='project-description-section'>
-                        <p class='home-titles'>Science Festival:</p>
-                        <p class='home-titles-subtitle'>responsive event microsite</p>
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Sketch | Invision</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>1 Week</p>
-                        </div>
-                        <button class='button' href='sciencefestival.html'><p class='margin-bottom'><span>Go to case study</span></p></button>
-                    </div>
-                    <div class=project-image-section>
-                        <img class='project-home-image-d-2' src='images/home_page/sciencefestival_home.png'; alt='Science festival site'/> 
-                    </div>
-                </a>
-                <!-- Project 4 -->
-                <a href='calm.html' class='project-box'>
-                    <div class='project-description-section'>
-                        <p class='home-titles'>Calm: </p>
-                        <p class='home-titles-subtitle'>adding new features</p>
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Sketch | Invision</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>2 Weeks</p>
-                        </div>
-                        <button class='button' href='#'><p class='margin-bottom'><span>Go to case study</span></p></button>
-                    </div>
-                    <div class=project-image-section>
-                        <img class='project-home-image-d' src='images/home_page/calm_home.png'; alt='E-learning app'/> 
-                    </div>
-                </a>
-                <!-- Project 5 -->
-                <a href='elearning.html' class='project-box'>
-                    <div class='project-description-section'>
-                        <p class='home-titles'>FixVid:</p>
-                        <p class='home-titles-subtitle'>e-learning app for home repairs</p>
-                        <div class='project-info tools-info'>
-                            <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                            <p class='tool-clock'>Sketch | Marvel</p>
-                        </div>
-                        <div class='project-info'>
-                            <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                            <p class='tool-clock'>3 Weeks</p>
-                        </div>
-                        <button class='button' href='elearning.html'><p class='margin-bottom'><span>Go to case study</span></p></button>
-                    </div>
-                    <div class=project-image-section>
-                        <img class='project-home-image-d' src='images/home_page/elearning_home.png'; alt='E-learning app'/> 
-                    </div>
-                </a>
-            </div>   
-            <script src='scripts/stickyheader.js'></script>
-        </main>
-        <!-- Footer -->
-        <footer class='footer'>
-            <div class='footer-info'>
-                <div class=contact-info>
-                    <p>Want to get in touch ?</p>
-                    <p>Send me an email</p>
-                    <p class='bold-blue margin-bottom'><a href="mailto:maria.pb20@outlook.com">maria.pb20@outlook.com</a></p>
-                </div>
-                <div class='social-media'>
-                    <a href='https://www.linkedin.com/in/mapb1989/'>
-                    <img class='social-media-images' src='images/icons/linkedin.svg'; alt='LinkedIn logo'/> 
-                    </a>
-                    <a href='https://medium.com/@Mariaalejandrapb'>
-                    <img class='social-media-images' src='images/icons/medium.svg'; alt='Medium logo'/> 
-                    </a>
-                    <a href='https://dribbble.com/mariapb20'>
-                    <img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg'; alt='Dribbble logo'/> 
-                    </a>
-                </div>
-            </div><!--footer info-->
-            <p class='copyright-notice'>Copyright 2020 María Alejandra Pérez Bullones</p>
-        </footer>
-    </div><!--container-->
+<div class='container'>
+	<header class='header' id='myHeader'>
+	<nav class='navigation'>
+	<ul class='home-navigation'>
+		<li><a href="index.html">
+		<p class='logo'>
+			María Alejandra Pérez
+		</p>
+		<p class='logo'>
+			<span class='logo-small'>UX|UI Designer</span>
+		</p>
+		</a></li>
+		<li><a href='aboutme.html'>About me</a></li>
+	</ul>
+	</nav>
+	</header>
+	<main>
+	<!--Description-->
+	<div class='description-container'>
+		<div class='my-description'>
+			<div>
+				<p>
+					<span class='introduction'>¡Hola! I'm María</span></br>I focus on understanding users' struggles and motivations in order to offer useful and usable designs that provide an engaging experience.
+				</p>
+			</div>
+			<div class='getintouch'>
+				<span class='contact'>Let's get in touch</span>
+				<div>
+					<a href="mailto:maria.pb20@outlook.com"><img class='social-right' src='images/icons/email.svg' ; alt='Email icon'/></a>
+					<a href='https://www.linkedin.com/in/mapb1989/'>
+					<img class='social-right' src='images/icons/linkedin.svg' ; alt='LinkedIn logo'/>
+					</a>
+					<a href='https://dribbble.com/mariapb20'>
+					<img src='images/icons/dribbble.svg' ; alt='Dribbble logo'/>
+					</a>
+				</div>
+			</div>
+			<div>
+				<a class='button-project' href='#projects'><span>Check projects below</span></a>
+			</div>
+		</div>
+	</div>
+	<div class='projects' id='projects'>
+		<!-- Project 1 -->
+		<a href='streampals.html' class='project-box-mobile' id='firstproject'>
+		<div class=project-image-section>
+			<img class='project-home-image' src='images/home_page/streampals_home.png' ; alt='Stream Pals app'/>
+		</div>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				Stream Pals:
+			</p>
+			<p class='home-titles-subtitle'>
+				streaming services recommendations
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Figma
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					5 Weeks
+				</p>
+			</div>
+			<button class='button' href='streampals.html'>
+			<p class='margin-bottom'>
+				<span>Go to case study</span>
+			</p>
+			</button>
+		</div>
+		</a>
+		<!-- Project 2 -->
+		<a href='veganmile.html' class='project-box-mobile' id='fourthproject'>
+		<div class=project-image-section-2>
+			<img class='project-home-image-2' src='images/home_page/veganmile_home.png' ; alt='Veganmile site'/>
+		</div>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				Veganmile:
+			</p>
+			<p class='home-titles-subtitle'>
+				editorial responsive design
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Sketch | Invision
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					3 Weeks
+				</p>
+			</div>
+			<button class='button' href='#'>
+			<p class='margin-bottom'>
+				Go to case study
+			</p>
+			</button>
+		</div>
+		</a>
+		<!-- Project 3 -->
+		<a href='sciencefestival.html' class='project-box-mobile' id='secondproject'>
+		<div class=project-image-section-2>
+			<img class='project-home-image-2' src='images/home_page/sciencefestival_home.png' ; alt='Science festival site'/>
+		</div>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				Science Festival:
+			</p>
+			<p class='home-titles-subtitle'>
+				responsive event microsite
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Sketch | Invision
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					1 Week
+				</p>
+			</div>
+			<button class='button' href='sciencefestival.html'>
+			<p class='margin-bottom'>
+				Go to case study
+			</p>
+			</button>
+		</div>
+		</a>
+		<!-- Project 4-->
+		<a href='calm.html' class='project-box-mobile' id='fifthproject'>
+		<div class=project-image-section>
+			<img class='project-home-image' src='images/home_page/calm_home.png' ; alt='Calm app'/>
+		</div>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				Calm:
+			</p>
+			<p class='home-titles-subtitle'>
+				adding new features
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Sketch | Invision
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					2 Weeks
+				</p>
+			</div>
+			<button class='button' href='#'>
+			<p class='margin-bottom'>
+				Go to case study
+			</p>
+			</button>
+		</div>
+		</a>
+		<!-- Project 5 -->
+		<a href='elearning.html' class='project-box-mobile' id='thirdproject'>
+		<div class=project-image-section>
+			<img class='project-home-image' src='images/home_page/elearning_home.png' ; alt='E-learning app'/>
+		</div>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				FixVid:
+			</p>
+			<p class='home-titles-subtitle'>
+				e-learning app for home repairs
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Sketch | Marvel
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					3 Weeks
+				</p>
+			</div>
+			<button class='button' href='elearning.html'>
+			<p class='margin-bottom'>
+				Go to case study
+			</p>
+			</button>
+		</div>
+		</a>
+		<!-- Desktop-->
+		<!-- Project 1 -->
+		<a href='streampals.html' class='project-box'>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				Stream Pals:
+			</p>
+			<p class='home-titles-subtitle'>
+				streaming services recommendations
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Figma
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					5 Weeks
+				</p>
+			</div>
+			<button class='button' href='streampals.html'>
+			<p class='margin-bottom'>
+				<span>Go to case study</span>
+			</p>
+			</button>
+		</div>
+		<div class=project-image-section>
+			<img class='project-home-image-d' src='images/home_page/streampals_home.png' ; alt='Stream Pals app'/>
+		</div>
+		</a>
+		<!-- Project 2 -->
+		<a href='veganmile.html' class='project-box'>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				Veganmile:
+			</p>
+			<p class='home-titles-subtitle'>
+				editorial responsive design
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Sketch | Invision
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					3 Weeks
+				</p>
+			</div>
+			<button class='button' href='#'>
+			<p class='margin-bottom'>
+				<span>Go to case study</span>
+			</p>
+			</button>
+		</div>
+		<div class=project-image-section>
+			<img class='project-home-image-d-2' src='images/home_page/veganmile_home.png' ; alt='E-learning app'/>
+		</div>
+		</a>
+		<!-- Project 3 -->
+		<a href='sciencefestival.html' class='project-box'>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				Science Festival:
+			</p>
+			<p class='home-titles-subtitle'>
+				responsive event microsite
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Sketch | Invision
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					1 Week
+				</p>
+			</div>
+			<button class='button' href='sciencefestival.html'>
+			<p class='margin-bottom'>
+				<span>Go to case study</span>
+			</p>
+			</button>
+		</div>
+		<div class=project-image-section>
+			<img class='project-home-image-d-2' src='images/home_page/sciencefestival_home.png' ; alt='Science festival site'/>
+		</div>
+		</a>
+		<!-- Project 4 -->
+		<a href='calm.html' class='project-box'>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				Calm:
+			</p>
+			<p class='home-titles-subtitle'>
+				adding new features
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Sketch | Invision
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					2 Weeks
+				</p>
+			</div>
+			<button class='button' href='#'>
+			<p class='margin-bottom'>
+				<span>Go to case study</span>
+			</p>
+			</button>
+		</div>
+		<div class=project-image-section>
+			<img class='project-home-image-d' src='images/home_page/calm_home.png' ; alt='E-learning app'/>
+		</div>
+		</a>
+		<!-- Project 5 -->
+		<a href='elearning.html' class='project-box'>
+		<div class='project-description-section'>
+			<p class='home-titles'>
+				FixVid:
+			</p>
+			<p class='home-titles-subtitle'>
+				e-learning app for home repairs
+			</p>
+			<div class='project-info tools-info'>
+				<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+				<p class='tool-clock'>
+					Sketch | Marvel
+				</p>
+			</div>
+			<div class='project-info'>
+				<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+				<p class='tool-clock'>
+					3 Weeks
+				</p>
+			</div>
+			<button class='button' href='elearning.html'>
+			<p class='margin-bottom'>
+				<span>Go to case study</span>
+			</p>
+			</button>
+		</div>
+		<div class=project-image-section>
+			<img class='project-home-image-d' src='images/home_page/elearning_home.png' ; alt='E-learning app'/>
+		</div>
+		</a>
+	</div>
+	<script src='scripts/stickyheader.js'></script>
+	</main>
+	<!-- Footer -->
+	<footer class='footer'>
+	<div class='footer-info'>
+		<div class=contact-info>
+			<p>
+				Want to get in touch ?
+			</p>
+			<p>
+				Send me an email
+			</p>
+			<p class='bold-blue margin-bottom'>
+				<a href="mailto:maria.pb20@outlook.com">maria.pb20@outlook.com</a>
+			</p>
+		</div>
+		<div class='social-media'>
+			<a href='https://www.linkedin.com/in/mapb1989/'>
+			<img class='social-media-images' src='images/icons/linkedin.svg' ; alt='LinkedIn logo'/>
+			</a>
+			<a href='https://medium.com/@Mariaalejandrapb'>
+			<img class='social-media-images' src='images/icons/medium.svg' ; alt='Medium logo'/>
+			</a>
+			<a href='https://dribbble.com/mariapb20'>
+			<img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg' ; alt='Dribbble logo'/>
+			</a>
+		</div>
+	</div>
+	<!--footer info-->
+	<p class='copyright-notice'>
+		Copyright 2020 María Alejandra Pérez Bullones
+	</p>
+	</footer>
+</div>
+<!--container-->
 </body>
 </html>

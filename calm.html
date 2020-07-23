@@ -1,340 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calm app</title>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,700' rel='stylesheet'/>
-    <link rel='stylesheet' href='styles/cssreset.css'/>
-    <link rel='stylesheet' href='font/stylesheet.css'/>
-    <link rel='stylesheet' href='styles/fonts.css'/>
-    <link rel='stylesheet' href='styles/general.css'/>
-    <link rel='stylesheet' href='styles/projects.css'/>
-    <link rel='stylesheet' href='styles/calm.css'/>
-    <!--Linkedin meta tags-->
-    <meta property='og:title' content='Calm'/>
-    <meta property='og:image' content='images/thumbnails/calm_thumbnail.png'/>
-    <meta property='og:description' content='Adding new features to Calm app'/>
-    <meta property='og:url' content='www.mariaalejandraperez.com/calm.html'/>
-     <!--  JS  -->
-   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165358295-1"></script>
-   <script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calm app</title>
+<link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,700' rel='stylesheet'/>
+<link rel='stylesheet' href='styles/cssreset.css'/>
+<link rel='stylesheet' href='font/stylesheet.css'/>
+<link rel='stylesheet' href='styles/fonts.css'/>
+<link rel='stylesheet' href='styles/general.css'/>
+<link rel='stylesheet' href='styles/projects.css'/>
+<link rel='stylesheet' href='styles/calm.css'/>
+<!--Linkedin meta tags-->
+<meta property='og:title' content='Calm'/>
+<meta property='og:image' content='images/thumbnails/calm_thumbnail.png'/>
+<meta property='og:description' content='Adding new features to Calm app'/>
+<meta property='og:url' content='www.mariaalejandraperez.com/calm.html'/>
+<!--  JS  -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165358295-1"></script>
+<script>
      window.dataLayer = window.dataLayer || [];
      function gtag(){dataLayer.push(arguments);}
      gtag('js', new Date());
-   
      gtag('config', 'UA-165358295-1');
    </script>
 </head>
 <body>
-    <div class='container'>
-        <header class='header' id='myHeader'>     
-            <nav class='navigation'>
-                    <ul class='home-navigation'>
-                        <li><a href="index.html"><p class='logo'>María Alejandra Pérez</p>
-                            <p class='logo'><span class='logo-small'>UX|UI Designer</span></p></a></li>
-                        <li><a href='aboutme.html'>About me</a></li>
-                    </ul>
-            </nav>
-        </header>
-        <main>
-            <!-- Top photos -->
-            <div class='project-main-images'>
-                <div class='main-image-background'>
-                    <img class='main-image-size' src='images/calm/top_photo/calm.png'; alt='Project mockups'/> 
-                </div>
-            </div>
-             <!--Project title-->
-             <div class='project-title'>
-                <h1>Calm:</h1>
-                <h1><span class=subtitle>adding new features</span></h1>
-           </div>
-           <!--Project description box-->
-           <div class='project-description-box'> 
-               <p><span class='bold-black'>Case study:</span> Adding new features to an existing app.</p>
-               <p><span class='bold-black'>Goal:</span> Add new features that complement the app and that fulfills a user necessity.</p>
-               <p><span class='bold-black'>Scope:</span> Solo UX | UI Design project.</p>
-               <div class='project-tag-boxes'>
-                   <div class='project-category-tags'>UX Research</div>
-                   <div class='project-category-tags'>UI Design</div>
-                   <div class='project-category-tags'>IxD</div>
-               </div>
-               <div class='project-info tools-info'>
-                   <img class='category-icons' src='images/icons/tool_icon.svg'; alt='Tool icon'/> 
-                   <p class='tools-used'>Sketch | Invision</p>
-               </div>
-               <div class='project-info'>
-                   <img class='category-icons' src='images/icons/clock_icon.svg'; alt='Clock icon'/> 
-                   <p class='tools-used'>2 Weeks</p>
-               </div>
-           </div>
-           <!--Progress bar-->
-           <div class='progress-bar-container sticky-bar'>
-               <div id='progress-status'>
-                   <div id='my-bar'></div>
-               </div>
-               <script src='scripts/onscroll.js'></script>
-            </div>
-           <!-- Project information -->
-           <div class='project-information-container'> <!--SEPARATES MENU AND PROJECT INFORMATION-->
-            <div class='sticky-menu-mobile'>
-             <div class='mobile-menu-container'>
-                 <button class="dropbtn" id='dropbtn'><i class="gg-menu-left" id='menu-left'></i></button>
-                     <ul class='dropdown-content' id="myDropdown">
-                         <li><a href="#problem-context">Problem context</a></li>
-                         <li><a href="#design-process">Design process</a></li>
-                             <ul>
-                                 <li class='light-items'><a href="#research">Research</a></li>
-                                 <li class='light-items'><a href="#user">User</a></li>
-                                 <li class='light-items'><a href="#wireframes">Wireframes</a></li>
-                                 <li class='light-items'><a href="#testing">Testing</a></li>
-                                 <li class='light-items'><a href="#ui-design">UI Design</a></li>
-                             </ul>
-                         <li><a href="#outcomes">Outcomes & lessons learnt</a></li>
-                         <li><a href="#gallery">Project gallery</a></li>
-                     </ul>
-             </div>
-            </div>
-             <div class='menu-box'>
-                 <div class='desktop-menu-container sticky-menu'>
-                     <ul class='menu-list'>
-                         <a href="#problem-context"><li>Problem context</li></a>
-                         <a href="#design-process"><li>Design process</li></a>
-                             <ul class='menu-sublist'>
-                                 <a href="#research"><li>Research</li></a>
-                                 <a href="#user"><li>User</li></a>
-                                 <a href="#wireframes"><li>Wireframes</li></a>
-                                 <a href="#testing"><li>Testing</li></a>
-                                 <a href="#ui-design"><li>UI Design</li></a>
-                             </ul>
-                         <a href="#outcomes"><li>Outcomes & lessons learnt</li></a>
-                         <a href="#gallery"><li>Project gallery</li></a>
-                     </ul>
-                <!--     <script src='scripts/activesection.js'></script>-->
-                 </div>
-             </div>
-             <div class='information-box'>
-             <div class='project-information-section'>
-             <!--Problem context section-->
-             <section id="problem-context" class='page-section'><div class='problem-context'>
-                     <h1>Problem context</h1>
-                     <p>Calm is a meditation and sleep aid app. It has become really popular (it has the 2nd place in Health and fitness in the App store) and I myself am an avid user, it has specially help me with my sleep struggles.<span class='bold-black'> The goal of the project was to add features following the UI design of the app. This features needed to nicely complement an already easy to use app.</span></p>
-             </div></section>
-             <!--empathize section-->
-                 <div class='fit-text'>
-                    <section id="design-process" class='page-section'><h1>Design process</h1></section>
-                     <section id="research" class='page-section'><h2>Research</h2></section>
-                     <p>To understand the needs of the users of this type of app <span class='bold-black'> I ran guerrilla interviews to get fast feedback from users</span>. Since not all of the interviewees had the app, I focused some of my questions in discovering what users expected from these types of applications. <span>I also read the reviews from the App Store and Google Play to further understand what the users were missing from this app.</span></p>
-                     <h3 class='space'>Guerrilla interviews insights</h3>
-                     <div class='audience-info'>
-                        <ul class='project-lists'>
-                            <li>The free version of the app does not allow users to get a full understanding of all the features of the app.</li>
-                            <li>People like to enjoy the different sections of the app (sleep stories, meditation and calm body)</li>
-                            <li>Sorting through the sleep stories and music is not simple (you can only filter by one category). </li>
-                            <li>The exercise section of the app should provide visual aid in all its contents.</li>
-                        </ul>
-                    </div>
-                 </div> <!-- Closes empathize section-->
-                     <section id="user" class='page-section'><h2>User</h2>
-                     <h3>Target audience</h3>
-                     <div class='persona-container'> <!-- User container-->
-                         <div class='audience-info'>
-                             <p>From the research process and the type of app, I worked with the following target audience defined:</p>
-                             <ul class='project-lists'>
-                                 <li>People that are into mindfulness and fitness.</li>
-                                 <li>People that struggle with sleeping and go through the sleep stories section daily.</li>
-                             </ul>
-                         </div>
-                         <div class='persona-image-container'>
-                             <img class='persona-image' src='images/calm/user/targetuser_calm.png' alt='Target user'/>
-                         </div>   
-                     </div> <!-- Closes user persona container--> 
-                     <h3 class='space'>User challenges</h3>
-                     <ul class='project-lists fit-text'>
-                         <li>Not having visual aid when they want to do exercises from the Calm body section (the Calm body section includes videos of the exercises for the longer sessions not for the stretching and warming up exercises).</li>
-                         <li>Having a hard time filtering and sorting through the Sleep stories section</li>
-                         <li>Not being able to create Sleep stories playlist. <span class='bold-black'>Note: By the time this project was developed, the Calm app did not included playlist but by March 8th 2020, they introduced Calm Music Playlist, a feature to create playlists with the music section of the app (it did not included the Sleep Stories).</span></li>
-                     </ul>
-                     </section>
-                     <section id='wireframes' class='page-section'><h2 class='less-margin'>Wireframes</h2>
-                     <h3>Key features</h3>
-                     <p class='fit-text'>The design was focused on tackling the users' challenges:</p>
-                     <div class='keyfeatures-container'> <!-- Key features container-->
-                         <div class='keyfeature-image-text'>
-                             <img class='keyfeature-image' src='images/calm/icons/exercise.svg'; alt='Exercise icon'/> 
-                             <p><span class='bold-black'>Visual aid for exercises</span></p>
-                         </div>
-                         <div class='keyfeature-image-text'>
-                             <img class='keyfeature-image' src='images/calm/icons/playlist.svg'; alt='Playlist icon'/> 
-                             <p><span class='bold-black'>Sleep stories playlists</span></p>
-                         </div>
-                         <div class='keyfeature-image-text'>
-                             <img class='keyfeature-image' src='images/science/icons/filter.svg'; alt='Filter icon'/> 
-                             <p><span class='bold-black'>Filter for the Sleep stories</span></p>
-                         </div>
-                     </div>
-                     <h3>User flows</h3>
-                     <p class='fit-text'>The following user flow explains the steps a user needs to take to create a Sleep Story playlist. The user flows for the other two features can be found in the project gallery section.</p>
-                     <ol class='project-ordered-lists fit-text'>
-                         <li>1.- Click on the playlist icon on the sleep story track.</li>
-                         <li>2.- Click on create a new playlist.</li>
-                         <li>3.- Set a name for the playlist.</li>
-                         <li>4.- Click on create.</li>
-                         <li>5.- Close confirmation pop-up.</li>
-                     </ol>
-                     <div class='userflow-container'> <!-- User flow container-->
-                        <img id="userflow" class='userflow-image' src='images/calm/userflow/userflow.png'; alt='User flow mobile version'/>
-                        <div id="myModal" class="modal">
-                           <span class="close">&times;</span>
-                           <img class="modal-content" id="img01" src='images/calm/userflow/userflow.png'/>
-                        </div>
-                        <script src="scripts/popup.js"></script>
-                    </div> 
-                    </section>
-                     <section id='testing' class='page-section'><h2>Testing</h2>
-                        <h3>Testing results</h3>
-                        <p class='fit-text'>The testing process was done with 5 users. <span class='bold-black'>Main insights:</span></p>
-                        <ul class='project-lists fit-text'>
-                           <li>The narrators filters was not easy to use. The tag format made it complicated for users to sort through.</li>
-                           <li>The rest of the interactions were well understood by the users.</li>
-                       </ul>
-                       <h3>Redesign</h3>
-                       <ul class='project-lists fit-text'>
-                           <li>From the feedback received on the testing phase, the narrators filter was modified to a dropdown list with a search option.</li>
-                           <li><span class='bold-black'> The results from the testing phase helped improve the design and the changes were applied to the mockups presented in the following section.</span></li>
-                       </ul></section>
-                    <section id='ui-design' class='page-section'><h2>UI Design</h2>
-                    <p class='fit-text margin-down'>The goal was to present a design that followed the UI Design guides of the app.</p>
-                     <h3>Mockups</h3>
-                     <div class='slideshow-container'><!-- Mockups Mobile Slideshow-->
-                         <div class="mySlides fade">
-                             <div class='mockup-background'><img class='mockups-image' src='images/calm/mockups/playlist.png'; alt='Playlist mockup'/></div>
-                         </div>
-                         <div class="mySlides fade">
-                             <div class='mockup-background'><img class='mockups-image' src='images/calm/mockups/filters.png'; alt='Filter mockup'/></div>
-                         </div>
-                         <div class="mySlides fade">
-                             <div class='mockup-background'><img class='mockups-image' src='images/calm/mockups/exercise.png'; alt='Exercise mockup'/></div>
-                         </div>
-                         <!-- Next and previous buttons -->
-                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                     </div>
-                         <!-- The dots/circles -->
-                     <div style="text-align:center" class='status-slideshow'>
-                         <span class="dot" onclick="currentSlide(1)"></span>
-                         <span class="dot" onclick="currentSlide(2)"></span>
-                         <span class="dot" onclick="currentSlide(3)"></span>
-                     </div>
-                     <script src="scripts/slideshow.js"></script> 
-
-                     <div class='mockups-container'> <!-- Mockups container desktop - mobile version-->
-                        <img class='mockups-image' src='images/calm/mockups/playlist.png'; alt='Playlist mockup'/> 
-                        <img class='mockups-image' src='images/calm/mockups/filters.png'; alt='Filter mockup'/> 
-                        <img class='mockups-image' src='images/calm/mockups/exercise.png'; alt='Exercise mockup'/> 
-                    </div>
-
-                     <h3 class='margin-top space'>Prototype</h3>
-                     <div class='prototype'>
-                         <h4 class='fit-text'>New playlist flow</h4>
-                        <img class='mockups-image-p' src='images/calm/mockups/playlist.gif'; alt='Create new playlist flow'/> 
-                        <h4 class='fit-text'>Filter flow</h4>
-                        <img class='mockups-image-p' src='images/calm/mockups/filter.gif'; alt='Filter Sleep stories flow'/> 
-                        <h4 class='fit-text'>Exercise flow</h4>
-                        <img class='mockups-image-p' src='images/calm/mockups/exercise.gif'; alt='Exercise aid flow'/> 
-                    </div>
-                     </section>
-                </div> <!--closes project information section-->
-             <div class='outcome-container'> <!-- Outcomes section-->
-                 <div class='outcome-information'>
-                    <section id='outcomes' class='page-section'><h1>Outcomes & lessons learnt</h1>
-                     <ul class='project-lists-outcomes'>
-                         <li>Following the UI Design guidelines from Calm offered a chanllenge since its an app that combines many different elements in each of its screens (gradients, movement, sound, changes of colors).</li>
-                         <li>The combination of a dropdown list plus a search option offers a great solution when users need to sort through many options.</li>
-                         <li>The exercise aid was implemented with illustrations since it would allow the voice of the narrator to continue being the main focus of the section.</li>
-                         <li>All the new features added followed the UI guidelines and the new icons implemented have a simple estetic to blend properly with the app.</li>
-                         <li>As a next step we could analyse the implementation of the filter feature in other sections of the app, like Music or Meditation.</li>
-                     </ul>
-                 </div>
-             </div></section><!-- Closes Outcomes section -->
-             <div class='gallery-container'>
-                <section id='gallery' class='page-section'><h1>Project gallery</h1><!-- Project gallery section -->
-                 <div class='gallery-container-photos'> 
-                    <div class='gallery-box'>
-                        <div><img id="first" class='gallery-image' src='images/calm/project_gallery/wireframes_exercise.png'; alt='Wireframes exercise'/><p class='bold-black gallery-text'>Wireframes exercise</p></div>
-                        <div id="myThirdModal" class="modal">
-                            <span class="close-first">&times;</span>
-                            <img class="modal-content" id="img03" src='images/calm/project_gallery/wireframes_exercise.png';  alt='Wireframes exercise'/>
-                        </div>
-                       <script src="scripts/popup3.js"></script>
-                    </div>
-
-                    <div class='gallery-box'>
-                        <div><img id="second" class='gallery-image' src='images/calm/project_gallery/wireframes_filter.png'; alt='Wireframes filter'/><p class='bold-black gallery-text'>Wireframes filter</p></div>
-                        <div id="myFourthModal" class="modal">
-                            <span class="close-second">&times;</span>
-                            <img class="modal-content" id="img04" src='images/calm/project_gallery/wireframes_filter.png';  alt='Wireframes filter'/>
-                        </div>
-                       <script src="scripts/popup4.js"></script>
-                    </div>
-
-                    <div class='gallery-box  gallery-box-right'>
-                        <div><img id="fourth" class='gallery-image' src='images/calm/project_gallery/basicstyleguide.png'; alt='Bsic style guide'/><p class='bold-black gallery-text'>Basic style guide</p></div>
-                        <div id="mySixthModal" class="modal">
-                            <span class="close-fourth">&times;</span>
-                            <img class="modal-content" id="img06" src='images/calm/project_gallery/basicstyleguide.png';  alt='Basic style guide'/>
-                        </div>
-                       <script src="scripts/popup6.js"></script>
-                    </div>
-                 </div> <!-- Closes Project gallery section-->
-             </div></section>
-             <div class='pictures-icons-container'> <!-- Pictures & icons acknowledgement section -->
-                 <h1 class="fit-text">Pictures & icons appreciation</h1>
-                 <h2>Icons</h2>
-                 <ul class='project-lists fit-text'>
-                    <li>Filter: Iconofy</li>
-                    <li>Playtlist: Iconofy</li>
-                    <li>Exercise stretching (1): stretching by Luis Prado from the Noun Project</li>
-                    <li>Exercise stretching (2): stretching by Alexander Skowalsky from the Noun Project</li>
-                    <li>Exercise stretching (3): stretching by Luis Jose Doria Correa from the Noun Project</li>
-                 </ul>
-                 <h2>Pictures</h2>
-                 <ul class='project-lists'>
-                     <li>User persona: Adobe Stock</li>
-                 </ul>
-             </div> <!-- closes Pictures & icons acknowledgement section -->
-         </div><!-- CLOSES INFORMATION BOX -->
-         </div> <!-- CLOSES PROJECT INFORMATION CONTAINER -->
-         <div class='next-project'>
-            <a class='button-next' href='elearning.html'><span>Go to next project</span></a>      
-            <button onclick="topFunction()" id="myBtn" title="Go to top"><img class='backtotop' src='images/icons/backtotop.svg'/></button>
-            <script src='scripts/onscroll.js'></script>
-         </div>
-        </main>
-        <!-- Footer -->
-        <footer class='footer'>
-            <div class='footer-info'>
-                <div class=contact-info>
-                    <p>Want to get in touch ?</p>
-                    <p>Send me an email</p>
-                    <p class='bold-blue margin-bottom'><a href="mailto:maria.pb20@outlook.com">maria.pb20@outlook.com</a></p>
-                </div>
-                <div class='social-media'>
-                    <a href='https://www.linkedin.com/in/mapb1989/'>
-                    <img class='social-media-images' src='images/icons/linkedin.svg'; alt='LinkedIn logo'/> 
-                    </a>
-                    <a href='https://medium.com/@Mariaalejandrapb'>
-                    <img class='social-media-images' src='images/icons/medium.svg'; alt='Medium logo'/> 
-                    </a>
-                    <a href='https://dribbble.com/mariapb20'>
-                    <img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg'; alt='Dribbble logo'/> 
-                    </a>
-                </div>
-            </div><!--footer info-->
-            <p class='copyright-notice'>Copyright 2020 María Alejandra Pérez Bullones</p>
-        </footer>
-    </div><!--container-->
+<div class='container'>
+	<header class='header' id='myHeader'>
+	<nav class='navigation'>
+	<ul class='home-navigation'>
+		<li><a href="index.html">
+		<p class='logo'>
+			María Alejandra Pérez
+		</p>
+		<p class='logo'>
+			<span class='logo-small'>UX|UI Designer</span>
+		</p>
+		</a></li>
+		<li><a href='aboutme.html'>About me</a></li>
+	</ul>
+	</nav>
+	</header>
+	<main>
+	<!-- Top photos -->
+	<div class='project-main-images'>
+		<div class='main-image-background'>
+			<img class='main-image-size' src='images/calm/top_photo/calm.png' ; alt='Project mockups'/>
+		</div>
+	</div>
+	<!--Project title-->
+	<div class='project-title'>
+		<h1>Calm:</h1>
+		<h1><span class=subtitle>adding new features</span></h1>
+	</div>
+	<!--Project description box-->
+	<div class='project-description-box'>
+		<p>
+			<span class='bold-black'>Case study:</span> Adding new features to an existing app.
+		</p>
+		<p>
+			<span class='bold-black'>Goal:</span> Add new features that complement the app and that fulfills a user necessity.
+		</p>
+		<p>
+			<span class='bold-black'>Scope:</span> Solo UX | UI Design project.
+		</p>
+		<div class='project-tag-boxes'>
+			<div class='project-category-tags'>
+				UX Research
+			</div>
+			<div class='project-category-tags'>
+				UI Design
+			</div>
+			<div class='project-category-tags'>
+				IxD
+			</div>
+		</div>
+		<div class='project-info tools-info'>
+			<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+			<p class='tools-used'>
+				Sketch | Invision
+			</p>
+		</div>
+		<div class='project-info'>
+			<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+			<p class='tools-used'>
+				2 Weeks
+			</p>
+		</div>
+	</div>
+	<!--Progress bar-->
+	<div class='progress-bar-container sticky-bar'>
+		<div id='progress-status'>
+			<div id='my-bar'>
+			</div>
+		</div>
+		<script src='scripts/onscroll.js'></script>
+	</div>
+	<!-- Project information -->
+	<div class='project-information-container'>
+		<!--SEPARATES MENU AND PROJECT INFORMATION-->
+		<div class='sticky-menu-mobile'>
+			<div class='mobile-menu-container'>
+				<button class="dropbtn" id='dropbtn'><i class="gg-menu-left" id='menu-left'></i></button>
+				<ul class='dropdown-content' id="myDropdown">
+					<li><a href="#problem-context">Problem context</a></li>
+					<li><a href="#design-process">Design process</a></li>
+					<ul>
+						<li class='light-items'><a href="#research">Research</a></li>
+						<li class='light-items'><a href="#user">User</a></li>
+						<li class='light-items'><a href="#wireframes">Wireframes</a></li>
+						<li class='light-items'><a href="#testing">Testing</a></li>
+						<li class='light-items'><a href="#ui-design">UI Design</a></li>
+					</ul>
+					<li><a href="#outcomes">Outcomes & lessons learnt</a></li>
+					<li><a href="#gallery">Project gallery</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class='menu-box'>
+			<div class='desktop-menu-container sticky-menu'>
+				<ul class='menu-list'>
+					<a href="#problem-context">
+					<li>Problem context</li>
+					</a>
+					<a href="#design-process">
+					<li>Design process</li>
+					</a>
+					<ul class='menu-sublist'>
+						<a href="#research">
+						<li>Research</li>
+						</a>
+						<a href="#user">
+						<li>User</li>
+						</a>
+						<a href="#wireframes">
+						<li>Wireframes</li>
+						</a>
+						<a href="#testing">
+						<li>Testing</li>
+						</a>
+						<a href="#ui-design">
+						<li>UI Design</li>
+						</a>
+					</ul>
+					<a href="#outcomes">
+					<li>Outcomes & lessons learnt</li>
+					</a>
+					<a href="#gallery">
+					<li>Project gallery</li>
+					</a>
+				</ul>
+				<!--     <script src='scripts/activesection.js'></script>-->
+			</div>
+		</div>
+		<div class='information-box'>
+			<div class='project-information-section'>
+				<!--Problem context section-->
+				<section id="problem-context" class='page-section'>
+				<div class='problem-context'>
+					<h1>Problem context</h1>
+					<p>
+						Calm is a meditation and sleep aid app. It has become really popular (it has the 2nd place in Health and fitness in the App store) and I myself am an avid user, it has specially help me with my sleep struggles.<span class='bold-black'> The goal of the project was to add features following the UI design of the app. This features needed to nicely complement an already easy to use app.</span>
+					</p>
+				</div>
+				</section>
+				<!--empathize section-->
+				<div class='fit-text'>
+					<section id="design-process" class='page-section'>
+					<h1>Design process</h1>
+					</section>
+					<section id="research" class='page-section'>
+					<h2>Research</h2>
+					</section>
+					<p>
+						To understand the needs of the users of this type of app <span class='bold-black'> I ran guerrilla interviews to get fast feedback from users</span>. Since not all of the interviewees had the app, I focused some of my questions in discovering what users expected from these types of applications. <span>I also read the reviews from the App Store and Google Play to further understand what the users were missing from this app.</span>
+					</p>
+					<h3 class='space'>Guerrilla interviews insights</h3>
+					<div class='audience-info'>
+						<ul class='project-lists'>
+							<li>The free version of the app does not allow users to get a full understanding of all the features of the app.</li>
+							<li>People like to enjoy the different sections of the app (sleep stories, meditation and calm body)</li>
+							<li>Sorting through the sleep stories and music is not simple (you can only filter by one category). </li>
+							<li>The exercise section of the app should provide visual aid in all its contents.</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Closes empathize section-->
+				<section id="user" class='page-section'>
+				<h2>User</h2>
+				<h3>Target audience</h3>
+				<div class='persona-container'>
+					<!-- User container-->
+					<div class='audience-info'>
+						<p>
+							From the research process and the type of app, I worked with the following target audience defined:
+						</p>
+						<ul class='project-lists'>
+							<li>People that are into mindfulness and fitness.</li>
+							<li>People that struggle with sleeping and go through the sleep stories section daily.</li>
+						</ul>
+					</div>
+					<div class='persona-image-container'>
+						<img class='persona-image' src='images/calm/user/targetuser_calm.png' alt='Target user'/>
+					</div>
+				</div>
+				<!-- Closes user persona container-->
+				<h3 class='space'>User challenges</h3>
+				<ul class='project-lists fit-text'>
+					<li>Not having visual aid when they want to do exercises from the Calm body section (the Calm body section includes videos of the exercises for the longer sessions not for the stretching and warming up exercises).</li>
+					<li>Having a hard time filtering and sorting through the Sleep stories section</li>
+					<li>Not being able to create Sleep stories playlist. <span class='bold-black'>Note: By the time this project was developed, the Calm app did not included playlist but by March 8th 2020, they introduced Calm Music Playlist, a feature to create playlists with the music section of the app (it did not included the Sleep Stories).</span></li>
+				</ul>
+				</section>
+				<section id='wireframes' class='page-section'>
+				<h2 class='less-margin'>Wireframes</h2>
+				<h3>Key features</h3>
+				<p class='fit-text'>
+					The design was focused on tackling the users' challenges:
+				</p>
+				<div class='keyfeatures-container'>
+					<!-- Key features container-->
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/calm/icons/exercise.svg' ; alt='Exercise icon'/>
+						<p>
+							<span class='bold-black'>Visual aid for exercises</span>
+						</p>
+					</div>
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/calm/icons/playlist.svg' ; alt='Playlist icon'/>
+						<p>
+							<span class='bold-black'>Sleep stories playlists</span>
+						</p>
+					</div>
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/science/icons/filter.svg' ; alt='Filter icon'/>
+						<p>
+							<span class='bold-black'>Filter for the Sleep stories</span>
+						</p>
+					</div>
+				</div>
+				<h3>User flows</h3>
+				<p class='fit-text'>
+					The following user flow explains the steps a user needs to take to create a Sleep Story playlist. The user flows for the other two features can be found in the project gallery section.
+				</p>
+				<ol class='project-ordered-lists fit-text'>
+					<li>1.- Click on the playlist icon on the sleep story track.</li>
+					<li>2.- Click on create a new playlist.</li>
+					<li>3.- Set a name for the playlist.</li>
+					<li>4.- Click on create.</li>
+					<li>5.- Close confirmation pop-up.</li>
+				</ol>
+				<div class='userflow-container'>
+					<!-- User flow container-->
+					<img id="userflow" class='userflow-image' src='images/calm/userflow/userflow.png' ; alt='User flow mobile version'/>
+					<div id="myModal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img01" src='images/calm/userflow/userflow.png'/>
+					</div>
+					<script src="scripts/popup.js"></script>
+				</div>
+				</section>
+				<section id='testing' class='page-section'>
+				<h2>Testing</h2>
+				<h3>Testing results</h3>
+				<p class='fit-text'>
+					The testing process was done with 5 users. <span class='bold-black'>Main insights:</span>
+				</p>
+				<ul class='project-lists fit-text'>
+					<li>The narrators filters was not easy to use. The tag format made it complicated for users to sort through.</li>
+					<li>The rest of the interactions were well understood by the users.</li>
+				</ul>
+				<h3>Redesign</h3>
+				<ul class='project-lists fit-text'>
+					<li>From the feedback received on the testing phase, the narrators filter was modified to a dropdown list with a search option.</li>
+					<li><span class='bold-black'> The results from the testing phase helped improve the design and the changes were applied to the mockups presented in the following section.</span></li>
+				</ul>
+				</section>
+				<section id='ui-design' class='page-section'>
+				<h2>UI Design</h2>
+				<p class='fit-text margin-down'>
+					The goal was to present a design that followed the UI Design guides of the app.
+				</p>
+				<h3>Mockups</h3>
+				<div class='slideshow-container'>
+					<!-- Mockups Mobile Slideshow-->
+					<div class="mySlides fade">
+						<div class='mockup-background'>
+							<img class='mockups-image' src='images/calm/mockups/playlist.png' ; alt='Playlist mockup'/>
+						</div>
+					</div>
+					<div class="mySlides fade">
+						<div class='mockup-background'>
+							<img class='mockups-image' src='images/calm/mockups/filters.png' ; alt='Filter mockup'/>
+						</div>
+					</div>
+					<div class="mySlides fade">
+						<div class='mockup-background'>
+							<img class='mockups-image' src='images/calm/mockups/exercise.png' ; alt='Exercise mockup'/>
+						</div>
+					</div>
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<!-- The dots/circles -->
+				<div style="text-align:center" class='status-slideshow'>
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+				<script src="scripts/slideshow.js"></script>
+				<div class='mockups-container'>
+					<!-- Mockups container desktop - mobile version-->
+					<img class='mockups-image' src='images/calm/mockups/playlist.png' ; alt='Playlist mockup'/>
+					<img class='mockups-image' src='images/calm/mockups/filters.png' ; alt='Filter mockup'/>
+					<img class='mockups-image' src='images/calm/mockups/exercise.png' ; alt='Exercise mockup'/>
+				</div>
+				<h3 class='margin-top space'>Prototype</h3>
+				<div class='prototype'>
+					<h4 class='fit-text'>New playlist flow</h4>
+					<img class='mockups-image-p' src='images/calm/mockups/playlist.gif' ; alt='Create new playlist flow'/>
+					<h4 class='fit-text'>Filter flow</h4>
+					<img class='mockups-image-p' src='images/calm/mockups/filter.gif' ; alt='Filter Sleep stories flow'/>
+					<h4 class='fit-text'>Exercise flow</h4>
+					<img class='mockups-image-p' src='images/calm/mockups/exercise.gif' ; alt='Exercise aid flow'/>
+				</div>
+				</section>
+			</div>
+			<!--closes project information section-->
+			<div class='outcome-container'>
+				<!-- Outcomes section-->
+				<div class='outcome-information'>
+					<section id='outcomes' class='page-section'>
+					<h1>Outcomes & lessons learnt</h1>
+					<ul class='project-lists-outcomes'>
+						<li>Following the UI Design guidelines from Calm offered a chanllenge since its an app that combines many different elements in each of its screens (gradients, movement, sound, changes of colors).</li>
+						<li>The combination of a dropdown list plus a search option offers a great solution when users need to sort through many options.</li>
+						<li>The exercise aid was implemented with illustrations since it would allow the voice of the narrator to continue being the main focus of the section.</li>
+						<li>All the new features added followed the UI guidelines and the new icons implemented have a simple estetic to blend properly with the app.</li>
+						<li>As a next step we could analyse the implementation of the filter feature in other sections of the app, like Music or Meditation.</li>
+					</ul>
+				</div>
+			</div>
+			</section>
+			<!-- Closes Outcomes section -->
+			<div class='gallery-container'>
+				<section id='gallery' class='page-section'>
+				<h1>Project gallery</h1>
+				<!-- Project gallery section -->
+				<div class='gallery-container-photos'>
+					<div class='gallery-box'>
+						<div>
+							<img id="first" class='gallery-image' src='images/calm/project_gallery/wireframes_exercise.png' ; alt='Wireframes exercise'/>
+							<p class='bold-black gallery-text'>
+								Wireframes exercise
+							</p>
+						</div>
+						<div id="myThirdModal" class="modal">
+							<span class="close-first">&times;</span>
+							<img class="modal-content" id="img03" src='images/calm/project_gallery/wireframes_exercise.png' ; alt='Wireframes exercise'/>
+						</div>
+						<script src="scripts/popup3.js"></script>
+					</div>
+					<div class='gallery-box'>
+						<div>
+							<img id="second" class='gallery-image' src='images/calm/project_gallery/wireframes_filter.png' ; alt='Wireframes filter'/>
+							<p class='bold-black gallery-text'>
+								Wireframes filter
+							</p>
+						</div>
+						<div id="myFourthModal" class="modal">
+							<span class="close-second">&times;</span>
+							<img class="modal-content" id="img04" src='images/calm/project_gallery/wireframes_filter.png' ; alt='Wireframes filter'/>
+						</div>
+						<script src="scripts/popup4.js"></script>
+					</div>
+					<div class='gallery-box gallery-box-right'>
+						<div>
+							<img id="fourth" class='gallery-image' src='images/calm/project_gallery/basicstyleguide.png' ; alt='Bsic style guide'/>
+							<p class='bold-black gallery-text'>
+								Basic style guide
+							</p>
+						</div>
+						<div id="mySixthModal" class="modal">
+							<span class="close-fourth">&times;</span>
+							<img class="modal-content" id="img06" src='images/calm/project_gallery/basicstyleguide.png' ; alt='Basic style guide'/>
+						</div>
+						<script src="scripts/popup6.js"></script>
+					</div>
+				</div>
+				<!-- Closes Project gallery section-->
+			</div>
+			</section>
+			<div class='pictures-icons-container'>
+				<!-- Pictures & icons acknowledgement section -->
+				<h1 class="fit-text">Pictures & icons appreciation</h1>
+				<h2>Icons</h2>
+				<ul class='project-lists fit-text'>
+					<li>Filter: Iconofy</li>
+					<li>Playtlist: Iconofy</li>
+					<li>Exercise stretching (1): stretching by Luis Prado from the Noun Project</li>
+					<li>Exercise stretching (2): stretching by Alexander Skowalsky from the Noun Project</li>
+					<li>Exercise stretching (3): stretching by Luis Jose Doria Correa from the Noun Project</li>
+				</ul>
+				<h2>Pictures</h2>
+				<ul class='project-lists'>
+					<li>User persona: Adobe Stock</li>
+				</ul>
+			</div>
+			<!-- closes Pictures & icons acknowledgement section -->
+		</div>
+		<!-- CLOSES INFORMATION BOX -->
+	</div>
+	<!-- CLOSES PROJECT INFORMATION CONTAINER -->
+	<div class='next-project'>
+		<a class='button-next' href='elearning.html'><span>Go to next project</span></a>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img class='backtotop' src='images/icons/backtotop.svg'/></button>
+		<script src='scripts/onscroll.js'></script>
+	</div>
+	</main>
+	<!-- Footer -->
+	<footer class='footer'>
+	<div class='footer-info'>
+		<div class=contact-info>
+			<p>
+				Want to get in touch ?
+			</p>
+			<p>
+				Send me an email
+			</p>
+			<p class='bold-blue margin-bottom'>
+				<a href="mailto:maria.pb20@outlook.com">maria.pb20@outlook.com</a>
+			</p>
+		</div>
+		<div class='social-media'>
+			<a href='https://www.linkedin.com/in/mapb1989/'>
+			<img class='social-media-images' src='images/icons/linkedin.svg' ; alt='LinkedIn logo'/>
+			</a>
+			<a href='https://medium.com/@Mariaalejandrapb'>
+			<img class='social-media-images' src='images/icons/medium.svg' ; alt='Medium logo'/>
+			</a>
+			<a href='https://dribbble.com/mariapb20'>
+			<img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg' ; alt='Dribbble logo'/>
+			</a>
+		</div>
+	</div>
+	<!--footer info-->
+	<p class='copyright-notice'>
+		Copyright 2020 María Alejandra Pérez Bullones
+	</p>
+	</footer>
+</div>
+<!--container-->
 </body>
 </html>
