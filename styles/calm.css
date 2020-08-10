@@ -449,7 +449,10 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     background: #FFFFFF;
     height: 200px;
     width: 250px;
+    cursor:pointer;
+
 }
+
 
 .gallery-image {
     display: flex;
