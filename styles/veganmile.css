@@ -444,8 +444,6 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     background: #FFFFFF;
     height: 200px;
     width: 250px;
-    cursor:pointer;
-
 }
 
 .gallery-image {
@@ -455,6 +453,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     margin: 0 auto;
     width: auto;
     height: 150px;
+    cursor:pointer;
 }
 
 h2.reduce-margin {
