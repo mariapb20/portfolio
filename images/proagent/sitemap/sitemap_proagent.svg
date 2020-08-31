@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="962px" height="668px" viewBox="0 0 962 668" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Project-images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Site-map-proagent" transform="translate(-57.000000, -5.000000)">
+            <g id="Group" transform="translate(58.000000, 6.000000)">
+                <g id="Site-map">
+                    <g id="Categories" transform="translate(0.000000, 296.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="40" rx="15"></rect>
+                        <text id="Tickets" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                            <tspan x="40.2163086" y="24">Tickets</tspan>
+                        </text>
+                    </g>
+                    <g id="Classes" transform="translate(166.000000, 296.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="182" rx="15"></rect>
+                        <text id="Reporting" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                            <tspan x="31.0708008" y="28">Reporting</tspan>
+                        </text>
+                    </g>
+                    <g id="Classes" transform="translate(332.000000, 296.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="40" rx="15"></rect>
+                        <text id="Knowledge-base" font-family="OpenSans-Bold, Open Sans" font-size="13" font-weight="bold" fill="#2E2F30">
+                            <tspan x="12.574707" y="24">Knowledge base</tspan>
+                        </text>
+                    </g>
+                    <g id="Home" transform="translate(382.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="196" height="246" rx="15"></rect>
+                        <text id="Home-(Overview)" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" letter-spacing="0.583333333" fill="#010813">
+                            <tspan x="33.75" y="28">Home (Overview)</tspan>
+                        </text>
+                        <text id="Unanswered-tickets" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" letter-spacing="0.583333333" fill="#010813">
+                            <tspan x="30.9462891" y="68">Unanswered tickets</tspan>
+                        </text>
+                        <text id="To-do-list" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" letter-spacing="0.583333333" fill="#010813">
+                            <tspan x="66.6389974" y="214">To do list</tspan>
+                        </text>
+                        <text id="Escalated-tickets" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" letter-spacing="0.583333333" fill="#010813">
+                            <tspan x="41.3346354" y="105">Escalated tickets</tspan>
+                        </text>
+                        <text id="Reminders" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" letter-spacing="0.583333333" fill="#010813">
+                            <tspan x="61.4892578" y="141">Reminders</tspan>
+                        </text>
+                        <text id="Stats-summary" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" letter-spacing="0.583333333" fill="#010813">
+                            <tspan x="47.5222982" y="178">Stats summary</tspan>
+                        </text>
+                    </g>
+                    <g id="Messages" transform="translate(498.000000, 296.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="107" rx="15"></rect>
+                        <text id="Chatbot" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                            <tspan x="36.8701172" y="24">Chatbot</tspan>
+                        </text>
+                    </g>
+                    <g id="Classes" transform="translate(664.000000, 295.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="130" rx="15"></rect>
+                        <text id="Profile" font-family="OpenSans-Bold, Open Sans" font-size="13" font-weight="bold" fill="#2E2F30">
+                            <tspan x="43.6210938" y="24">Profile</tspan>
+                        </text>
+                    </g>
+                    <g id="Messages" transform="translate(830.000000, 295.000000)">
+                        <rect id="Rectangle" stroke="#0080FF" x="0" y="0" width="130" height="371" rx="15"></rect>
+                        <text id="Settings" font-family="OpenSans-Bold, Open Sans" font-size="14" font-weight="bold" fill="#2E2F30">
+                            <tspan x="36.7607422" y="24">Settings</tspan>
+                        </text>
+                    </g>
+                    <polygon id="Rectangle" fill="#0080FF" points="0 270 628 270 960 270 0 271"></polygon>
+                </g>
+                <text id="Overview" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="202.724935" y="358">Overview</tspan>
+                </text>
+                <text id="Agents-report" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="188.393392" y="392">Agents report</tspan>
+                </text>
+                <text id="Configuration" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="519.912923" y="351">Configuration</tspan>
+                </text>
+                <text id="Flows" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="545.031576" y="385">Flows</tspan>
+                </text>
+                <text id="Profile-information" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="709.526204" y="351">Profile </tspan>
+                    <tspan x="692.870443" y="370">information</tspan>
+                </text>
+                <text id="Security" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="704.576986" y="404">Security</tspan>
+                </text>
+                <text id="Custom-reports" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="182.206868" y="426">Custom reports</tspan>
+                </text>
+                <text id="Chatbot-stats" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="189.671712" y="460">Chatbot stats</tspan>
+                </text>
+                <text id="Agents" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="875.114583" y="351">Agents</tspan>
+                </text>
+                <text id="Business-hours" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="848.536458" y="385">Business hours</tspan>
+                </text>
+                <text id="General" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="871.662435" y="419">General</tspan>
+                </text>
+                <text id="Privacy" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="874.690755" y="506">Privacy</tspan>
+                </text>
+                <text id="Rest-API" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="871.067708" y="540">Rest API</tspan>
+                </text>
+                <text id="SLA" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="884.944661" y="574">SLA</tspan>
+                </text>
+                <text id="Ticket-automation" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="840.25472" y="608">Ticket automation</tspan>
+                </text>
+                <text id="Ticket-templates" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="845.313314" y="642">Ticket templates</tspan>
+                </text>
+                <text id="Payment-information" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#2E2F30">
+                    <tspan x="869.040853" y="453">Payment </tspan>
+                    <tspan x="859.870443" y="472">information</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

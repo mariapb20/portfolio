@@ -188,7 +188,7 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
 }
 
 .keyfeature-image {
-    height: 30x;
+    height: 40px;
     width: auto;
     margin-bottom: 15px;
 }
@@ -569,7 +569,7 @@ h2.reduce-margin {
 }
 
 .keyfeature-image {
-    height: 100px;
+    height: 40px;
     width: auto;
     margin-bottom: 30px;
 }
@@ -879,7 +879,7 @@ ul.project-lists-outcomes li {
 }
 
 .keyfeature-image {
-    height: 80px;
+    height: 40px;
     width: auto;
     margin-bottom: 20px;
 }
@@ -1193,9 +1193,9 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .keyfeature-image {
-    height: 100px;
+    height: 50px;
     margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .keyfeature-image-text {
@@ -1516,8 +1516,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .keyfeature-image {
-    height: 100px;
-    margin-top: 100px;
+    height: 50px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
