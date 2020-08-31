@@ -1425,7 +1425,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .user-journey-image-desktop{
-    width: 100%;
+    width: 70%;
 }
 
 .sitemap-mobile-container { /*Set display as none for desktop version*/
@@ -1443,7 +1443,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .sitemap-image-desktop {
-    width: 70%;
+    width: 50%;
 }
 
 /*Key features*/
@@ -1558,7 +1558,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .testing-desktop-image {
-    width: 70%;
+    width: 60%;
 }
 
 /*Outcome*/
