@@ -1596,7 +1596,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .testing-desktop-image {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
 }
 
