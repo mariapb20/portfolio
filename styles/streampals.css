@@ -163,7 +163,7 @@ ul.project-lists li::before { /*::before creates a pseudo-element that is the fi
 }
 
 .keyfeature-image {
-    width: 80px;
+    width: 40px;
     margin-bottom: 15px;
 }
 
@@ -532,7 +532,7 @@ ul.nested-list li::before { /*::before creates a pseudo-element that is the firs
 }
 
 .keyfeature-image {
-    width: 100px;
+    width: 50px;
     margin-bottom: 30px;
 }
 
@@ -823,7 +823,7 @@ ul.project-lists-outcomes li {
 }
 
 .keyfeature-image {
-    width: 80px;
+    width: 50px;
     margin-bottom: 30px;
 }
 
@@ -1134,7 +1134,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .keyfeature-image {
-    width: 70px;
+    width: 50px;
     height: auto;
     margin-bottom: 20px;
 }
@@ -1320,7 +1320,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
 }
 
-/********************************* EXTRA LARGE DEVICES - larger than 1400px  **********************************/
+/********************************* EXTRA LARGE DEVICES - larger than 1500px  **********************************/
 
 @media screen and (min-width: 1500px) {
 
@@ -1450,9 +1450,10 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .keyfeature-image {
-    width: 70px;
+    width: 60px;
     height: auto;
     margin-bottom: 20px;
+    margin-right:20px ;
 }
 
 .keyfeature-image-text {

@@ -121,8 +121,12 @@ p.my-work{
 }   
 
 .project-home-image-2 {
-   height: 200px;
+   height: 190px;
 }
+
+.project-home-image-3 {
+    width: 295px;
+ }
 
 p.tool-clock {
   margin-bottom: 10px;
@@ -280,6 +284,11 @@ p.my-work{
    height: 250px;
 }
 
+.project-home-image-3 {
+    height: 250px;
+    width: auto;
+ }
+
 p.tool-clock {
   margin-bottom: 10px;
   font-size: 16px;
@@ -409,6 +418,10 @@ p.my-work{
 .project-home-image-d-2 {
    width: 400px;
 }
+
+.project-home-image-d-3 {
+    height: 300px;
+ }
 
 p.tool-clock {
     margin-bottom: 10px;
@@ -542,6 +555,10 @@ p.my-work{
    width: 450px;
 }
 
+.project-home-image-d-3 {
+    height: 300px;
+ }
+
 p.tool-clock {
     margin-bottom: 10px;
     font-size: 16px;
@@ -620,6 +637,10 @@ p .getintouch{
 .project-home-image-d-2 {
    width: 500px;
 }
+
+.project-home-image-d-3 {
+    height: 350px;
+ }
 
 .category-tags{
     font-size: 22px;

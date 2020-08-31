@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proagent web app</title>
+<link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,700' rel='stylesheet'/>
+<link rel='stylesheet' href='styles/cssreset.css'/>
+<link rel='stylesheet' href='font/stylesheet.css'/>
+<link rel='stylesheet' href='styles/general.css'/>
+<link rel='stylesheet' href='styles/proagent.css'/>
+<!--Linkedin meta tags-->
+<meta property='og:title' content='Proagent'/>
+<meta property='og:image' content='images/thumbnails/proagent_thumbnail.png'/>
+<meta property='og:description' content='Customer service solution'/>
+<meta property='og:url' content='www.mariaalejandraperez.com/proagent.html'/>
+<!--  JS  -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src='scripts/asyncimages.js' defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165358295-1" defer></script>
+<script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'UA-165358295-1');
+   </script>
+</head>
+<body>
+<div class='container'>
+	<header class='header' id='myHeader'>
+	<nav class='navigation'>
+	<ul class='home-navigation'>
+		<li><a href="index.html">
+		<p class='logo'>
+			María Alejandra Pérez
+		</p>
+		<p class='logo'>
+			<span class='logo-small'>UX|UI Designer</span>
+		</p>
+		</a></li>
+		<li><a href='aboutme.html'>About me</a></li>
+	</ul>
+	</nav>
+	</header>
+	<main>
+	<!-- Top photos -->
+	<div class='project-main-images'>
+		<div class='main-image'>
+			<img class='main-image-size main-image-background asyncImage' src='images/proagent/top/proagent.png' ; alt='desktop mockups'/>
+		</div>
+	</div>
+	<!--Project title-->
+	<div class='project-title'>
+		<h1>Proagent:</h1>
+		<h1><span class=subtitle>Customer service solution</span></h1>
+	</div>
+	<!--Project description box-->
+	<div class='project-description-box'>
+		<p>
+			<span class='bold-black'>Case study:</span> Design customer service web application.
+		</p>
+		<p>
+			<span class='bold-black'>Goal:</span> Help customer support agents efficiently manage tickets and make insightful reports to improve support team productivity.
+		</p>
+		<p>
+			<span class='bold-black'>Scope:</span> Solo UX | UI Design project.
+		</p>
+		<div class='project-tag-boxes'>
+			<div class='project-category-tags'>
+				UX Research
+			</div>
+			<div class='project-category-tags'>
+				UI Design
+			</div>
+			<div class='project-category-tags'>
+				IxD
+			</div>
+		</div>
+		<div class='project-info tools-info'>
+			<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+			<p class='tools-used'>
+				Figma
+			</p>
+		</div>
+		<div class='project-info'>
+			<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+			<p class='tools-used'>
+				5 Weeks
+			</p>
+		</div>
+	</div>
+	<!--Progress bar-->
+	<div class='progress-bar-container sticky-bar'>
+		<div id='progress-status'>
+			<div id='my-bar'>
+			</div>
+		</div>
+		<script src='scripts/onscroll.js' defer></script>
+	</div>
+	<!-- Project information -->
+	<div class='project-information-container'>
+		<!--SEPARATES MENU AND PROJECT INFORMATION-->
+		<div class='sticky-menu-mobile'>
+			<div class='mobile-menu-container'>
+				<button class="dropbtn" id='dropbtn'><i class="gg-menu-left" id='menu-left'></i></button>
+				<ul class='dropdown-content' id="myDropdown">
+					<li><a href="#problem-context">Problem context</a></li>
+					<li><a href="#design-process">Design process</a></li>
+					<ul>
+						<li class='light-items'><a href="#research">Research</a></li>
+						<li class='light-items'><a href="#user">User</a></li>
+						<li class='light-items'><a href="#pain-points">Pain points</a></li>
+						<li class='light-items'><a href="#ia">IA</a></li>
+						<li class='light-items'><a href="#wireframes">Wireframes</a></li>
+						<li class='light-items'><a href="#testing">Testing</a></li>
+						<li class='light-items'><a href="#ui-design">UI Design</a></li>
+					</ul>
+					<li><a href="#outcomes">Outcomes & lessons learnt</a></li>
+					<li><a href="#gallery">Project gallery</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class='menu-box'>
+			<div class='desktop-menu-container sticky-menu'>
+				<ul class='menu-list'>
+					<a href="#problem-context">
+					<li>Problem context</li>
+					</a>
+					<a href="#design-process">
+					<li>Design process</li>
+					</a>
+					<ul class='menu-sublist'>
+						<a href="#research">
+						<li>Research</li>
+						</a>
+						<a href="#user">
+						<li>User</li>
+						</a>
+						<a href="#pain-points">
+						<li>Pain points</li>
+						</a>
+						<a href="#ia">
+						<li>IA</li>
+						</a>
+						<a href="#wireframes">
+						<li>Wireframes</li>
+						</a>
+						<a href="#testing">
+						<li>Testing</li>
+						</a>
+						<a href="#ui-design">
+						<li>UI Design</li>
+						</a>
+					</ul>
+					<a href="#outcomes">
+					<li>Outcomes & lessons learnt</li>
+					</a>
+					<a href="#gallery">
+					<li>Project gallery</li>
+					</a>
+				</ul>
+				<!--       <script src='scripts/activesection.js'></script>-->
+			</div>
+		</div>
+		<div class='information-box'>
+			<div class='project-information-section'>
+				<!--Problem context section-->
+				<div class='problem-context'>
+					<section id="problem-context" class='page-section'>
+					<h1>Problem context</h1>
+					<p>
+						Customer service is a key part of any company. That's why their teams should work with software that allows them to solve any client's issues efficiently and in a timely manner. 
+					</p>
+					<p>
+						I have a background in customer support and have come across and tested different SaaS solutions for customer service, but they tend not to focus on providing agents with an overview of the ticket's status and a simple way to generate custom plots for personalized reports.
+                        <span class='bold-black'> The goal of Proagent was to provide a web application that understands the needs of the agents and makes their work easier. A phrase that inspired this project was "happy team means happy customers".</span>
+                    </p>
+				</div>
+				</section>
+				<!--empathize section-->
+				<div class='fit-text'>
+					<section id="design-process" class='page-section'>
+					<h1>Design process</h1>
+					</section>
+					<section id="research" class='page-section'>
+					<h2>Research</h2>
+					<p>
+						For the research process, I conducted interviews with people with experience in customer service and that have used customer service software.					
+					</p>
+					<p>
+                        <span class="bold-black">
+                            My goal was to understand the struggles that agents are facing with this type of software. Are they happy with the features the software offer? Do they miss anything? What could make their work easier?			
+                        </span>
+					</p>
+					<p>
+                        I also ran a competitive analysis to understand the weaknesses and strong points of the customer service software already on the market and also checked the reviews the customers gave to these services (the main insights can be found in the project gallery).					</p>
+				</div>
+				<!-- Closes empathize section-->
+				<div class='fit-text'>
+					<h3 class='space'>Interview insights</h3>
+					<ul class='project-lists'>
+						<li>Reports are very rigid and allow little customization.</li>
+						<li>Want to have a global vision of the status of the tickets.</li>
+						<li>Want to organize customer queries from different channels.</li>
+						<li>Customer service software should be easy to explain to new agents.</li>
+						<li>Features should be scalable.</li>
+						<li>Being able to assign a ticket to multiple people.</li>
+						<li>Want visibility on whether someone is already working on a client's request.</li>
+						<li>Automation should be easy to set up.</li>
+					</ul>
+				</div>
+				</section>
+				<section id="user" class='page-section'>
+				<h2>User</h2>
+				<h3>Persona</h3>
+				<div class='persona-container'>
+					<!-- User persona container-->
+					<div class='persona-info'>
+						<p>
+							Meet Hannah Smith!
+						</p>
+						<ul class='project-lists'>
+							<li>35 years old.</li>
+							<li>Lives London</li>
+							<li>Customer support agent</li>
+							<li>Favorite apps: Slack, Gmail, Twitter</li>
+						</ul>
+					</div>
+					<div class='persona-image-container'>
+						<img class='persona-image asyncImage' src='images/proagent/user/persona.png' alt='User persona'/>
+					</div>
+				</div>
+				<!-- Closes user persona container-->
+				<div class='quote-container'>
+					<img class='quote-image-mobile' src='images/proagent/user/interviewee_mobile.svg' ; alt='Quote from interviewee'/>
+					<img class='quote-image' src='images/proagent/user/interviewee.svg' ; alt='Quote from interviewee'/>
+				</div>
+				</section>
+				<section id="pain-points" class='page-section'>
+				<h2>Pain Points</h2>
+				<h3>Hannah's Pain points targeted</h3>
+				<ul class='project-lists fit-text'>
+					<li>Not having visibility of what other team members are working on.</li>
+                    <li>Not being able to make custom reports.</li>
+                    <li>Handle repeated customer incidents.</li>
+                    <li>Difficulty setting up chatbot.</li>
+                    <li>Logging the calls in the support log manually.</li>
+				</ul>
+				</section>
+				<section id="ia" class='page-section'>
+				<h2>Information Architecture</h2>
+				<p class='fit-text'>
+                    To build the site architecture I worked on the concept sketching and used the insights from the competitive analysis to decide the main features and how they should be distributed. From that analysis the following site map was defined: 				</p>
+				<div class='sitemap-container'>
+					<!-- Site map container-->
+					<img class='sitemap-image asyncImage' src='images/proagent/sitemap/sitemap_proagent.svg' ; alt='Site map'/>
+				</div>
+				</section>
+				<section id="wireframes" class='page-section'>
+				<h2>Wireframes</h2>
+				<p class='fit-text'>
+					Since this project is a SaaS solution, <span class='bold-black'> the design was made for a desktop web application</span>
+				</p>
+				<h3 class='space'>Key features</h3>
+				<div class='keyfeatures-container'>
+					<!-- Key features container-->
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/proagent/icons/overview.svg' ; alt='Overview icon'/>
+						<p>
+							<span class='bold-black'>Tickets overview</span>
+						</p>
+					</div>
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/proagent/icons/reporting.svg' ; alt='Reports icon'/>
+						<p>
+							<span class='bold-black'>Custom plots</span>
+						</p>
+					</div>
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/proagent/icons/chatbot.svg' ; alt='Chatbot icon'/>
+						<p>
+							<span class='bold-black'>Easily configured Chatbot</span>
+						</p>
+					</div>
+					<div class='keyfeature-image-text'>
+						<img class='keyfeature-image' src='images/proagent/icons/todo.svg' ; alt='To do list icon'/>
+						<p>
+							<span class='bold-black'>Reminders and to do list</span>
+						</p>
+					</div>
+				</div>
+				<ul class='project-lists fit-text'>
+					<li>Home page with tickets status overview.</li>
+					<li>Reports customization with drag and drop tool.</li>
+					<li>Easily configured chatbot through a logic flow.</li>
+					<li>Reminders and to do list that allow agents to easily track their pending tasks.</li>
+				</ul>
+				<h3>User flows</h3>
+				<p class='fit-text'>
+					Below is the user flow when Hannah wants to assign a ticket and then review a ticket information:
+				</p>
+				<ol class='project-ordered-lists fit-text'>
+					<li>1.- Click on the Assign button</li>
+					<li>2.- Search for the agent</li>
+					<li>3.- Select available agent</li>
+					<li>4.- Assign ticket</li>
+					<li>5.- Go to tickets view</li>
+					<li>6.- Open ticket details</li>
+					<li>7.- Check ticket information and validate if another agent is currently working on it.</li>
+				</ol>
+				<p class='fit-text'>
+					In the project gallery you can find more user flows for the web application.
+				</p>
+				<div class='userflow-container'>
+					<!-- User flow container-->
+					<img id="userflow" class='userflow-image asyncImage' src='images/proagent/userflow/userflow.png' ; alt='User flow wireframes for assigning and reviewing ticket information'/>
+					<div id="myModal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content asyncImage" id="img01" src='images/proagent/userflow/userflow.png'/>
+					</div>
+					<script src="scripts/popup.js" defer></script>
+				</div>
+				</section>
+				<section id="testing" class='page-section'>
+				<h2>Testing</h2>
+				<p class='fit-text'>
+					The first version of the Wireframes was tested on 7 users. The results helped improve the design and the changes were applied to the mockups shown on the next section. The following tables show the results of the tasks where the users encountered issues or that they enjoyed the most.
+                </p>
+                <h3 class='margin-increase'>New user (Sign up flow)</h3>
+				<div class='testing-mobile-container'>
+					<img class='testing-mobile-image asyncImage' src='images/proagent/test/test_signup_mobile.png' ; alt='Test results Sign up flow'/>
+				</div>
+				<div class='testing-desktop-container'>
+					<img id="testresults" class='testing-desktop-image' src='images/proagent/test/test_signup_desktop.svg' ; alt='Test results Sign up flow'/>
+					<div id="mySecondModal" class="modal">
+						<span class="close-testing">&times;</span>
+						<img class="modal-content" id="img02" src='images/proagent/test/test_signup_desktop.svg'/>
+					</div>
+					<script src="scripts/popup2.js" defer></script>
+                </div>
+                <h3>Recurrent user (Sign in flow)</h3>
+				<div class='testing-mobile-container'>
+					<img class='testing-mobile-image asyncImage' src='images/proagent/test/test_login_mobile.png' ; alt='Test results Sign in flow'/>
+				</div>
+				<div class='testing-desktop-container'>
+					<img id="testresults2" class='testing-desktop-image' src='images/proagent/test/test_login_desktop.svg' ; alt='Test results Sign in flow'/>
+					<div id="mySevenththModal" class="modal">
+						<span class="close-testing">&times;</span>
+						<img class="modal-content" id="img07" src='images/proagent/test/test_login_desktop.svg'/>
+					</div>
+					<script src="scripts/popup7.js" defer></script>
+                </div>
+				</section>
+				<section id="ui-design" class='page-section'>
+				<h2>UI Design</h2>
+				<h3>Color palette</h3>
+				<p class='fit-text'>
+                    The color palette has lilacs and blue to evoke wisdom and calmness. Customer service can sometimes be stressful for both the agents and the clients, and I wanted the platform to transmit tranquility.
+				</p>
+				<div class='color-container'>
+					<!-- Color palette-->
+					<div class='color-font firstcolor-box'>
+						<p>
+							#262626
+						</p>
+					</div>
+					<div class='color-font secondcolor-box'>
+						<p>
+							#0F1C7D
+						</p>
+					</div>
+					<div class='color-font thirdcolor-box'>
+						<p>
+							#8189BE
+						</p>
+					</div>
+					<div class='color-font fourthcolor-box'>
+						<p>
+							#E0E4FF
+						</p>
+					</div>
+					<div class='color-font fifthcolor-box'>
+						<p>
+							#FAFAFA
+						</p>
+					</div>
+				</div>
+				<h3 class='space'>Fonts</h3>
+				<p class='fit-text'>
+					I wanted the web application to have a modern and calm look & feel, so I went for the Serif typeface called Cooper for the main headers (H1) and for the smaller headers and the rest of the text I want with Montserrat since it complimented the other font nicely and has great readability.
+				</p>
+				<div class='fonts-container'>
+					<!-- Fonts-->
+					<div class='color-font fonts-box'>
+						<img class='font-image asyncImage' src='images/proagent/fonts/cooper_regular.png' ; alt='Cooper font regular'/>
+					</div>
+					<div class='color-font fonts-box'>
+						<img class='font-image asyncImage' src='images/proagent/fonts/montserrat_medium.png' ; alt='Montserrat font medium'/>
+					</div>
+					<div class='color-font fonts-box'>
+						<img class='font-image asyncImage' src='images/proagent/fonts/montserrat_light.png' ; alt='Montserrat font light'/>
+					</div>
+				</div>
+				<h3>Mockups</h3>
+				<div class='mockups-container-mobile'>
+					<img class='mockups-image asyncImage' src='images/proagent/mockups/overview.png' ; alt='Mockup home'/>
+					<img class='mockups-image asyncImage' src='images/proagent/mockups/ticketdetail.png' ; alt='Mockup ticket detail'/>
+					<img class='mockups-image asyncImage' src='images/proagent/mockups/reports.png' ; alt='Mockup custom reports'/>
+					<img class='mockups-image asyncImage' src='images/proagent/mockups/chatbot.png' ; alt='Mockup chatbot flow'/>
+				</div>
+				<div class='mockups-container'>
+					<!-- Mockups container desktop-->
+					<img class='mockups-image asyncImage' src='images/proagent/mockups/overview.png' ; alt='Mockup home'/>
+					<img class='mockups-image asyncImage' src='images/proagent/mockups/ticketdetail.png' ; alt='Mockup ticket detail'/>
+                </div>
+                <div class='mockups-container'>
+					<!-- Mockups container desktop-->
+					<img class='mockups-image asyncImage' src='images/proagent/mockups/reports.png' ; alt='Mockup custom reports'/>
+					<img class='mockups-image asyncImage' src='images/proagent/mockups/chatbot.png' ; alt='Mockup chatbot flow'/>
+				</div>
+				<h3 class='margin-top'>Prototype</h3>
+				<p class='fit-text'>
+					The following gif shows the interactions for a recurrent user.
+				</p>
+				<div class='prototype'>
+                    <img class='mockups-image-p' src='images/proagent/mockups/signin.gif' ; alt='Prototype sign up flow'/>
+					<a href="https://www.figma.com/proto/fWWkhYt2xTAx6fDGS30jQz/Proagent?node-id=80%3A1293&viewport=116%2C83%2C0.015625&scaling=contain" target="_blank">
+					<p class='link margin-top margin-down'>
+						Check out full prototype (sign up and sign in flows)
+					</p>
+					</a>
+				</div>
+				</section>
+			</div>
+			<!--closes project information section-->
+			<div class='outcome-container'>
+				<!-- Outcomes section-->
+				<div class='outcome-information'>
+					<section id="outcomes" class='page-section'>
+					<h1>Outcomes & lessons learnt</h1>
+					<ul class='project-lists-outcomes'>
+						<li>Proagent offers a customer service web application that allows agents to keep track of their tasks, create custom reports and easily configure chatbots. It promotes teamwork and offres a proactive and efficient service to their customers.</li>
+						<li>UX Writing needs to be a mandatory part of every project. The main issues found during the testing phase showed that users needed an improved onboarding and explanations of the main features of the service. Users do read the copies provided and using lorem ipsum does not offer a clear understanding of the usability of a service.</li>
+                        <li>The use of CTAs in the empty states improved the overall experience of the users allowing them to better understand the features of the app.</li>
+                        <li><span class='bold-black'>Next steps:</span></li>
+						<ul class='nested-list'>
+							<li>Design mobile application. Although agents mostly work on a desktop it's important to offer the mobile alternative, especially for agents that work on night shifts or holidays.</li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+			</section>
+			<!-- Closes Outcomes section -->
+			<div class='gallery-container'>
+				<section id="gallery" class='page-section'>
+				<h1>Project gallery</h1>
+				<!-- Project gallery section -->
+				<div class='gallery-container-photos'>
+					<div class='gallery-box'>
+						<div>
+							<img id="first" class='gallery-image asyncImage' src='images/proagent/gallery/userpersona.png' ; alt='User persona thumbnail'/>
+							<p class='bold-black gallery-text'>
+								User persona
+							</p>
+						</div>
+						<div id="myThirdModal" class="modal">
+							<span class="close-first">&times;</span>
+							<img class="modal-content asyncImage" id="img03" src='images/proagent/gallery/userpersona.png' ; alt='User persona'/>
+						</div>
+						<script src="scripts/popup3.js" defer></script>
+					</div>
+					<div class='gallery-box'>
+						<div>
+							<img id="second" class='gallery-image asyncImage' src='images/proagent/gallery/competitiveanalysis.png' ; alt='Competitive analysis thumbnail'/>
+							<p class='bold-black gallery-text'>
+								Competitive analysis
+							</p>
+						</div>
+						<div id="myFourthModal" class="modal">
+							<span class="close-second">&times;</span>
+							<img class="modal-content asyncImage" id="img04" src='images/proagent/gallery/competitiveanalysis.png' ; alt='Competitive analysis'/>
+						</div>
+						<script src="scripts/popup4.js" defer></script>
+					</div>
+					<div class='gallery-box gallery-box-right'>
+						<div>
+							<img id="fourth" class='gallery-image asyncImage' src='images/proagent/gallery/wireframe_curstomreport.png' ; alt='Wireframes - custom plot'/>
+							<p class='bold-black gallery-text'>
+								Sign up flow
+							</p>
+						</div>
+						<div id="mySixthModal" class="modal">
+							<span class="close-fourth">&times;</span>
+							<img class="modal-content asyncImage" id="img06" src='images/proagent/gallery/wireframe_curstomreport.png' ; alt='Wireframes - custom plot'/>
+						</div>
+						<script src="scripts/popup6.js" defer></script>
+					</div>
+				</div>
+				<!-- Closes Project gallery section-->
+				</section>
+			</div>
+			<div class='pictures-icons-container'>
+				<!-- Pictures & icons acknowledgement section -->
+				<h1 class="fit-text">Pictures & icons appreciation</h1>
+				<h2>Icons</h2>
+				<ul class='project-lists fit-text'>
+					<li>Mockups icons: Iconify</li>
+				</ul>
+				<h2>Pictures</h2>
+				<ul class='project-lists'>
+                    <li>User persona: Christina @ wocintechchat.com on Unsplash</li>
+                    <li>Agent: NESA by Makers on Unsplash</li>
+                    <li>Agent: Paige Cody on Unsplash </li>
+                    <li>Agent: Paul Millerd on Unsplash</li>
+				</ul>
+			</div>
+			<!-- closes Pictures & icons acknowledgement section -->
+		</div>
+		<!-- CLOSES INFORMATION BOX -->
+	</div>
+	<!-- CLOSES PROJECT INFORMATION CONTAINER -->
+	<div class='next-project'>
+		<a class='button-next' href='veganmile.html'><span>Go to next project</span></a>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img class='backtotop' src='images/icons/backtotop.svg'/></button>
+	<script src='scripts/onscroll.js' defer></script>
+	</main>
+	<!-- Footer -->
+	<footer class='footer'>
+	<div class='footer-info'>
+		<div class=contact-info>
+			<p>
+				Want to get in touch ?
+			</p>
+			<p>
+				Send me an email
+			</p>
+			<p class='bold-blue margin-bottom'>
+				<a href="mailto:maria.pb20@outlook.com">maria.pb20@outlook.com</a>
+			</p>
+		</div>
+		<div class='social-media'>
+			<a href='https://www.linkedin.com/in/mapb1989/'>
+			<img class='social-media-images' src='images/icons/linkedin.svg' ; alt='LinkedIn logo'/>
+			</a>
+			<a href='https://medium.com/@Mariaalejandrapb'>
+			<img class='social-media-images' src='images/icons/medium.svg' ; alt='Medium logo'/>
+			</a>
+			<a href='https://dribbble.com/mariapb20'>
+			<img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg' ; alt='Dribbble logo'/>
+			</a>
+		</div>
+	</div>
+	<!--footer info-->
+	<p class='copyright-notice'>
+		Copyright 2020 María Alejandra Pérez Bullones
+	</p>
+	</footer>
+</div>
+<!--container-->
+</body>
+</html>
