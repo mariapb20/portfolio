@@ -442,6 +442,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: auto;
     cursor:pointer;
 }
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 100px;
+    margin: 0 auto 50px auto;
+}
+
+.design-process-image {
+    width: 290px;
+}
 
 
 /******************************************** TABLET ********************************************/
@@ -726,6 +738,18 @@ ul.project-lists-outcomes li {
 .gallery-box-right {
     margin: 0 0 50px 0;
     border: solid 1px #6B6C6E;
+}
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 500px;
 }
 }
 
@@ -1041,6 +1065,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     margin: 0 auto;
     height: 130px;
     width: auto;
+}
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    height: 250px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 620px;
 }
 
 }
@@ -1363,6 +1399,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: auto;
     height: 100px;
 }
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 800px;
+}
 
 }
 
@@ -1682,5 +1730,16 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     height: 120px;
     width: auto;
 }
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto 20px auto;
+}
 
+.design-process-image {
+    width: 1000px;
+}
 }

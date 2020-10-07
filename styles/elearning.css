@@ -408,6 +408,20 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     height: auto;
 }
 
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 100px;
+    margin: 0 auto 50px auto;
+}
+
+.design-process-image {
+    width: 290px;
+}
+
+
 
 /******************************************** TABLET ********************************************/
 @media screen and (min-width: 767px) and (max-width: 990px) {
@@ -690,6 +704,18 @@ ul.project-lists-outcomes li {
 .gallery-right {
     width: 170px;
     height: auto;
+}
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 500px;
 }
 }
 
@@ -1000,6 +1026,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .gallery-right {
     width: 170px;
     height: 120px;
+}
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    height: 250px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 620px;
 }
 
 }
@@ -1322,6 +1360,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 200px;
     height: 100px;
 }
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 800px;
+}
 
 }
 
@@ -1443,7 +1493,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .sitemap-image-desktop {
-    width: 50%;
+    width: 70%;
 }
 
 /*Key features*/
@@ -1638,6 +1688,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .gallery-right {
     width: 200px;
     height: 100px;
+}
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 1000px;
 }
 
 }

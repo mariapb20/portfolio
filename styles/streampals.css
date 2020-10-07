@@ -423,6 +423,19 @@ ul.nested-list li::before { /*::before creates a pseudo-element that is the firs
     width: 1.5em; /* Also needed for space (tweak if needed) */
 }
 
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 100px;
+    margin: 0 auto 50px auto;
+}
+
+.design-process-image {
+    width: 290px;
+}
+
 
 /******************************************** TABLET ********************************************/
 @media screen and (min-width: 767px) and (max-width: 990px) {
@@ -692,7 +705,22 @@ ul.project-lists-outcomes li {
     margin: 0 0 50px 0;
     border: solid 1px #6B6C6E;
 }
+
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto 20px auto;
 }
+
+.design-process-image {
+    width: 500px;
+}
+
+}
+
 
 
 /******************************* MEDIUM DEVICES - larger than 991 px *****************************/
@@ -997,6 +1025,19 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .gallery-image {
     width: 220px;
     height: 130px
+}
+
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    height: 250px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 620px;
 }
 
 }
@@ -1318,6 +1359,19 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     height: 130px;
 }
 
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 800px;
+}
+
 }
 
 /********************************* EXTRA LARGE DEVICES - larger than 1500px  **********************************/
@@ -1635,6 +1689,19 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .gallery-image {
     width: 300px;
     height: 160px;
+}
+
+.design-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto 20px auto;
+}
+
+.design-process-image {
+    width: 1000px;
 }
 
 }
