@@ -597,7 +597,7 @@ margin-top: 0px;
   justify-content: flex-start;
 /*   font-weight: 700;*/
   padding: 15px;
-  margin: 0 0 60px 0px;
+  margin: 0 0 50px 0px;
 }
 
 .project-title > h1 {
@@ -619,7 +619,7 @@ margin-top: 0px;
   width: 100%; 
   padding: 30px 15px 30px 15px;
   background: rgba(0, 97, 201, 0.2);
-  height: 340px;
+  height: 380px;
   text-align: left;
   line-height: 1.5em;
 }
@@ -682,7 +682,7 @@ p.tools-used {
 .project-information-section {
   display: flex;
   flex-direction: column;
-  margin: 50px 5px 50px 5px;
+  margin: 30px 5px 50px 5px;
   padding:15px;
 
 }
@@ -1107,7 +1107,7 @@ p.selected-text {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px auto 40px auto;
+  margin: 20px auto 30px auto;
   width: 100%;
 }
 
@@ -1266,7 +1266,7 @@ transition: 0.5s;
 /********* Project title *******/
   
 .project-title {
-  margin: 0 0 60px 35px;
+  margin: 0 0 50px 35px;
   padding: 0px;
   width: 80%;
 }
@@ -1316,7 +1316,7 @@ transition: 0.5s;
 /********* Project information section - MAIN CONTAINER *******/
   
 .project-information-section {
-  margin: 50px 20px 50px 20px;
+  margin: 30px 20px 50px 20px;
   padding:15px;
 }
   
@@ -1352,7 +1352,7 @@ transition: 0.5s;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 20px auto 40px auto;
+  margin: 20px auto 30px auto;
 }
 
 .userflow-image {
@@ -1638,7 +1638,7 @@ p.copyright-notice{
   
 .project-title {
   padding: 0px;
-  margin: 0 0 100px 50px;
+  margin: 0 0 50px 50px;
 }
 
 .project-title > h1 {
@@ -1851,7 +1851,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 width: 80%;
-margin: 20px auto 40px auto;
+margin: 20px auto 30px auto;
 }
 
 .userflow-image {
@@ -2111,7 +2111,7 @@ margin-top: 0px;
   
 .project-title {
   padding: 0px;
-  margin: 0 0 100px 50px;
+  margin: 0 0 50px 50px;
 }
 
 .project-title > h1 {
@@ -2321,9 +2321,7 @@ display: flex;
 flex-direction: row;
 justify-content:center;
 align-items: center;
-margin-top: 30px;
-margin-bottom: 70px;
-margin: 20px auto 40px auto;
+margin: 20px auto 30px auto;
 width: 80%;
 }
 
@@ -2614,7 +2612,7 @@ margin-top: 0px;
 
 .project-title {
 padding: 0px;
-margin: 0 50px 100px 50px;
+margin: 0 50px 50px 50px;
 }
 
 .project-title > h1 {
@@ -2828,7 +2826,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 width: 70%;
-margin: 20px auto 40px auto;
+margin: 20px auto 30px auto;
 }
 
 .userflow-image {

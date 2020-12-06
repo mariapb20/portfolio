@@ -28,7 +28,7 @@ html {
 .problem-context {
     display: flex;
     flex-direction: column;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   /*  padding:15px;*/
     justify-content: wrap;
     align-content: center;
@@ -48,7 +48,7 @@ html {
 }
 
 .survey-images {
-    height: 200px;
+    height: 170px;
     margin-bottom: 20px;
 }
 
@@ -63,7 +63,7 @@ ul.project-lists  {
     font-weight: 300;
     line-height: 1.5em;
     text-align: left;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
    }
 
 ul.project-lists li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
@@ -78,49 +78,17 @@ ul.project-lists li::before { /*::before creates a pseudo-element that is the fi
 .persona-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: auto;
-}
-
-.persona-image-container {
-    display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px auto 40px auto;
+    width: 100%;
+  }
+  
+  .persona-image {
     width: 300px;
-    margin: 0 auto;
-}
-
-.persona-image {
-    height: 235px;
-    width: 235px;
-    margin-bottom: 30px;
-}
-
-.persona-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.quote-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 280px;
-    height: 250px;
-    margin: 0 auto 50px auto;
-}
-
-.quote-image-mobile {
-    width: 280px;
-    height: 250px;
-}
-
-.quote-image{
-    display:none
-}
-
+  /*  margin-top: 30px;
+    margin-bottom: 30px;*/
+  }
 /*User journey*/
 
 .user-journey-image-mobile {
@@ -131,8 +99,8 @@ ul.project-lists li::before { /*::before creates a pseudo-element that is the fi
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .user-journey-desktop-container { /*Set display as flex for desktop version*/
@@ -165,8 +133,8 @@ ul.project-lists li::before { /*::before creates a pseudo-element that is the fi
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .keyfeature-image {
@@ -201,7 +169,7 @@ ol.project-ordered-lists  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -243,7 +211,7 @@ ol.project-ordered-lists  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -277,8 +245,8 @@ ol.project-ordered-lists  {
 
 .mockups-image {
     width: 220px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 /*Prototype*/
@@ -289,7 +257,7 @@ ol.project-ordered-lists  {
     text-decoration: underline;
 }
 .prototype-box {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 /*Testing*/
@@ -325,7 +293,7 @@ ol.project-ordered-lists  {
     padding: 30px 15px 30px 15px;
     background: rgba(0, 97, 201, 0.2);
     height:auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information {
@@ -451,56 +419,26 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
 /*Suvey insights*/
 .survey-images {
-    height: 250px;
-    margin-bottom: 50px;
+    height: 170px;
+    margin-bottom: 20px;
 }
 
 /*User persona*/
 
 .persona-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
-    margin-bottom: 50px;
-}
-
-.persona-image-container {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    margin: 0;
-}
-.persona-image {
-    height: 300px;
-    width: 300px;
-    margin-bottom: 0px;
-}
-
-.quote-box{
-    margin-bottom: 50px;
-}
-
-.quote-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    margin: 30px auto 40px auto;
+  }
+  
+  .persona-image {
     width: 600px;
-    height: 200px;
-    margin: 0 auto 50px auto;
-}
-
-.quote-image {
-    display: block;
-    width: 600px;
-    height: 300px;
-}
-
-.quote-image-mobile{
-    display: none;
-}
+  /*  margin-top: 50px;
+    margin-bottom: 50px;*/
+  }
 /*User journey*/
 
 .user-journey-image-mobile {
@@ -527,8 +465,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 /*Key features*/
 
 .keyfeatures-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .keyfeature-image {
@@ -541,7 +479,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .keyfeature-image-text p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /*Color palette*/
@@ -551,8 +489,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .color-font {
@@ -581,8 +519,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .mockups-image {
@@ -611,8 +549,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     font-size: 30px;
 }
 .prototype-box {
-    margin-top: 50px;
-    margin-bottom: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 /*Testing*/
@@ -625,8 +563,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .testing-desktop-image {
@@ -636,7 +574,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .outcome-container {
     padding: 50px 35px 50px 35px;
     height:auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 ul.project-lists-outcomes {
@@ -756,51 +694,27 @@ ul.project-lists-outcomes li {
 
 .survey-images {
     height: 170px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 
 /*User persona*/
 
+/*User persona*/
 .persona-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
-    margin-bottom: 50px;
-}
-
-.persona-image-container {
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 280px;
-    margin: 0;
-}
+    width: 80%;
+    margin: 30px auto 40px auto;
+    }
+    
 .persona-image {
-    height: 220px;
-    width: 220px;
-    margin-bottom: 0px;
-    margin-right: 100px;
-}
-
-.quote-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    height: 100px;
-    margin: 0 auto 50px auto;
-}
-
-.quote-image {
-    display: block;
-    width: 700px;
-    height: 100px;
-}
-.quote-image-mobile{
-    display: none;
+    width: 650px;
+ /*   margin-top: 30px;
+    margin-bottom: 30px;*/
+    margin-right: 30px;
 }
 /*User journey*/
 
@@ -812,8 +726,8 @@ ul.project-lists-outcomes li {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .user-journey-image-desktop{
@@ -830,8 +744,8 @@ ul.project-lists-outcomes li {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .sitemap-image-desktop {
@@ -845,8 +759,8 @@ ul.project-lists-outcomes li {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .keyfeature-image {
@@ -863,13 +777,13 @@ ul.project-lists-outcomes li {
 }
 
 .keyfeature-image-text p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*Color palette*/
 
 .color-container {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -894,8 +808,8 @@ ul.project-lists-outcomes li {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 /*Mockups*/
@@ -913,8 +827,8 @@ ul.project-lists-outcomes li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .mockups-image {
@@ -930,7 +844,7 @@ ul.project-lists-outcomes li {
     font-size: 30px;
 }
 .prototype-box {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 /*Testing*/
@@ -943,8 +857,8 @@ ul.project-lists-outcomes li {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .testing-desktop-image {
@@ -962,7 +876,7 @@ ul.project-lists-outcomes li {
     width: 100%; 
     margin: 0 auto;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information h1 {
@@ -1084,8 +998,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .survey-images {
-    height: 180px;
-    margin-bottom: 50px;
+    height: 170px;
+    margin-bottom: 20px;
 }
 
 
@@ -1094,41 +1008,19 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .persona-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    width: auto;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin: 30px auto 40px auto;
+    width: 80%;
 }
-
-.persona-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    margin: 0;
-}
+    
 .persona-image {
-    height: 250px;
-    width: 250px;
-    margin-bottom: 0px;
-    margin-right: 150px;
-}
-
-.quote-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 120px;
-    margin: 0 auto 60px auto;
-}
-
-.quote-image {
-    display: block;
-    height: 120px;
-}
-.quote-image-mobile{
-    display: none;
+    width: 800px;
+/*    margin-top: 30px;
+    margin-bottom: 30px;*/
+    margin-right: 30px;
 }
 
 /*User journey*/
@@ -1140,8 +1032,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .user-journey-image-desktop{
@@ -1158,8 +1050,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .sitemap-image-desktop {
@@ -1173,7 +1065,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 0 auto;
     width: 90%;
 }
 
@@ -1191,7 +1083,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .keyfeature-image-text p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*Color palette*/
@@ -1201,7 +1093,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 0px auto;
     width: 70%;
 }
 
@@ -1224,7 +1116,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 0px auto;
     width: 70%;
 
 }
@@ -1244,8 +1136,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
@@ -1262,7 +1154,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     font-size: 30px;
 }
 .prototype-box {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 /*Testing*/
@@ -1275,8 +1167,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .testing-desktop-image {
@@ -1295,7 +1187,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%; 
     margin: 0 auto;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information h1 {
@@ -1411,8 +1303,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .survey-images {
-    height: 200px;
-    margin-bottom: 50px;
+    height: 170px;
+    margin-bottom: 20px;
 }
 
 
@@ -1421,42 +1313,17 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .persona-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto 50px auto;
-}
-
-.persona-image-container {
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    margin: 0;
-}
+    width: 70%;
+    margin: 30px auto 40px auto;
+    }
+    
 .persona-image {
-    height: 250px;
-    width: 250px;
-    margin-bottom: 0px;
-    margin-right: 180px;
-}
-
-.quote-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 200px;
-    margin: 0 auto 60px auto;
-}
-
-.quote-image {
-    display: block;
-    height: 150px;
-}
-
-.quote-image-mobile{
-    display: none;
+    width: 800px;
+ /*   margin-top: 30px;
+    margin-bottom: 30px;*/
+    margin-right: 50px;
 }
 
 /*User journey*/
@@ -1470,8 +1337,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .user-journey-image-desktop{
@@ -1488,8 +1355,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .sitemap-image-desktop {
@@ -1504,7 +1371,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content: space-around;
     align-items: center;
     width: 90%;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 0 auto;
 }
 
 .keyfeature-image {
@@ -1521,7 +1388,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .keyfeature-image-text p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*Color palette*/
@@ -1531,7 +1398,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     width: 70%;
-    margin: 50px auto auto auto;
+    margin: 20px auto 0px auto;
 }
 
 .color-font {
@@ -1554,7 +1421,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content:space-around;
     align-items: center;
     width: 70%;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 0px auto;
 }
 
 /*Mockups*/
@@ -1572,8 +1439,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
@@ -1590,7 +1457,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     font-size: 30px;
 }
 .prototype-box {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 /*Testing*/
@@ -1603,8 +1470,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .testing-desktop-image {
@@ -1622,7 +1489,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%; 
     margin: 0 auto;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information h1 {
