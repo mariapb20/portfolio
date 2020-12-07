@@ -3,7 +3,9 @@ html {
   }
 
 /* Top images */
-
+.space-down {
+    margin-top: 40px;
+}
 .project-main-images {
     display: flex;
     flex-direction: column;
@@ -31,7 +33,7 @@ html {
 .problem-context {
     display: flex;
     flex-direction: column;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   /*  padding:15px;*/
     justify-content: wrap;
     align-content: center;
@@ -54,7 +56,7 @@ html {
 
 .competitors-images {
     width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 ul.project-lists  {
@@ -64,7 +66,7 @@ ul.project-lists  {
     font-weight: 300;
     line-height: 1.5em;
     text-align: left;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
    }
 
 ul.project-lists li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
@@ -96,7 +98,7 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
 .persona-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: auto;
 }
 
@@ -173,7 +175,7 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
 }
 
 #wireframes{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 /*Key features*/
@@ -183,14 +185,14 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .keyfeature-image {
     height: 40px;
     width: auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .keyfeature-image-text {
@@ -198,7 +200,7 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -232,8 +234,8 @@ ol.project-ordered-lists  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .color-font {
@@ -274,8 +276,8 @@ ol.project-ordered-lists  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .fonts-box {
@@ -378,7 +380,7 @@ ol.project-ordered-lists  {
     padding: 30px 15px 30px 15px;
     background: rgba(0, 97, 201, 0.2);
     height:auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information {
@@ -465,7 +467,7 @@ h2.reduce-margin {
     align-items: center;
     width: 290px;
     height: 100px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 30px auto;
 }
 
 .design-process-image {
@@ -501,7 +503,7 @@ h2.reduce-margin {
 /*Competitors insights*/
 .competitors-images {
     width: 550px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /*User persona*/
@@ -523,8 +525,8 @@ h2.reduce-margin {
     margin: 0;
 }
 .persona-image {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin-bottom: 0px;
 }
 
@@ -576,18 +578,18 @@ h2.reduce-margin {
 /*Key features*/
 
 .keyfeatures-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .keyfeature-image {
     height: 40px;
     width: auto;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .keyfeature-image-text {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .keyfeature-image-text p {
@@ -601,8 +603,8 @@ h2.reduce-margin {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .color-font {
@@ -631,8 +633,8 @@ h2.reduce-margin {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .slideshow-container {
@@ -697,7 +699,7 @@ h2.reduce-margin {
 .outcome-container {
     padding: 50px 35px 50px 35px;
     height:auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 ul.project-lists-outcomes {
@@ -767,7 +769,7 @@ ul.project-lists-outcomes li {
     align-items: center;
     width: 500px;
     height: 200px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
 }
 
 .design-process-image {
@@ -814,7 +816,7 @@ ul.project-lists-outcomes li {
 /*Competitors insights*/
 .competitors-images {
     width: 600px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -898,8 +900,8 @@ ul.project-lists-outcomes li {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .keyfeature-image {
@@ -913,7 +915,7 @@ ul.project-lists-outcomes li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .keyfeature-image-text p {
@@ -923,7 +925,7 @@ ul.project-lists-outcomes li {
 /*Color palette*/
 
 .color-container {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -948,8 +950,8 @@ ul.project-lists-outcomes li {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 /*Mockups*/
@@ -967,8 +969,8 @@ ul.project-lists-outcomes li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .mockups-image {
@@ -1028,7 +1030,7 @@ ul.project-lists-outcomes li {
     width: 100%; 
     margin: 0 auto;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information h1 {
@@ -1094,7 +1096,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     align-items: center;
     width: 620px;
     height: 250px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
 }
 
 .design-process-image {
@@ -1142,14 +1144,14 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 /*Competitors insights*/
 .competitors-images {
     width: 650px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 /*User persona*/
 
 .persona-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: auto;
@@ -1225,14 +1227,14 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 0px auto;
     width: 100%;
 }
 
 .keyfeature-image {
     height: 50px;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .keyfeature-image-text {
@@ -1240,7 +1242,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .keyfeature-image-text p {
@@ -1254,7 +1256,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 0px auto;
     width: 70%;
 }
 
@@ -1278,7 +1280,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 0px auto;
     width: 70%;
 
 }
@@ -1298,8 +1300,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .mockups-image {
@@ -1361,7 +1363,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%; 
     margin: 0 auto;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information h1 {
@@ -1427,7 +1429,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     align-items: center;
     width: 800px;
     height: 300px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
 }
 
 .design-process-image {
@@ -1474,14 +1476,14 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 /*Competitors insights*/
 .competitors-images {
     width: 700px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 /*User persona*/
 
 .persona-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -1561,12 +1563,12 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 0px auto;
 }
 
 .keyfeature-image {
     height: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -1575,7 +1577,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .keyfeature-image-text p {
@@ -1589,7 +1591,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     width: 70%;
-    margin: 50px auto auto auto;
+    margin: 20px auto 0px auto;
 }
 
 .color-font {
@@ -1612,7 +1614,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content:space-around;
     align-items: center;
     width: 100%;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 0px auto;
 }
 
 /*Mockups*/
@@ -1630,8 +1632,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
@@ -1694,7 +1696,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%; 
     margin: 0 auto;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information h1 {
@@ -1762,7 +1764,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     align-items: center;
     width: 1000px;
     height: 400px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
 }
 
 .design-process-image {
