@@ -57,6 +57,7 @@ html {
 .competitors-images {
     width: 300px;
     margin-bottom: 30px;
+    margin-top:10px;
 }
 
 ul.project-lists  {
@@ -511,7 +512,6 @@ h2.reduce-margin {
 .persona-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: auto;
     margin-bottom: 50px;
@@ -825,7 +825,6 @@ ul.project-lists-outcomes li {
 .persona-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: auto;
     margin-bottom: 50px;
@@ -1152,7 +1151,6 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .persona-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: auto;
     margin-bottom: 50px;
@@ -1484,7 +1482,6 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .persona-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     margin: 0 auto 50px auto;
