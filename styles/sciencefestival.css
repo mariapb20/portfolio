@@ -2,6 +2,9 @@ html {
     scroll-behavior: smooth;
   }
 
+.space-top{
+    margin-top: 30px;
+}
 /* Top images */
 
 .project-main-images {
@@ -31,7 +34,7 @@ html {
 .problem-context {
     display: flex;
     flex-direction: column;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   /*  padding:15px;*/
     justify-content: wrap;
     align-content: center;
@@ -54,7 +57,8 @@ html {
 
 .competitors-images {
     width: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 ul.project-lists  {
@@ -64,7 +68,7 @@ ul.project-lists  {
     font-weight: 300;
     line-height: 1.5em;
     text-align: left;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
    }
 
 ul.project-lists li::before { /*::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property.*/
@@ -96,7 +100,7 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
 .persona-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: auto;
 }
 
@@ -109,8 +113,8 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
 }
 
 .persona-image {
-    height: 235px;
-    width: 235px;
+    height: 200px;
+    width: 200px;
     margin-bottom: 30px;
 }
 
@@ -162,8 +166,8 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 /*Information architecture - site map*/
@@ -173,7 +177,7 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
 }
 
 #wireframes{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 /*Key features*/
@@ -183,8 +187,8 @@ ul.project-lists-nm li::before { /*::before creates a pseudo-element that is the
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .keyfeature-image {
@@ -232,7 +236,7 @@ ol.project-ordered-lists  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -274,7 +278,7 @@ ol.project-ordered-lists  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -365,7 +369,7 @@ ol.project-ordered-lists  {
     padding: 30px 15px 30px 15px;
     background: rgba(0, 97, 201, 0.2);
     height:auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information {
@@ -448,7 +452,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     align-items: center;
     width: 290px;
     height: 100px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 0px auto;
 }
 
 .design-process-image {
@@ -485,7 +489,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 /*Competitors insights*/
 .competitors-images {
     width: 550px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /*User persona*/
@@ -507,8 +511,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     margin: 0;
 }
 .persona-image {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin-bottom: 0px;
 }
 
@@ -547,8 +551,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
 
 .sitemap-container { /*Set display as none for desktop version*/
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 /*Information architecture - site map*/
@@ -560,8 +564,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 /*Key features*/
 
 .keyfeatures-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .keyfeature-image {
@@ -585,7 +589,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -615,7 +619,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -675,7 +679,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .outcome-container {
     padding: 50px 35px 50px 35px;
     height:auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 ul.project-lists-outcomes {
@@ -745,7 +749,7 @@ ul.project-lists-outcomes li {
     align-items: center;
     width: 500px;
     height: 200px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
 }
 
 .design-process-image {
@@ -792,7 +796,7 @@ ul.project-lists-outcomes li {
 /*Competitors insights*/
 .competitors-images {
     width: 600px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 
@@ -801,7 +805,7 @@ ul.project-lists-outcomes li {
 
 .persona-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: auto;
@@ -816,8 +820,8 @@ ul.project-lists-outcomes li {
     margin: 0;
 }
 .persona-image {
-    height: 220px;
-    width: 220px;
+    height: 250px;
+    width: 250px;
     margin-bottom: 0px;
 }
 
@@ -862,8 +866,8 @@ ul.project-lists-outcomes li {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .sitemap-image {
@@ -877,8 +881,8 @@ ul.project-lists-outcomes li {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .keyfeature-image {
@@ -902,7 +906,7 @@ ul.project-lists-outcomes li {
 /*Color palette*/
 
 .color-container {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -927,8 +931,8 @@ ul.project-lists-outcomes li {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 /*Mockups*/
@@ -946,7 +950,7 @@ ul.project-lists-outcomes li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -1002,7 +1006,7 @@ ul.project-lists-outcomes li {
     width: 100%; 
     margin: 0 auto;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information h1 {
@@ -1072,7 +1076,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     align-items: center;
     width: 620px;
     height: 250px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
 }
 
 .design-process-image {
@@ -1119,7 +1123,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 /*Competitors insights*/
 .competitors-images {
     width: 650px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 /*User persona*/
@@ -1128,12 +1132,11 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 60%;
 }
 
 .persona-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: auto;
@@ -1147,6 +1150,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 250px;
     margin: 0;
 }
+
 .persona-image {
     height: 250px;
     width: 250px;
@@ -1194,8 +1198,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .sitemap-image {
@@ -1209,14 +1213,14 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto 50px auto;
+    margin: 20px auto 0px auto;
     width: 70%;
 }
 
 .keyfeature-image {
     height: 50px;
     margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .keyfeature-image-text {
@@ -1239,7 +1243,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 30px auto;
     width: 70%;
 }
 
@@ -1262,7 +1266,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 30px auto;
     width: 70%;
 
 }
@@ -1282,7 +1286,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -1339,7 +1343,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%; 
     margin: 0 auto;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information h1 {
@@ -1405,7 +1409,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     align-items: center;
     width: 800px;
     height: 300px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
 }
 
 .design-process-image {
@@ -1452,18 +1456,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 /*Competitors insights*/
 .competitors-images {
     width: 800px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 /*User persona*/
 
 .persona-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    margin: 0 auto 50px auto;
+    width: auto;
+    margin-bottom: 50px;
 }
 
 .persona-image-container {
@@ -1522,8 +1526,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .sitemap-image {
@@ -1538,12 +1542,12 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 0 auto 50px auto;
+    margin: 20px auto 0px auto;
 }
 
 .keyfeature-image {
     height: 50px;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -1566,7 +1570,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content:space-between;
     width: 70%;
-    margin: 50px auto auto auto;
+    margin: 20px auto 30px auto;
 }
 
 .color-font {
@@ -1589,7 +1593,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     justify-content:space-between;
     align-items: center;
     width: 70%;
-    margin: 50px auto 50px auto;
+    margin: 20px auto 30px auto;
 }
 
 /*Mockups*/
@@ -1607,7 +1611,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
     width: 100%;
 }
@@ -1664,7 +1668,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%; 
     margin: 0 auto;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .outcome-information h1 {
@@ -1736,7 +1740,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     align-items: center;
     width: 1000px;
     height: 400px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0px auto;
 }
 
 .design-process-image {
