@@ -120,26 +120,17 @@ ul.project-lists li::before { /*::before creates a pseudo-element that is the fi
 
 /*Key features*/
 
-.keyfeatures-container {
-    display:flex;
-    flex-direction: column;
+.keyfeatures-container{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 0;
+    width: 290px;
+    height: 80px;
+    margin: 0 auto 0 auto;
 }
 
 .keyfeature-image {
-    width: 40px;
-    margin-bottom: 15px;
-}
-
-.keyfeature-image-text {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+    width: 290px;
 }
 
 /*User flows*/
@@ -475,22 +466,17 @@ ul.nested-list li::before { /*::before creates a pseudo-element that is the firs
 
 /*Key features*/
 
-.keyfeatures-container {
-    margin-top: 30px;
-    margin-bottom: 0;
+.keyfeatures-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+    margin: 0 auto 0 auto;
 }
 
 .keyfeature-image {
-    width: 50px;
-    margin-bottom: 30px;
-}
-
-.keyfeature-image-text {
-    margin-bottom: 50px;
-}
-
-.keyfeature-image-text p {
-    font-size: 20px;
+    width: 500px;
 }
 
 /*Color palette*/
@@ -751,26 +737,17 @@ ul.project-lists-outcomes li {
 
 /*Key features*/
 
-.keyfeatures-container {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
+.keyfeatures-container{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 0;
+    width: 620px;
+    height: 150px;
+    margin: 0 auto 0 auto;
 }
 
 .keyfeature-image {
-    width: 50px;
-    margin-bottom: 30px;
-}
-
-.keyfeature-image-text {
-    margin-bottom: 50px;
-}
-
-.keyfeature-image-text p {
-    font-size: 18px;
+    width: 620px;
 }
 
 /*Color palette*/
@@ -1053,33 +1030,17 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
 /*Key features*/
 
-.keyfeatures-container {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+.keyfeatures-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 180px;
     margin: 0 auto 0 auto;
-    width: 100%;
 }
 
 .keyfeature-image {
-    width: 50px;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.keyfeature-image-text {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    margin-right: 70px;
-}
-
-.keyfeature-image-text p {
-    font-size: 14px;
-    text-align: center;
+    width: 800px;
 }
 
 /*Color palette*/
@@ -1358,36 +1319,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
 /*Key features*/
 
-.keyfeatures-container {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 70%;
+.keyfeatures-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
     margin: 0 auto 0 auto;
 }
 
 .keyfeature-image {
-    width: 60px;
-    height: auto;
-    margin-bottom: 20px;
-    margin-right:20px ;
+    width: 1000px;
 }
-
-.keyfeature-image-text {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    margin-right: 50px;
-}
-
-.keyfeature-image-text p {
-    font-size: 16px;
-    text-align: center;
-}
-
 /*Color palette*/
 
 .color-container {
