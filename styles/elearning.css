@@ -128,26 +128,17 @@ ul.project-lists li::before { /*::before creates a pseudo-element that is the fi
 
 /*Key features*/
 
-.keyfeatures-container {
-    display:flex;
-    flex-direction: column;
+.keyfeatures-container{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    width: 290px;
+    height: 80px;
+    margin: 0 auto 0 auto;
 }
 
 .keyfeature-image {
-    width: 40px;
-    margin-bottom: 15px;
-}
-
-.keyfeature-image-text {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+    width: 290px;
 }
 
 /*User flows*/
@@ -464,24 +455,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
 /*Key features*/
 
-.keyfeatures-container {
-    margin-top: 20px;
-    margin-bottom: 0px;
+.keyfeatures-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+    margin: 0 auto 0 auto;
 }
 
 .keyfeature-image {
-    width: 50px;
-    margin-bottom: 30px;
+    width: 500px;
 }
-
-.keyfeature-image-text {
-    margin-bottom: 20px;
-}
-
-.keyfeature-image-text p {
-    font-size: 16px;
-}
-
 /*Color palette*/
 
 .color-container {
@@ -754,30 +739,17 @@ ul.project-lists-outcomes li {
 
 /*Key features*/
 
-.keyfeatures-container {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+.keyfeatures-container{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    width: 500px;
+    height: 150px;
+    margin: 0 auto 0 auto;
 }
 
 .keyfeature-image {
-    height: 50px;
-    margin-bottom: 20px;
-}
-
-.keyfeature-image-text {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.keyfeature-image-text p {
-    font-size: 16px;
+    width: 500px;
 }
 
 /*Color palette*/
@@ -1060,32 +1032,18 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
 /*Key features*/
 
-.keyfeatures-container {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+.keyfeatures-container{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    width: 500px;
+    height: 180px;
     margin: 0 auto 0 auto;
-    width: 90%;
 }
 
 .keyfeature-image {
-    height: 50px;
-    margin-bottom: 20px;
+    width: 500px;
 }
-
-.keyfeature-image-text {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.keyfeature-image-text p {
-    font-size: 16px;
-}
-
 /*Color palette*/
 
 .color-container {
@@ -1365,30 +1323,17 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
 /*Key features*/
 
-.keyfeatures-container {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+.keyfeatures-container{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 750px;
+    height: 200px;
     margin: 0 auto 0 auto;
 }
 
 .keyfeature-image {
-    height: 60px;
-    margin-bottom: 20px;
-}
-
-.keyfeature-image-text {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.keyfeature-image-text p {
-    font-size: 16px;
+    width: 750px;
 }
 
 /*Color palette*/
