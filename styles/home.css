@@ -4,11 +4,9 @@
 body{
     background-color: #f6f6f6;
 }
-
 .my-description{
     display: flex;
     flex-direction: column;
- /*   flex-wrap: wrap;*/
     font-size: 25px;
     width: 85%;
     padding: 10px;
@@ -354,7 +352,6 @@ p .getintouch{
 .my-description {
     display: none;
 }
-
 .my-description-desktop{
     display: flex;
     flex-direction: column;
@@ -548,7 +545,6 @@ p .getintouch{
  @media screen and (min-width: 1200px) and (max-width: 1499px)
  
  {
-
    /**** Description ****/
 .my-description {
     display: none;
@@ -678,6 +674,9 @@ p.my-work{
     height: 250px;
 }
 
+/*Image overlay*/
+/*********/
+
 .tag-boxes{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -731,6 +730,7 @@ p .getintouch{
 /********************************* EXTRA LARGE DEVICES - larger than 1500px  **********************************/
 
 @media screen and (min-width: 1500px) {
+
    /**** Description ****/
 .my-description {
     display: none;

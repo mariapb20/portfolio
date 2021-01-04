@@ -1200,8 +1200,8 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .color-font {
-    height: 100px;
-    width: 150px;
+    height: 90px;
+    width: 130px;
 }
 
 .color-font p{

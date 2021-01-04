@@ -817,7 +817,7 @@ ul.project-lists-outcomes li {
 }
 
 .keyfeature-image {
-    width: 620px;
+    width: 500px;
 }
 
 /*Color palette*/
@@ -1126,7 +1126,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .keyfeature-image {
-    width: 800px;
+    width: 650px;
 }
 
 /*Color palette*/
@@ -1430,7 +1430,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 }
 
 .keyfeature-image {
-    width: 1000px;
+    width: 750px;
 }
 
 /*Color palette*/
