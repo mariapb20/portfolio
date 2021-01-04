@@ -356,6 +356,9 @@ p .getintouch{
 }
 
 .my-description-desktop{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3em;
     font-size: 30px;
     width: 70%;
     margin: 70px 40px 100px 40px;
@@ -552,6 +555,9 @@ p .getintouch{
 }
 
 .my-description-desktop{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3em;
     font-size: 30px;
     width: 65%;
     margin: 70px 70px 120px 70px;
@@ -731,6 +737,9 @@ p .getintouch{
 }
 
 .my-description-desktop {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3em;
     font-size: 40px;
     width: 75%;
     margin: 120px 50px 150px 50px;
