@@ -16,29 +16,16 @@ body{
     line-height: 1.3em;
 }
 
+.my-description-desktop{
+    display: none;
+}
+
 .pattern{
     width: 40%;
 }
 
 .tools-info-home{
     margin-bottom: 0px;
-}
-
-/*
-.my-description p{
-font-family: 'Akkurat','sans-serif';
-}
-
-.small-description{
-    font-size: 25px;
-}
-/*
-
-p.my-work{
-    margin-top: 15px;
-    font-family: 'Akkurat','sans-serif';
-    font-size: 20px;
-    margin-bottom: 0;
 }
 
 /**** Projects ****/
@@ -205,6 +192,10 @@ p .getintouch{
     padding: 0px;
 }
 
+.my-description-desktop {
+    display: none;
+}
+
 p.my-work{
     font-family: 'Akkurat', sans-serif;
     font-size: 25px;
@@ -360,8 +351,11 @@ p .getintouch{
 
 @media screen and (min-width: 991px) {
 /**** Description ****/
+.my-description {
+    display: none;
+}
 
-.my-description{
+.my-description-desktop{
     font-size: 30px;
     width: 70%;
     margin: 70px 40px 100px 40px;
@@ -553,8 +547,11 @@ p .getintouch{
  {
 
    /**** Description ****/
+.my-description {
+    display: none;
+}
 
-.my-description{
+.my-description-desktop{
     font-size: 30px;
     width: 65%;
     margin: 70px 70px 120px 70px;
@@ -729,8 +726,11 @@ p .getintouch{
 
 @media screen and (min-width: 1500px) {
    /**** Description ****/
-
 .my-description {
+    display: none;
+}
+
+.my-description-desktop {
     font-size: 40px;
     width: 75%;
     margin: 120px 50px 150px 50px;
