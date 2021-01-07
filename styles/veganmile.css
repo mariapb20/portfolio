@@ -1189,6 +1189,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .project-image-box {
@@ -1570,6 +1571,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .project-image-box {
@@ -1954,6 +1956,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .project-image-box {
