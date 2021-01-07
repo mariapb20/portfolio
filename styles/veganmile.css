@@ -464,11 +464,116 @@ h2.reduce-margin {
     width: 290px;
 }
 
+/* Next project gallery*/
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.next-project-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-image-box {
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.project-picture {
+    position: relative;
+    width: 100%;  
+    border-radius: 10px;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    border-radius: 10px;
+}
+
+.project-picture:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
 /******************************************** TABLET ********************************************/
 @media screen and (min-width: 767px) and (max-width: 990px) {
 
         /********* Top images *******/
     
+    /********* Top images *******/
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-picture {
+        position: relative;
+        width: 80%;  
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    
+    .project-image {
+        display: block;
+        width: 80%;
+        height: auto;
+        border-radius: 10px;
+        margin: 0 auto;
+
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+        border-radius: 10px;
+    }
+        
     .project-main-images {
         display: flex;
         justify-content: center;
@@ -1069,7 +1174,71 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .design-process-image {
     width: 620px;
 }
+/* Next project gallery*/
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px;
+}
+
+.next-project-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-image-box {
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+}
+
+.project-picture {
+    position: relative;
+    width: 100%;  
+    border-radius: 10px;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    border-radius: 10px;
+}
+
+.project-picture:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 }
 
@@ -1386,7 +1555,71 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .design-process-image {
     width: 800px;
 }
+/* Next project gallery*/
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px;
+}
+
+.next-project-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-image-box {
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+}
+
+.project-picture {
+    position: relative;
+    width: 100%;  
+    border-radius: 10px;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    border-radius: 10px;
+}
+
+.project-picture:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 }
 
 /********************************* EXTRA LARGE DEVICES - larger than 1400px  **********************************/
@@ -1705,5 +1938,71 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 .design-process-image {
     width: 1000px;
 }
+
+/* Next project gallery*/
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px;
+}
+
+.next-project-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-image-box {
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+}
+
+.project-picture {
+    position: relative;
+    width: 100%;  
+    border-radius: 10px;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    border-radius: 10px;
+}
+
+.project-picture:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 }
