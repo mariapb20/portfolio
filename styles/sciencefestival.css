@@ -521,9 +521,44 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 
         /********* Top images *******/
     
-.gallery {
-    margin: 35px;
-}
+      /********* Top images *******/
+      .gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-picture {
+        position: relative;
+        width: 80%;  
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    
+    .project-image {
+        display: block;
+        width: 80%;
+        height: auto;
+        border-radius: 10px;
+        margin: 0 auto;
+
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+        border-radius: 10px;
+    }
+        
     .project-main-images {
         display: flex;
         justify-content: center;
@@ -1194,7 +1229,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
 @media screen and (min-width: 1200px) and (max-width: 1499px){
 
  /********* Top images *******/
-    
+  
 .project-main-images {
     display: flex;
     flex-direction: row;
