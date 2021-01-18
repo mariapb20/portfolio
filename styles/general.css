@@ -55,6 +55,9 @@ p {
   text-decoration: none;
 }
 
+h4.superior-margin{
+  margin-top: 30px;
+}
 
 .logo{
   font-size: 15px;
@@ -131,10 +134,38 @@ a.font-gradient {
   font-weight: 700;
 }
 
-.bold-blue{
+p.bold-blue-link{
   color:#0061c9; 
   font-weight: 700;
+  text-decoration: underline;
+  font-size: 16px;
 }
+
+.arrow {
+  border: solid #0061c9; 
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+p.bold-grey{
+  color:#686868; 
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p.bold-blue-link{
+  color:#0061c9; 
+  font-weight: 700;
+  font-size: 16px;
+}
+
 
 p.link {
   color:#0061c9; 
@@ -411,7 +442,6 @@ li.menu-options {
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 6px; /* Rounded corners */
-
 }
 
 .button:active {
@@ -523,7 +553,8 @@ transition: 0.5s;
 .footer-info {
   display:flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   margin-top: 0px;
 /*   height: 65px;*/
 }
@@ -534,7 +565,7 @@ transition: 0.5s;
   justify-content: center;
   align-items: flex-start;
   padding: 0;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 p.margin-bottom{
@@ -545,6 +576,7 @@ p.margin-bottom{
 .social-media {
   display:flex;
   justify-content: space-between;
+  margin-left: 1px;
 }
 
 .social-media-images {
@@ -1150,6 +1182,20 @@ p.logo {
 }
 */
 
+
+p.bold-grey{
+  color:#686868; 
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p.bold-blue-link{
+  color:#0061c9; 
+  font-weight: 700;
+  font-size: 16px;
+}
+
+
 .introduction{
   font-size: 40px;
   font-weight: 700;
@@ -1375,7 +1421,22 @@ transition: 0.5s;
 
 @media screen and (min-width: 991px) and (max-width: 1199px){
 
+  h4.superior-margin{
+    margin-top: 40px;
+  }
+  
 
+  p.bold-grey{
+    color:#686868; 
+    font-weight: 700;
+    font-size: 16px;
+  }
+  p.bold-blue-link{
+    color:#0061c9; 
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
   /*******Fonts********/
   h1 {
     font-size: 45px;
@@ -1880,6 +1941,21 @@ margin-bottom: 30px;
 
 @media screen and (min-width: 1200px) and (max-width: 1499px){
 
+  h4.superior-margin{
+    margin-top: 40px;
+  }
+  
+  p.bold-grey{
+    color:#686868; 
+    font-weight: 700;
+    font-size: 16px;
+  }
+  p.bold-blue-link{
+    color:#0061c9; 
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
   /*****Fonts******/
   h1 {
     font-size: 45px;
@@ -2088,6 +2164,7 @@ transition: 0.5s;
 padding: 70px 50px 50px 50px;
 height: 220px;
 font-size: 22px;
+height: 300px
 }
 
 .social-media-images {
@@ -2348,6 +2425,22 @@ margin-bottom: 30px;
 /********************************* EXTRA LARGE DEVICES - larger than 1500px  **********************************/
 
 @media screen and (min-width: 1500px) {
+
+  h4.superior-margin{
+    margin-top: 40px;
+  }
+  
+
+p.bold-grey{
+  color:#686868; 
+  font-weight: 700;
+  font-size: 16px;
+}
+p.bold-blue-link{
+  color:#0061c9; 
+  font-weight: 700;
+  font-size: 18px;
+}
 
 
 /******Fonts******/
