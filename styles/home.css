@@ -342,7 +342,8 @@ p .getintouch{
     line-height: 0em;
 
 }
-    }
+
+}
 
 
 /******************************************** MEDIUM DEVICES - larger than 991 px ********************************************/
@@ -535,16 +536,89 @@ p .getintouch{
     line-height: 0em;
 
 }
+.imagebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}    
 
+.normal-image {
+    height: 380px;
+    width: auto;
+}
+
+.hover-image {
+    height: 380px;
+    width: auto;
+}
+
+.hover-image, .imagebox:hover .normal-image {
+    display: none;
+}
+  
+.imagebox:hover .hover-image {
+    display: inline;
+}
+
+/*proagent image*/
+.imagebox-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+}    
+
+.normal-image-2 {
+    height: 250px;
+    width: auto;
+}
+
+.hover-image-2 {
+    height: 250px;
+    width: 380px;
+}
+
+.hover-image-2, .imagebox-2:hover .normal-image-2 {
+    display: none;
+}
+  
+.imagebox-2:hover .hover-image-2 {
+    display: inline;
+}
+
+/*elearning image*/
+.normal-image-3 {
+    height: 250px;
+    width: auto;
+}
+
+.hover-image-3 {
+    height: 250px;
+    width: auto;
+}
+
+.hover-image-3, .imagebox-2:hover .normal-image-3 {
+    display: none;
+}
+  
+.imagebox-2:hover .hover-image-3 {
+    display: inline;
+}
+
+.hover-image-4 {
+    height: 200px;
+    width: auto;
+}
 
 
 }
 
  /********************************* LARGE DEVICES - larger than 1200px  **********************************/
 
- @media screen and (min-width: 1200px) and (max-width: 1499px)
- 
- {
+ @media screen and (min-width: 1200px) and (max-width: 1499px){
+
    /**** Description ****/
 .my-description {
     display: none;
@@ -666,6 +740,17 @@ p.my-work{
     width: auto;
 }
 
+.project-home-section .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.project-home-section:hover .img-top {
+    display: inline;
+}
+
 .project-home-image-2 {
     height: 350px;
 }
@@ -723,7 +808,56 @@ p .getintouch{
     line-height: 0em;
 
 }
+.imagebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}    
 
+.normal-image {
+    height: 380px;
+    width: auto;
+}
+
+.hover-image {
+    height: 380px;
+    width: auto;
+}
+
+.hover-image, .imagebox:hover .normal-image {
+    display: none;
+}
+  
+.imagebox:hover .hover-image {
+    display: inline;
+}
+
+/*proagent image*/
+.imagebox-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+}    
+
+.normal-image-2 {
+    height: 250px;
+    width: auto;
+}
+
+.hover-image-2 {
+    height: 250px;
+    width: 380px;
+}
+
+.hover-image-2, .imagebox-2:hover .normal-image-2 {
+    display: none;
+}
+  
+.imagebox-2:hover .hover-image-2 {
+    display: inline;
+}
 
 }   
 
@@ -861,6 +995,58 @@ p .getintouch{
     margin-bottom: 0px;
     line-height: 0em;
 
+}
+
+.imagebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}    
+
+.normal-image {
+    height: 380px;
+    width: auto;
+}
+
+.hover-image {
+    height: 380px;
+    width: auto;
+}
+
+.hover-image, .imagebox:hover .normal-image {
+    display: none;
+}
+  
+.imagebox:hover .hover-image {
+    display: inline;
+}
+
+/*proagent image*/
+.imagebox-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+}    
+
+.normal-image-2 {
+    height: 250px;
+    width: auto;
+}
+
+.hover-image-2 {
+    height: 250px;
+    width: 380px;
+}
+
+.hover-image-2, .imagebox-2:hover .normal-image-2 {
+    display: none;
+}
+  
+.imagebox-2:hover .hover-image-2 {
+    display: inline;
 }
 
 }
