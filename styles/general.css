@@ -565,7 +565,7 @@ transition: 0.5s;
   justify-content: center;
   align-items: flex-start;
   padding: 0;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 10px 15px 10px;
 }
 
 p.margin-bottom{
@@ -1243,10 +1243,13 @@ margin-bottom: 10px;
 margin-top: 10px;
 }  
 
+.contact-info{
+  margin-bottom: 20px;
+}
 /** Footer **/
 .footer {
 padding: 40px 20px 20px 20px;
-height: 150px;
+height: 200px;
 font-size: 16px;
 margin: 0 auto;
 }
@@ -1415,6 +1418,12 @@ transition: 0.5s;
 }
 /********************/
 
+p.copyright-notice{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
 }
 
 /******************************************** MEDIUM DEVICES - larger than 991 px ********************************************/
@@ -1663,11 +1672,11 @@ transition: 0.5s;
 }
 
 
-  .footer {
+.footer {
       padding: 50px 30px 50px 30px;
-      height: 180px;
+      height: 280px;
       font-size: 22px;
-  }
+}
 
 
 .social-media-images {
@@ -2418,7 +2427,13 @@ height: 700px;
 margin-top: 30px;
 margin-bottom: 30px;
 }
-/***************/
+
+p.copyright-notice{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
 }
 
@@ -2673,7 +2688,7 @@ margin-left: 50px;
 margin-right: 50px;
 padding: 70px 50px 50px 50px;
 width: auto;
-height: 220px;
+height: 290px;
 font-size: 22px;
 border-radius: 10px 10px 0 0;
 }
@@ -2940,5 +2955,11 @@ margin-top: 30px;
 margin-bottom: 30px;
 }
 /******************/
+p.copyright-notice{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
 }

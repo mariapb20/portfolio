@@ -144,7 +144,7 @@ p.margin-right {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -305,7 +305,7 @@ p.margin-right {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
         width: 100%;
         margin: 20px auto;
     }
@@ -450,7 +450,7 @@ p.margin-right {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
         width: 100%;
         height: auto;
     }
@@ -478,6 +478,7 @@ p.margin-right {
     height: auto;
     width: auto;
     padding-right: 40px;
+    margin-top: 60px;
 }
 
 .myphoto {
@@ -626,6 +627,7 @@ p.margin-right {
         height: 100%;
         width: auto;
         padding-right: 40px;
+        margin-top: 60px;
     }
     
     .myphoto {
