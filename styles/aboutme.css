@@ -8,6 +8,12 @@
     height: auto;
 }
 
+.bold-blue-link{
+    color:#0061c9; 
+    font-weight: 700;
+    font-size: 16px;
+  }
+
 .photocv-container {
     display: flex;
     flex-direction: column;
@@ -42,7 +48,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
     border-radius: 10px;
 }
 
@@ -77,7 +83,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .my-icons {
@@ -85,6 +91,25 @@
     width: 40px;
     height: auto;
 }
+
+.my-icons-born {
+    margin-left: 52px;
+    width: 40px;
+    height: auto;
+}
+
+.my-icons-love {
+    margin-left: 30px;
+    width: 40px;
+    height: auto;
+}
+
+.my-icons-hobbies {
+    margin-left: 22px;
+    width: 40px;
+    height: auto;
+}
+
 
 .my-info p {
     margin-bottom: 0px;
@@ -119,11 +144,24 @@ p.margin-right {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     height: auto;
     margin: 0 auto;
 } 
+
+.contact-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #0061c9;  
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    border: #FFFFFF 1px solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px; /* Rounded corners */
+  }
  
  
  
@@ -174,7 +212,7 @@ p.margin-right {
         width: 100%;
         opacity: 0;
         transition: .5s ease;
-        background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+        background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
         border-radius: 10px;
     }
     
@@ -208,11 +246,29 @@ p.margin-right {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     
     .my-icons {
         margin-left: 20px;
+        width: 40px;
+        height: auto;
+    }
+    
+    .my-icons-born {
+        margin-left: 52px;
+        width: 40px;
+        height: auto;
+    }
+    
+    .my-icons-love {
+        margin-left: 30px;
+        width: 40px;
+        height: auto;
+    }
+    
+    .my-icons-hobbies {
+        margin-left: 22px;
         width: 40px;
         height: auto;
     }
@@ -249,7 +305,7 @@ p.margin-right {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
         margin: 20px auto;
     }
@@ -301,7 +357,7 @@ p.margin-right {
         width: 100%;
         opacity: 0;
         transition: .5s ease;
-        background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+        background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
         border-radius: 10px;
     }
     
@@ -335,11 +391,29 @@ p.margin-right {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     
     .my-icons {
         margin-left: 20px;
+        width: 40px;
+        height: auto;
+    }
+    
+    .my-icons-born {
+        margin-left: 52px;
+        width: 40px;
+        height: auto;
+    }
+    
+    .my-icons-love {
+        margin-left: 30px;
+        width: 40px;
+        height: auto;
+    }
+    
+    .my-icons-hobbies {
+        margin-left: 22px;
         width: 40px;
         height: auto;
     }
@@ -376,7 +450,7 @@ p.margin-right {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
         height: auto;
     }
@@ -431,7 +505,7 @@ p.margin-right {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
     border-radius: 10px;
 }
 
@@ -465,11 +539,29 @@ p.margin-right {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .my-icons {
     margin-left: 20px;
+    width: 40px;
+    height: auto;
+}
+
+.my-icons-born {
+    margin-left: 52px;
+    width: 40px;
+    height: auto;
+}
+
+.my-icons-love {
+    margin-left: 30px;
+    width: 40px;
+    height: auto;
+}
+
+.my-icons-hobbies {
+    margin-left: 22px;
     width: 40px;
     height: auto;
 }
@@ -506,7 +598,7 @@ p.margin-right {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     height: auto;
 }
@@ -562,7 +654,7 @@ p.margin-right {
         width: 100%;
         opacity: 0;
         transition: .5s ease;
-        background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+        background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
         border-radius: 10px;
     }
     
@@ -596,11 +688,29 @@ p.margin-right {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     
     .my-icons {
         margin-left: 20px;
+        width: 40px;
+        height: auto;
+    }
+    
+    .my-icons-born {
+        margin-left: 52px;
+        width: 40px;
+        height: auto;
+    }
+    
+    .my-icons-love {
+        margin-left: 30px;
+        width: 40px;
+        height: auto;
+    }
+    
+    .my-icons-hobbies {
+        margin-left: 22px;
         width: 40px;
         height: auto;
     }
@@ -637,7 +747,7 @@ p.margin-right {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         width: 100%;
         height: auto;
     }

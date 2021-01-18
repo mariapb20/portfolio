@@ -427,7 +427,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
     border-radius: 10px;
 }
 
@@ -489,7 +489,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
             width: 100%;
             opacity: 0;
             transition: .5s ease;
-            background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+            background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
             border-radius: 10px;
         }
             
@@ -1079,7 +1079,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
     border-radius: 10px;
 }
 
@@ -1441,7 +1441,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
     border-radius: 10px;
 }
 
@@ -1798,7 +1798,7 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgba(0,124,255,1) 100%);
+    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
     border-radius: 10px;
 }
 
