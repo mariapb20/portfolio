@@ -104,6 +104,10 @@ p.logo-small{
   font-weight: bold;
 }
 
+.active-color{
+  color:#043064;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -241,7 +245,10 @@ font-size: 15px;
 font-weight: 300;
 color:#0061c9;
 width: 100%;
+}
 
+.desktop-menu-projects{
+  display:none
 }
 
 .home-navigation a:hover{
@@ -253,6 +260,14 @@ width: 100%;
  color: #043064; 
  font-weight: 700;
 }  
+
+.right-navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.space-right {
+  margin-right: 20px;
+}
 
 /******/
 
@@ -1169,20 +1184,6 @@ p.selected-text {
 /******************************************** TABLET ********************************************/
 @media screen and (min-width: 767px) and (max-width: 990px) {
 
-/***Fonts*****/
-
-/*
-.logo{
-  margin: 25px;
-}
-
-p.logo {
-  font-size: 16px;
-  color:#043064;
-}
-*/
-
-
 p.bold-grey{
   color:#686868; 
   font-weight: 700;
@@ -1232,6 +1233,10 @@ height: auto;
 justify-content: space-between;
 align-items: flex-start;
 margin: 0 auto;
+}
+
+.desktop-menu-projects{
+  display:none
 }
 
 .menu-icon {
@@ -1547,6 +1552,18 @@ p .contact{
      font-size: 18px;
      font-weight: 300;
      color:#0061c9;
+  }
+
+  .space-right {
+    margin-right: 50px;
+  }
+
+  .mobile-menu-projects{
+    display:none
+  }
+
+  .desktop-menu-projects{
+    display:flex;
   }
 
   .home-navigation a:hover{
@@ -2043,6 +2060,18 @@ p .contact{
      color:#0061c9;
   }
 
+  .space-right {
+    margin-right: 50px;
+  }
+
+  .mobile-menu-projects{
+    display:none
+  }
+  
+  .desktop-menu-projects{
+    display:flex;
+  }
+  
   .home-navigation a:hover{
       color: #043064; 
       font-weight: 700;
@@ -2051,7 +2080,7 @@ p .contact{
   .home-navigation a:active {
       color: #043064; 
       font-weight: 700;
-    }  
+    } 
 
   .option-projects{
       padding-right: 80px;
@@ -2566,6 +2595,17 @@ nav ul.home-navigation {
  font-size: 22px;
  font-weight: 300;
  color:#0061c9; 
+}
+
+.space-right {
+  margin-right: 50px;
+}
+.mobile-menu-projects{
+  display:none
+}
+
+.desktop-menu-projects{
+  display:flex;
 }
 
 .home-navigation a:hover{
