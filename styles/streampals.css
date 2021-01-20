@@ -495,8 +495,9 @@ ul.nested-list li::before { /*::before creates a pseudo-element that is the firs
         bottom: 0;
         left: 0;
         right: 0;
-        height: 100%;
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
+        height: auto;
         opacity: 0;
         transition: .5s ease;
         background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
@@ -579,7 +580,7 @@ ul.nested-list li::before { /*::before creates a pseudo-element that is the firs
 }
 
 .keyfeature-image {
-    width: 500px;
+    width: 600px;
 }
 
 /*Color palette*/
