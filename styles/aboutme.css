@@ -336,8 +336,9 @@ p.margin-right {
     
     .myphoto {
         position: relative;
-        width: 100%;  
+        width: 40%;  
         border-radius: 10px;
+        margin: 0 auto;
     }
     
     .about-image {
@@ -465,7 +466,7 @@ p.margin-right {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 70px 50px 70px;
+    margin: 50px 40px 40px 70px;
     width: auto;
     height: auto;
 }
@@ -473,12 +474,13 @@ p.margin-right {
 .photocv-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: auto;
     width: auto;
     padding-right: 40px;
-    margin-top: 60px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .myphoto {
@@ -492,7 +494,7 @@ p.margin-right {
     display: block;
     width: 100%;
     height: auto;
-    max-height: 380px;
+    max-height: 350px;
     border-radius: 10px;
 }
 
@@ -627,7 +629,8 @@ p.margin-right {
         height: 100%;
         width: auto;
         padding-right: 40px;
-        margin-top: 60px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
     
     .myphoto {
@@ -641,8 +644,8 @@ p.margin-right {
         display: block;
         width: 100%;
         height: auto;
-        max-height: 380px;
-        max-width: 1200px;
+        max-height: 350px;
+        max-width: 1000px;
         border-radius: 10px;
     }
     

@@ -145,6 +145,10 @@ p.bold-blue-link{
   font-size: 16px;
 }
 
+p.bold-blue-link:hover{
+  color:#043064;
+}
+
 .arrow {
   border: solid #0061c9; 
   border-width: 0 2px 2px 0;
@@ -462,16 +466,12 @@ li.menu-options {
 .button:active {
 background-color: #043064;
 /* box-shadow: 0 5px #666;*/
-transform: translateY(4px);
 }
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: 20vw;
-  transition: 0.5s;
+.button:hover {
+  background-color: #043064;
+  /* box-shadow: 0 5px #666;*/
 }
+
 
 /**Button project**/
 .button-project {
@@ -487,18 +487,14 @@ transform: translateY(4px);
 
 }
 
+.button-project:hover {
+  background-color: #043064;
+  /* box-shadow: 0 5px #666;*/
+}
+
 .button-project:active {
 background-color: #043064;
 /* box-shadow: 0 5px #666;*/
-transform: translateY(4px);
-}
-.button-project span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: 20vw;
-  transition: 0.5s;
 }
 
 /**Button next**/
@@ -598,7 +594,6 @@ p.margin-bottom{
   padding: 10px;
   width: 43px;
   height: 42px;
-
 }
 
 .social-media-images-right{
@@ -1196,7 +1191,6 @@ p.bold-blue-link{
   font-size: 16px;
 }
 
-
 .introduction{
   font-size: 40px;
   font-weight: 700;
@@ -1273,23 +1267,17 @@ padding: 15px 20px;
 cursor: pointer;
 text-align: center;
 border-radius: 6px; /* Rounded corners */
+}
 
+.button-project:hover {
+  background-color: #043064;
+  /* box-shadow: 0 5px #666;*/
 }
 
 .button-project:active {
 background-color: #043064;
 /* box-shadow: 0 5px #666;*/
-transform: translateY(4px);
 }
-.button-project span:after {
-content: '\00bb';
-position: absolute;
-opacity: 0;
-top: 0;
-right: 20vw;
-transition: 0.5s;
-}
-
   /**Button next**/
 .button-next {
 background: #0061c9;  
@@ -1600,15 +1588,6 @@ p .contact{
       transition: 0.5s;
   }
     
-  .button span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-  }
-    
   .button:hover span {
       padding-right: 25px;
   }
@@ -1632,36 +1611,16 @@ p .contact{
       padding: 14px 20px;
       cursor: pointer;
       text-align: center;
-  }
+}
 
-  .button-project span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-  }
-    
-  .button-project span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-  }
-    
-  .button-project:hover span {
-      padding-right: 25px;
-  }
-    
-  .button-project:hover span:after {
-      opacity: 1;
-      right: 0;
-  }
+.button-project:hover {
+  background-color: #043064;
+  /* box-shadow: 0 5px #666;*/
+}
 
-  .button-project:active {
+.button-project:active {
       background: #043064;
-  }
+}
 /**Button next**/
 .button-next {
 background: #0061c9;  
@@ -2108,15 +2067,6 @@ p .contact{
       transition: 0.5s;
     }
     
-    .button span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-    }
-    
     .button:hover span {
       padding-right: 25px;
     }
@@ -2131,47 +2081,27 @@ p .contact{
     }
 
   /*Button projects*/ 
-  .button-project {
-      margin-top: 20px;
-      background: #0061c9;  
-      color: #FFFFFF;
-      font-weight: 400;
-      font-size: 16px;
-      border: #FFFFFF 1px solid;
-      padding: 20px 20px;
-      cursor: pointer;
-      transition: all 0.5s;
-      text-align: center;
-  }
+.button-project {
+  margin-top: 20px;
+  background: #0061c9;  
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  border: #FFFFFF 1px solid;
+  padding: 20px 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-align: center;
+}
 
-  .button-project span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-    }
-    
-    .button-project span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-    }
-    
-    .button-project:hover span {
-      padding-right: 25px;
-    }
-    
-    .button-project:hover span:after {
-      opacity: 1;
-      right: 0;
-    }
+.button-project:hover {
+  background-color: #043064;
+  /* box-shadow: 0 5px #666;*/
+}
 
-    .button-project:active {
-      background: #043064;
-    } 
+.button-project:active {
+  background: #043064;
+} 
 /**Button next**/
 .button-next {
 background: #0061c9;  
@@ -2637,14 +2567,6 @@ nav ul.home-navigation {
   transition: 0.5s;
 }
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
 
 .button:hover span {
   padding-right: 25px;
@@ -2668,29 +2590,9 @@ nav ul.home-navigation {
   padding: 18px 30px;
 }
 
-.button-project span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button-project span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button-project:hover span {
-  padding-right: 25px;
-}
-
-.button-project:hover span:after {
-  opacity: 1;
-  right: 0;
+.button-project:hover {
+  background-color: #043064;
+  /* box-shadow: 0 5px #666;*/
 }
 
 .button-project:active {
