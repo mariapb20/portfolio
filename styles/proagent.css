@@ -474,7 +474,9 @@ ul.nested-list li::before { /*::before creates a pseudo-element that is the firs
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
+    /* background: linear-gradient(180deg, #04306480 35%, rgb(1, 23, 48) 100%);*/
+        background: rgba(0, 41, 89, 0.5);
+        backdrop-filter: blur(2px);
     border-radius: 10px;
 }
 
@@ -535,7 +537,9 @@ ul.nested-list li::before { /*::before creates a pseudo-element that is the firs
         height: auto;
         opacity: 0;
         transition: .5s ease;
-        background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
+        /* background: linear-gradient(180deg, #04306480 35%, rgb(1, 23, 48) 100%);*/
+            background: rgba(0, 41, 89, 0.5);
+            backdrop-filter: blur(2px);
         border-radius: 10px;
     }
         
@@ -1150,7 +1154,9 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
+    /* background: linear-gradient(180deg, #04306480 35%, rgb(1, 23, 48) 100%);*/
+        background: rgba(0, 41, 89, 0.5);
+        backdrop-filter: blur(2px);
     border-radius: 10px;
 }
 
@@ -1526,7 +1532,9 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
+    /* background: linear-gradient(180deg, #04306480 35%, rgb(1, 23, 48) 100%);*/
+        background: rgba(0, 41, 89, 0.5);
+        backdrop-filter: blur(2px);
     border-radius: 10px;
 }
 
@@ -1901,7 +1909,9 @@ ul.project-lists-outcomes li::before { /*::before creates a pseudo-element that 
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(180deg, rgba(4,48,100,0.5) 35%, rgb(1, 23, 48) 100%);
+    /* background: linear-gradient(180deg, #04306480 35%, rgb(1, 23, 48) 100%);*/
+        background: rgba(0, 41, 89, 0.5);
+        backdrop-filter: blur(2px);
     border-radius: 10px;
 }
 

@@ -15,7 +15,7 @@ html {
 body {
   height: 100vh;
   width: 100vw;
-  background-color: #F6F6F6;  
+  background: #F6F6F6;  
   color:#2E2E30;
 
 /*  overflow-x: hidden; */
@@ -472,6 +472,42 @@ background-color: #043064;
   /* box-shadow: 0 5px #666;*/
 }
 
+.button-primary{
+  margin-top: 10px;
+    background: #0061c9;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    border: #FFFFFF 1px solid;
+    padding: 16px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    /* Rounded corners */
+}
+
+.button-primary:active {
+  background-color: #043064;
+  /* box-shadow: 0 5px #666;*/
+}
+
+.button-primary:hover {
+  background-color: #043064;
+  /* box-shadow: 0 5px #666;*/
+}
+.button-secondary{
+  margin-top: 10px;
+    background: #0061c9;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    border: #FFFFFF 1px solid;
+    padding: 16px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    /* Rounded corners */
+    max-width: 170px;
+    margin-bottom: 16px;
+}
 
 /**Button project**/
 .button-project {

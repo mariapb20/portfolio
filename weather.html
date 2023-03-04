@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather app</title>
+<link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,700' rel='stylesheet'/>
+<link rel='stylesheet' href='styles/cssreset.css'/>
+<link rel='stylesheet' href='font/stylesheet.css'/>
+<link rel='stylesheet' href='styles/general.css'/>
+<link rel='stylesheet' href='styles/weather.css'/>
+<link rel="shortcut icon" href="images/icons/favicon.png" type="image/x-icon" />
+<!--Linkedin meta tags-->
+<meta property='og:title' content='Weather web app'/>
+<meta property='og:image' content='images/thumbnails/weather_thumbnail.png'/>
+<meta property='og:description' content='Javascript weather app'/>
+<meta property='og:url' content='www.mariaalejandraperez.com/sciencefestival.html'/>
+<!--  JS  -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src='scripts/asyncimages.js' defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165358295-1" defer></script>
+<script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'UA-165358295-1');
+   </script>
+</head>
+<body>
+<div class='container'>
+	<header class='header' id='myHeader'>
+		<nav class='navigation'>
+			<ul class='home-navigation'>
+				<li><a href="index.html">
+					<p class='logo'>
+						María Alejandra Pérez
+					</p>
+					<p class='logo'>
+						<span class='logo-small'>UX|UI Designer</span>
+					</p>
+				</a></li>
+				<div class='right-navigation'>
+					<li class='space-right desktop-menu-projects'><a href="index.html#projects-desktop">Projects</a></li>
+					<li class='space-right mobile-menu-projects'><a href="index.html#projects">Projects</a></li>
+					<li><a href='aboutme.html'>Get in touch</a></li>
+				</div>
+			</ul>
+		</nav>
+	</header>
+	<main>
+	<!-- Top photos -->
+	<div class='project-main-images'>
+		<div class='main-image-background'>
+			<img class='main-image-size asyncImage' src='images/weather/tops/weather.png' ; alt='Project mockups'/>
+		</div>
+	</div>
+	<!--Project title-->
+	<div class='project-title'>
+		<h1>Weather web app:</h1>
+		<h1><span class=subtitle>Weather app made with Javascript, CSS and HTML</span></h1>
+	</div>
+	<!--Project description box-->
+	<div class='project-description-box'>
+		<p>
+			<span class='bold-black'>Case study:</span>&nbsp; Design and develop a weather web app.
+		</p>
+		<p>
+			<span class='bold-black'>Goal:</span>&nbsp; Allow users to check the weather in any city.
+		</p>
+		<p>
+			<span class='bold-black'>Scope:</span>&nbsp; Personal UI Design | Front-end project.
+		</p>
+		<p>
+			<span class='bold-black'>Role:</span>&nbsp; Solo project where I was responsible for all UI design and Front-end development tasks.
+		</p>
+		<div class='project-tag-boxes'>
+			<div class='project-category-tags'>
+				UI Design
+			</div>
+            <div class='project-category-tags'>
+				Design System
+			</div>
+			<div class='project-category-tags'>
+				Front-end
+			</div>
+		</div>
+		<div class='project-info tools-info'>
+			<img class='category-icons' src='images/icons/tool_icon.svg' ; alt='Tool icon'/>
+			<p class='tools-used'>
+				Figma | Visual Studio | Github
+			</p>
+		</div>
+		<div class='project-info'>
+			<img class='category-icons' src='images/icons/clock_icon.svg' ; alt='Clock icon'/>
+			<p class='tools-used'>
+				3 Weeks
+			</p>
+		</div>
+	</div>
+	<!--Progress bar-->
+	<div class='progress-bar-container sticky-bar'>
+		<div id='progress-status'>
+			<div id='my-bar'>
+			</div>
+		</div>
+		<script src='scripts/onscroll.js' defer></script>
+	</div>
+	<!-- Project information -->
+	<div class='project-information-container'>
+		<!--SEPARATES MENU AND PROJECT INFORMATION-->
+		<div class='sticky-menu-mobile'>
+			<div class='mobile-menu-container'>
+				<button class="dropbtn" id='dropbtn'><i class="gg-menu-left" id='menu-left'></i></button>
+				<ul class='dropdown-content' id="myDropdown">
+					<li><a href="#problem-context">Problem context</a></li>
+					<li><a href="#design-process">Design process</a></li>
+					<ul>
+						<li class='light-items'><a href="#research">Research</a></li>
+						<li class='light-items'><a href="#wireframes">Wireframes</a></li>
+						<li class='light-items'><a href="#ui-design">UI Design</a></li>
+                        <li class='light-items'><a href="#live-implementation">Live implementation</a></li>
+					</ul>
+					<li><a href="#outcomes">Outcomes & lessons learnt</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class='menu-box'>
+			<div class='desktop-menu-container sticky-menu'>
+				<ul class='menu-list'>
+					<a href="#problem-context">
+					<li>Problem context</li>
+					</a>
+					<a href="#design-process">
+					<li>Process</li>
+					</a>
+					<ul class='menu-sublist'>
+						<a href="#research">
+						<li>Research</li>
+						</a>
+						<a href="#wireframes">
+						<li>Wireframes</li>
+						</a>
+						<a href="#ui-design">
+						<li>UI Design</li>
+						</a>
+                        <a href="#live-implementation">
+						<li>Live implementation</li>
+						</a>
+					</ul>
+					<a href="#outcomes">
+					<li>Outcomes & lessons learnt</li>
+					</a>
+				</ul>
+				<!--     <script src='scripts/activesection.js'></script>-->
+			</div>
+		</div>
+		<div class='information-box'>
+			<div class='project-information-section'>
+				<!--Problem context section-->
+				<section id="problem-context" class='page-section'>
+				<div class='problem-context'>
+					<h1>Problem context</h1>
+					<p>
+						Checking the weather has become a daily practice for most of us. As users, we check the weather in our location, and if we are going on a trip, we want to see how the weather will be in that location.  Added to that, lots of us have important family members in different cities and countries, so we want able to access these special cities in an easy way.
+					</p>
+                    <p>
+                        The final goal was to design and develop a weather app using HTML, CSS and Javascript.
+					</p>
+				</div>
+				</section>
+				<!--empathize section-->
+				
+				<section id="design-process" class='page-section'>
+					<h1>Process</h1>
+					<div class='design-process-container'>
+						<img class='design-process-image asyncImage' src='images/science/tops/process.png' alt='Design process'/>
+					</div>
+				</section>
+				<section id="research" class='page-section'>
+					<h2>Research</h2>
+				</section>
+				<div class='fit-text'>
+					<p>
+                        For this project, I ran a visual research of Behance and Dribbble of weather apps. 
+                        I also took inspiration from well-known weather apps, like Google forecast.
+                        Since the goals and expected results for this project well already defined, I did not run more thorough user research. 
+					</p>
+				</div>
+				<!-- Closes empathize section-->
+				
+				
+				<section id='wireframes' class='page-section'>
+				<h2>Wireframes</h2>
+				<h3 class='space'>Key features</h3>
+				<div class='keyfeatures-container'>
+						<img class='keyfeature-image asyncImage' src='images/weather/keyfeatures/keyfeatures.png' alt='Key features'/>
+				</div>
+				<ul class='project-lists fit-text'>
+					<li>Option to search through cities</li>
+					<li>Option to select my current city with one click</li>
+					<li>Preset of favourite cities</li>
+					<li>Weather forecast</li>
+                    <li>Celcius to Fahrenheit conversion</li>
+				</ul>
+                <div class='userflow-container'>
+					<!-- User flow container-->
+					<img id="userflow" class='userflow-image' src='images/home_page/Weather_wireframe.png' alt='Wireframe'/>
+					<div id="myModal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img01" src='images/home_page/Weather_wireframe.png'/>
+					</div>
+					<script src="scripts/popup.js" defer></script>
+				</div>
+				</section>
+				
+				<section id='ui-design' class='page-section'>
+				<h2 class='space-top'>UI Design</h2>
+				<p class='fit-text margin-down'>
+					This project did not have any visual guidelines. My goal was to create and elegant and curent look and feel.
+				</p>
+                <h3>Color palette and fonts</h3>
+				<p class='fit-text'>
+					I went with greys and mauves since they will match with the colours of the iconography (light blues, white and light greys). 
+				</p>
+                <p class='fit-text'>
+                    For the font, I used Lato for the headers and text bodies. The roundness of Lato goes also hand in hand with the iconography.
+                    The image below shows the documentation of the colours and font.
+				</p>
+                <h3>Iconography</h3>
+			    <p class='fit-text'>
+					The iconography was created exclusively for this project using Figma.
+                    I have to create an icon for the different weather types that the weather API offered.
+				</p>
+                <h3>Components documentation (Design System)</h3>
+                <p class='fit-text'>
+                    Although this is small project UI wise, I still wanted to show the way I would document components.
+					The colours, fonts, buttons and search bar, were documented on Figma and represent how I would do a design handover to devs.
+				</p>
+                <div class='userflow-container'>
+					<!-- User flow container-->
+                     <a href="https://www.figma.com/file/dGgqAKgb2Mlr3Nqh5sEddQ/Weather-app?node-id=1%3A164&t=G0gTaCR7bftavqM2-1" target="_blank">
+					<img id="userflow" class='userflow-image' src='images/weather/ui/documentation.png' alt='Components documentation'/>
+					</a>
+                </div>
+				<h3>Mockups</h3>
+				<div class='mockups-container'>
+					<!-- Mockups container desktop - mobile version-->
+					<img class='mockups-image-weather asyncImage' src='images/weather/tops/weather.png' ; alt='mockup search'/>
+				</div>
+                </section>
+                <section id='live-implementation' class='page-section'>
+				<h2 class='margin-top'>Live implementation</h2>
+                <p class='fit-text'>
+                    For the coding of this project I had to:
+				</p>
+                <ul class='project-lists fit-text'>
+					<li>Create HTML file structure</li>
+					<li>Create the CSS</li>
+					<li>Integrate bootstrap in order to use grids</li>
+					<li>Integrate Google fonts</li>
+                    <li>Use Axios to support weather API integration</li>
+                    <li>Create JS file to do the API calls and other functions to display the forecast</li>
+				</ul>
+                <a href="https://cute-cranachan-03f4b7.netlify.app/" target="_blank">
+					<p class='link'>Check out the live version</p>
+				</a>
+                <a href="https://github.com/mariapb20/Vanilla-weather-app" target="_blank">
+					<p class='link'>Check out the Github file</p>
+				</a>
+				</section>
+			</div>
+			<!--closes project information section-->
+			<div class='outcome-container'>
+				<!-- Outcomes section-->
+				<div class='outcome-information'>
+					<section id='outcomes' class='page-section'>
+					<h1>Outcomes & lessons learnt</h1>
+					<ul class='project-lists-outcomes'>
+                        <li>Figma is not the best tool to create iconography but due to budget constraints, this was the option available. Adobe Illustrator would have been a more appropriate tool for this aspect of the project</li>
+                        <li>Documenting components in the way that it was done in this project, speeds up the development process by having a clear view of the anatomy and constraints of the components.</li>
+                        <li>Improvements can be done to the code by: </li>
+                <ul class='nested-list'>
+						<li>Considering the scenario where the city introduced by the user does not exist.</li>
+						<li>Responsive behavior for mobile.</li>
+						<li>Unit conversion for the forecast, not just the current weather.</li>
+                        <li>Include an option to add or remove favorite cities.</li>
+					</ul>      
+                    <li> Overall it was a delightful design and code project that I would like to resume in the future.			
+                    </li>
+                </ul>
+
+				</div>
+			</div>
+			</section>
+			<!-- Closes Outcomes section -->
+			
+		</div>
+		<!-- CLOSES INFORMATION BOX -->
+	</div>
+	<!-- CLOSES PROJECT INFORMATION CONTAINER -->
+			<!-- NEXT PROJECT GALLERY-->
+			<div class='gallery'>
+				<h3>Check out my other projects</h1>
+				<div class='next-project-gallery'>
+					<div class='project-image-box'>
+						<a href='streampals.html'>
+						<div class='project-picture'>
+							<img class='project-image' src='images/thumbnails/streampals_thumbnail.png' ; alt='Stream Pals'/>
+							<div class='overlay'>
+								<div class='text'>
+									<p class='bold-black'>
+										Streampals:
+									</p>
+									<p>
+										streaming services recommendations
+									</p>
+								</div>
+							</div>
+						</div></a>
+					</div>
+					<div class='project-image-box'>
+						<a href='proagent.html'>
+						<div class='project-picture'>
+							<img class='project-image' src='images/thumbnails/proagent_thumbnail.png' ; alt='FixVid'/>
+							<div class='overlay'>
+								<div class='text'>
+									<p class='bold-black'>
+										Proagent:
+									</p>
+									<p>
+										customer service solution
+									</p>
+								</div>
+							</div>
+						</div></a>
+					</div>
+					<div class='project-image-box'>
+						<a href='elearning.html'>
+						<div class='project-picture'>
+							<img class='project-image' src='images/thumbnails/elearning_thumbnail.png' ; alt='FixVid'/>
+							<div class='overlay'>
+								<div class='text'>
+									<p class='bold-black'>
+										FixVid:
+									</p>
+									<p>
+										e-learning app for home repairs
+									</p>
+								</div>
+							</div>
+						</div></a>
+					</div>
+				</div> <!-- CLOSES NEXT PROJECT GALLERY-->
+				</div> <!-- CLOSES GALLERY-->
+	<div class='next-project'>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><img class='backtotop' src='images/icons/backtotop.svg'/></button>
+		<script src='scripts/onscroll.js' defer></script>
+	</div>
+	</main>
+	<!-- Footer -->
+	<footer class='footer'>
+		<div class='footer-info'>
+			<div class=contact-info>
+				<p>
+					Seen something you like?<br/>
+				</p>
+				<p> Let's work together and collaborate! 
+				</p>
+				<button class='button-primary' type='button'><a href="mailto:mapb1989@gmail.com">Let's talk</a></button>
+			</div>
+			<div class='social-media'>
+				<a href='https://www.linkedin.com/in/mapb1989/'>
+				<img class='social-media-images' src='images/icons/linkedin.svg' ; alt='LinkedIn logo'/>
+				</a>
+				<a href='https://medium.com/@Mariaalejandrapb'>
+				<img class='social-media-images' src='images/icons/medium.svg' ; alt='Medium logo'/>
+				</a>
+				<a href='https://dribbble.com/mariapb20'>
+				<img class='social-media-images social-media-images-right' src='images/icons/dribbble.svg' ; alt='Dribbble logo'/>
+				</a>
+			</div>
+		</div>
+		<!--footer info-->
+		<p class='copyright-notice'>
+			Copyright 2020-2023 María Alejandra Pérez Bullones
+		</p>
+		</footer>
+</div>
+<!--container-->
+</body>
+</html>
